@@ -1,4 +1,4 @@
-baseURL = "https://EddieTheEd.github.io/obsidiannotes-v.3/"
+baseURL = "https://eddietheed.github.io/obsidiannotes-v.3/"
 languageCode = "en-us"
 relativeURLs = false
 disablePathToLower = true
