@@ -40,8 +40,8 @@ const removeMarkdown = (
       .replace(/^\s{0,3}>\s?/g, "")
       .replace(/(^|\n)\s{0,3}>\s?/g, "\n\n")
       .replace(/^\s{1,2}\[(.*?)\]: (\S+)( ".*?")?\s*$/g, "")
-      .replace(/([\*_]{1,3})(\S.*?\S?)\1/g, "$2")
-      .replace(/([\*_]{1,3})(\S.*?\S?)\1/g, "$2")
+      .replace(/([\*_]{1,3})(\S.*?\S{0,1})\1/g, "$2")
+      .replace(/([\*_]{1,3})(\S.*?\S{0,1})\1/g, "$2")
       .replace(/(`{3,})(.*?)\1/gm, "$2")
       .replace(/`(.+?)`/g, "$1")
       .replace(/\n{2,}/g, "\n\n")
@@ -65,7 +65,7 @@ const highlight = (content, term) => {
       .split(" ")
       .slice(0, h)
     return (
-      (before.length === h ? `...${before.join(" ")}` : before.join(" ")) +
+      (before.length == h ? `...${before.join(" ")}` : before.join(" ")) +
       `<span class="search-highlight">${term}</span>` +
       after.join(" ")
     )
@@ -115,19 +115,12 @@ const resultToHTML = ({ url, title, content }) => {
 }
 
 const redir = (id, term) => {
-  const shouldTrim = PRODUCTION && SEARCH_ENABLED
-  const baseURLPrefix = shouldTrim ? "" : BASE_URL.replace(/\/$/g, "")
-  const urlString = `${baseURLPrefix}${id}#:~:text=${encodeURIComponent(term)}/`
+  // SPA navigation
   window.Million.navigate(
-    new URL(urlString),
+    new URL(`${BASE_URL.replace(/\/$/g, "")}${id}#:~:text=${encodeURIComponent(term)}/`),
     ".singlePage",
   )
   closeSearch()
-  plausible("Search", {
-    props: {
-      term
-    }
-  })
 }
 
 function openSearch() {
@@ -186,7 +179,7 @@ const registerHandlers = (onInputFn) => {
   })
 }
 
-const displayResults = (term, finalResults, extractHighlight = false) => {
+const displayResults = (finalResults, extractHighlight = false) => {
   const results = document.getElementById("results-container")
   if (finalResults.length === 0) {
     results.innerHTML = `<button class="result-card">
@@ -196,28 +189,18 @@ const displayResults = (term, finalResults, extractHighlight = false) => {
   } else {
     results.innerHTML = finalResults
       .map((result) => {
-        if (extractHighlight) {
-          return resultToHTML({
-            url: result.url,
-            title: highlight(result.title, term),
-            content: highlight(removeMarkdown(result.content), term)
-          })
-        } else {
-          return resultToHTML(result)
+          if (extractHighlight) {
+            return resultToHTML({
+              url: result.url,
+              title: highlight(result.title, term),
+              content: highlight(removeMarkdown(result.content), term)
+            })
+          } else {
+            return resultToHTML(result)
+          }
         }
-      }
       )
       .join("\n")
-    if (LATEX_ENABLED) {
-      renderMathInElement(results, {
-        delimiters: [
-          { left: '$$', right: '$$', display: false },
-          { left: '$', right: '$', display: false },
-        ],
-        throwOnError: false
-      })
-    }
-
     const anchors = [...document.getElementsByClassName("result-card")]
     anchors.forEach((anchor) => {
       anchor.onclick = () => redir(anchor.id, term)

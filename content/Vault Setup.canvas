@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"5f8f00cb8260675a","x":-477,"y":-216,"width":250,"height":60,"type":"text","text":"Class-wise (Raw)"},
+		{"id":"1014ccad3a2f60f1","x":-405,"y":-399,"width":250,"height":137,"color":"1","type":"text","text":"Consider use of Obsidian Rapid Notes?"},
+		{"id":"d7c0f923a1b0fe1c","x":-814,"y":-102,"width":250,"height":60,"type":"text","text":"Convention:"},
+		{"id":"b8d320d6437c990d","x":-477,"y":-102,"width":313,"height":117,"type":"text","text":"R-{{subject}}-W{{weeknum}}-{{classnum}}"},
+		{"id":"3ccdb3174fb94b1d","x":-831,"y":227,"width":284,"height":164,"color":"1","type":"text","text":"This will need custom template for every possible subject + all the 3 stages..."},
+		{"id":"060b0303fce33417","x":-825,"y":432,"width":261,"height":58,"type":"text","text":"Structural Features:"},
+		{"id":"f2b0cf363c056c24","x":-814,"y":114,"width":250,"height":60,"type":"text","text":"Metadata:"},
+		{"id":"75e4a5d4d4a3ad38","x":-477,"y":114,"width":250,"height":158,"type":"text","text":"layout: default\ntitle: \"{{title}}\"\ntags: R-{{subject}}"},
+		{"id":"57bbed39787a4b2e","x":-477,"y":430,"width":250,"height":318,"type":"text","text":"- Date in title"},
+		{"id":"1b6eaae1e97396c5","x":-2409,"y":-832,"width":1141,"height":1830,"color":"5","type":"group","label":"Pre-THE GREAT REFORMATION"},
+		{"id":"f7e0228a640efc68","x":404,"y":114,"width":250,"height":158,"type":"text","text":"layout: default\ntitle: \"{{title}}\"\ntags: {{subject}}"},
+		{"id":"84ec7fa05a430572","x":404,"y":430,"width":395,"height":318,"type":"text","text":"- Definitions\n- Key Ideas\n- Questions\n\t- Worked Summary\n- Topic Summary\n- Revision: Reference at start?(? wtf does that mean)"},
+		{"id":"beff004601c9eacc","x":858,"y":561,"width":250,"height":56,"color":"4","type":"text","text":"Example: (WIP)"},
+		{"id":"b2917830dfd9106e","x":1194,"y":389,"width":400,"height":400,"color":"#001eff","type":"file","file":"templates/AECHE Topic Notes Template.md"},
+		{"id":"0d7831ee426304f9","x":-980,"y":-832,"width":2691,"height":1830,"color":"4","type":"group","label":"The Plan"},
+		{"id":"913e82fddc5c4388","x":-2307,"y":-86,"width":250,"height":60,"type":"text","text":"Convention:"},
+		{"id":"977ecc740ffcc9a7","x":-1894,"y":-86,"width":460,"height":60,"type":"text","text":"There is literally no convention"},
+		{"id":"9830955dbc7ac60f","x":-2307,"y":90,"width":360,"height":78,"type":"text","text":"Tag (this is the important one)"},
+		{"id":"369777fdf9ac4228","x":-1894,"y":90,"width":250,"height":60,"type":"text","text":"10{{subject}}"},
+		{"id":"a5330dbb37d30cf3","x":-2307,"y":309,"width":250,"height":60,"type":"text","text":"Loose notes :()"},
+		{"id":"668a8297c5930c9c","x":-85,"y":-695,"width":400,"height":400,"type":"link","url":"https://github.com/valteriomon/obsidian-rapid-notes"},
+		{"id":"2069d2edcf264c82","x":-55,"y":-216,"width":339,"height":60,"type":"text","text":"Weekly (Semi(processed))"},
+		{"id":"ed428cdec7c5fac1","x":-55,"y":-102,"width":313,"height":60,"type":"text","text":"S-{{subject}}-{{weeknum}}"},
+		{"id":"fbd32723fb44a0c9","x":404,"y":-216,"width":250,"height":60,"type":"text","text":"Monthly"},
+		{"id":"2b042102b0f7afa8","x":404,"y":-102,"width":313,"height":60,"type":"text","text":"{{topic}}-{{subject}}"},
+		{"id":"be805fd33a061356","x":-55,"y":114,"width":250,"height":158,"type":"text","text":"layout: default\ntitle: \"{{title}}\"\ntags: S-{{subject}}"},
+		{"id":"8a26fabf80603fb0","x":-55,"y":430,"width":395,"height":318,"type":"text","text":"- Recall\n\t- Summary of tangents/topics in concise user-friendly form\n- Summary\n\t- Short description of topic + key info"},
+		{"id":"f521e48bc36b8ded","x":858,"y":-435,"width":411,"height":518,"color":"5","type":"text","text":"**SUBJECT LIST**\nATCHE\nAEMET\nAESPE\nAEPHY\nAELIT\nAECSL\n\n*dumb yr 10 subjects*\n10ENG\n10LIT\n10PHY\n10CSL\nAECHE\n"},
+		{"id":"94623f1dbc8ba1d3","x":372,"y":-465,"width":250,"height":60,"type":"text","text":""}
+	],
+	"edges":[
+		{"id":"3620535e2b79f61b","fromNode":"1014ccad3a2f60f1","fromSide":"right","toNode":"668a8297c5930c9c","toSide":"left","color":"2"},
+		{"id":"e0eaa8c83950aa02","fromNode":"3ccdb3174fb94b1d","fromSide":"right","toNode":"75e4a5d4d4a3ad38","toSide":"bottom","color":"2"},
+		{"id":"01f8f60929494c8b","fromNode":"3ccdb3174fb94b1d","fromSide":"right","toNode":"be805fd33a061356","toSide":"bottom","color":"2"},
+		{"id":"0b39694601317dd5","fromNode":"3ccdb3174fb94b1d","fromSide":"right","toNode":"f7e0228a640efc68","toSide":"bottom","color":"2"},
+		{"id":"ae16b3b8fc302e57","fromNode":"84ec7fa05a430572","fromSide":"right","toNode":"beff004601c9eacc","toSide":"left"},
+		{"id":"e6a918459f0d73bb","fromNode":"beff004601c9eacc","fromSide":"right","toNode":"b2917830dfd9106e","toSide":"left"}
+	]
+}
