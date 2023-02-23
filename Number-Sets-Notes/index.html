@@ -1,0 +1,139 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=description content="Number Sets Notes Here is a pretty good set diagram I stole from the internet: (for now we ignore the complex stuff, its in the next part) These are all the subsets for the real numbers"><title>Number Sets Notes</title><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" type=image/png href=https://eddietheed.github.io/obsidiannotes-v.3//icon.png><link href=https://eddietheed.github.io/obsidiannotes-v.3/styles.d5e34582d75bea9a19c6ffa34f3f7c1a.min.css rel=stylesheet><link href=https://eddietheed.github.io/obsidiannotes-v.3/styles/_light_syntax.86a48a52faebeaaf42158b72922b1c90.min.css rel=stylesheet id=theme-link><script src=https://eddietheed.github.io/obsidiannotes-v.3/js/darkmode.4cda4530df5891cc0ae8a3209c28b7f9.min.js></script>
+<script src=https://eddietheed.github.io/obsidiannotes-v.3/js/util.9825137f5e7825e8553c68ce39ac9e44.min.js></script>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css integrity=sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs crossorigin=anonymous><script defer src=https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js integrity=sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx crossorigin=anonymous></script>
+<script defer src=https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js integrity=sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR crossorigin=anonymous></script>
+<script src=https://unpkg.com/@floating-ui/core@0.7.3></script>
+<script src=https://unpkg.com/@floating-ui/dom@0.5.4></script>
+<script src=https://eddietheed.github.io/obsidiannotes-v.3/js/popover.abe6a51cc7138c5dff00f151dd627ad1.min.js></script>
+<script src=https://eddietheed.github.io/obsidiannotes-v.3/js/code-title.b35124ad8db0ba37162b886afb711cbc.min.js></script>
+<script src=https://eddietheed.github.io/obsidiannotes-v.3/js/clipboard.c20857734e53a3fb733b7443879efa61.min.js></script>
+<script src=https://eddietheed.github.io/obsidiannotes-v.3/js/callouts.7723cac461d613d118ee8bb8216b9838.min.js></script>
+<script>const BASE_URL="https://eddietheed.github.io/obsidiannotes-v.3/",fetchData=Promise.all([fetch("https://eddietheed.github.io/obsidiannotes-v.3/indices/linkIndex.df9d0a60a92baa3e8393dc56f39b917a.min.json").then(e=>e.json()).then(e=>({index:e.index,links:e.links})),fetch("https://eddietheed.github.io/obsidiannotes-v.3/indices/contentIndex.b03f3fffe7eda0ee94a18f6f911b34e9.min.json").then(e=>e.json())]).then(([{index:e,links:t},n])=>({index:e,links:t,content:n})),render=()=>{const e=new URL(BASE_URL),t=e.pathname,n=window.location.pathname,s=t==n;addCopyButtons(),addTitleToCodeBlocks(),addCollapsibleCallouts(),initPopover("https://eddietheed.github.io/obsidiannotes-v.3",!0,!0);const o=document.getElementById("footer");if(o){const e=document.getElementById("graph-container");if(!e)return requestAnimationFrame(render);e.textContent="";const t=s&&!0;drawGraph("https://eddietheed.github.io/obsidiannotes-v.3",t,[{"/moc":"#4388cc"}],t?{centerForce:20,depth:-1,enableDrag:!0,enableLegend:!0,enableZoom:!0,fontSize:.5,linkDistance:1,opacityScale:3,repelForce:.2,scale:1.4}:{centerForce:10,depth:1,enableDrag:!0,enableLegend:!1,enableZoom:!0,fontSize:.6,linkDistance:.1,opacityScale:3,repelForce:2,scale:1.2})}},init=(e=document)=>{addCopyButtons(),addTitleToCodeBlocks(),renderMathInElement(e.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1}],throwOnError:!1})}</script><script type=module>
+    import { attachSPARouting } from "https:\/\/eddietheed.github.io\/obsidiannotes-v.3\/js\/router.9d4974281069e9ebb189f642ae1e3ca2.min.js"
+    attachSPARouting(init, render)
+  </script></head><body><div id=search-container><div id=search-space><input autocomplete=off id=search-bar name=search type=text aria-label=Search placeholder="Search for something..."><div id=results-container></div></div></div><script src=https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js integrity="sha256-i3A0NZGkhsKjVMzFxv3ksk0DZh3aXqu0l49Bbh0MdjE=" crossorigin=anonymous defer></script>
+<script defer src=https://eddietheed.github.io/obsidiannotes-v.3/js/full-text-search.24827f874defbbc6d529926cbfcfb493.min.js></script><div class=singlePage><header><h1 id=page-title><a href=https://eddietheed.github.io/obsidiannotes-v.3/>🐵 Ed's Obsidian Notes</a></h1><div class=spacer></div><div id=search-icon><p>Search</p><svg tabindex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search Icon</title><desc id="desc">Icon to open search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"/><circle cx="8" cy="8" r="7"/></g></svg></div><div class=darkmode><input class=toggle id=darkmode-toggle type=checkbox tabindex=-1>
+<label id=toggle-label-light for=darkmode-toggle tabindex=-1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="dayIcon" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35"><title>Light Mode</title><path d="M6 17.5C6 16.672 5.328 16 4.5 16h-3C.672 16 0 16.672.0 17.5S.672 19 1.5 19h3C5.328 19 6 18.328 6 17.5zM7.5 26c-.414.0-.789.168-1.061.439l-2 2C4.168 28.711 4 29.086 4 29.5 4 30.328 4.671 31 5.5 31c.414.0.789-.168 1.06-.44l2-2C8.832 28.289 9 27.914 9 27.5 9 26.672 8.329 26 7.5 26zm10-20C18.329 6 19 5.328 19 4.5v-3C19 .672 18.329.0 17.5.0S16 .672 16 1.5v3C16 5.328 16.671 6 17.5 6zm10 3c.414.0.789-.168 1.06-.439l2-2C30.832 6.289 31 5.914 31 5.5 31 4.672 30.329 4 29.5 4c-.414.0-.789.168-1.061.44l-2 2C26.168 6.711 26 7.086 26 7.5 26 8.328 26.671 9 27.5 9zM6.439 8.561C6.711 8.832 7.086 9 7.5 9 8.328 9 9 8.328 9 7.5c0-.414-.168-.789-.439-1.061l-2-2C6.289 4.168 5.914 4 5.5 4 4.672 4 4 4.672 4 5.5c0 .414.168.789.439 1.06l2 2.001zM33.5 16h-3c-.828.0-1.5.672-1.5 1.5s.672 1.5 1.5 1.5h3c.828.0 1.5-.672 1.5-1.5S34.328 16 33.5 16zM28.561 26.439C28.289 26.168 27.914 26 27.5 26c-.828.0-1.5.672-1.5 1.5.0.414.168.789.439 1.06l2 2C28.711 30.832 29.086 31 29.5 31c.828.0 1.5-.672 1.5-1.5.0-.414-.168-.789-.439-1.061l-2-2zM17.5 29c-.829.0-1.5.672-1.5 1.5v3c0 .828.671 1.5 1.5 1.5s1.5-.672 1.5-1.5v-3C19 29.672 18.329 29 17.5 29zm0-22C11.71 7 7 11.71 7 17.5S11.71 28 17.5 28 28 23.29 28 17.5 23.29 7 17.5 7zm0 18c-4.136.0-7.5-3.364-7.5-7.5s3.364-7.5 7.5-7.5 7.5 3.364 7.5 7.5S21.636 25 17.5 25z"/></svg></label><label id=toggle-label-dark for=darkmode-toggle tabindex=-1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="nightIcon" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'"><title>Dark Mode</title><path d="M96.76 66.458c-.853-.852-2.15-1.064-3.23-.534-6.063 2.991-12.858 4.571-19.655 4.571C62.022 70.495 50.88 65.88 42.5 57.5 29.043 44.043 25.658 23.536 34.076 6.47c.532-1.08.318-2.379-.534-3.23-.851-.852-2.15-1.064-3.23-.534-4.918 2.427-9.375 5.619-13.246 9.491-9.447 9.447-14.65 22.008-14.65 35.369.0 13.36 5.203 25.921 14.65 35.368s22.008 14.65 35.368 14.65c13.361.0 25.921-5.203 35.369-14.65 3.872-3.871 7.064-8.328 9.491-13.246C97.826 68.608 97.611 67.309 96.76 66.458z"/></svg></label></div></header><article><h1>Number Sets Notes</h1><p class=meta>Last updated
+Feb 23, 2023</p><ul class=tags></ul><aside class=mainTOC><details><summary>Table of Contents</summary><nav id=TableOfContents></nav></details></aside><a href=#number-sets-notes><h1 id=number-sets-notes><span class=hanchor arialabel=Anchor># </span>Number Sets Notes</h1></a><p>Here is a pretty good set diagram I stole from the internet:
+(for now we ignore the complex stuff, its in the next part)
+<img src="https://edsobsidiannotes.netlify.app/assets/Pasted image 20220422081915.png" style=width:100%;height:100%></p><p>These are all the subsets for the <strong>real</strong> numbers</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>-   Real numbers: A value of a continuous quantity that can be represented as a distance on a line.
+</span></span><span class=line><span class=cl>    -   Note: continuous, as real numbers include 1 and 0.1357108375103759831...
+</span></span></code></pre></td></tr></table></div></div><p>Within all the <strong>real</strong> numbers exists numerous <strong>subsets</strong> of numbers.</p><p>These are the definitions for all the subsets, starting from the &ldquo;smallest&rdquo;:</p><p><strong>Natural/Counting Numbers:</strong></p><p>Numbers which are used for counting.</p><p>Ask your teacher whether it starts at 0 or 1, however from those numbers they increase by 1 all the way to infinity, e.g. :</p><p>$1, 2,3,4,5,6,7,8,9,10,11 \ &mldr; \ \infty$</p><p>Notice that this set does not include negative numbers (or 0).</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Side-Note: There are 2 accepted definitions of natural numbers:
+</span></span><span class=line><span class=cl>    -   Traditional: Natural = set of positive integers {1,2,3...}
+</span></span><span class=line><span class=cl>    -   Slightly new: Natural = set of non-negative integers {0,1,2,3...}
+</span></span></code></pre></td></tr></table></div></div><p>The range of all natural numbers goes from {$1, \infty$}</p><p>(or $0, \infty$)</p><p><strong>Integers:</strong></p><p>Whole numbers, <strong>OR</strong>
+Fraction that can be simplified, so that the denominator is 1.</p><p>e.g. -42/2 is an integer, as it can be simplified to -21. However, -43/2 is not an integer as it is simplified to $-21 \ \frac{1}{2}$, which is not whole and thus not an integer.</p><p>Essentially, it&rsquo;s the natural numbers + all the negative whole numbers.</p><p>The range of all integers goes from {$-\infty , \ \infty$}.</p><p><strong>Rational:</strong></p><p>A rational number is any number that can be described as a fraction of 2 whole integers.</p><p>Therefore, all integers are rational (put them in a fraction, make the denominator 1)</p><p>However, numbers such as $\sqrt{2}$ are not rational as they cannot be expressed by a fraction.</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span><span class=lnt>36
+</span><span class=lnt>37
+</span><span class=lnt>38
+</span><span class=lnt>39
+</span><span class=lnt>40
+</span><span class=lnt>41
+</span><span class=lnt>42
+</span><span class=lnt>43
+</span><span class=lnt>44
+</span><span class=lnt>45
+</span><span class=lnt>46
+</span><span class=lnt>47
+</span><span class=lnt>48
+</span><span class=lnt>49
+</span><span class=lnt>50
+</span><span class=lnt>51
+</span><span class=lnt>52
+</span><span class=lnt>53
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>title: Extension
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>The square root of 2 is not rational. Let’s use a proof by contradiction.
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Assume $\sqrt{2}$ is rational. All rational numbers can be written in the form $\frac{p}{q}$ , where there are no common factors.
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Therefore:
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>$(\sqrt{2})^2 = (\frac{p}{q})^2$
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>$2 = \frac{p^2}{q^2}$
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>$p^2 = 2q^2$
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Therefore, $p^2$ is even, as all even numbers can be written in the form $2k$, where $k$ is some number. In this case, this number is $q^2$.
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Given that $p^2$ is even, then p must also be even, as an even number squared is always even, however an odd number squared is not even.
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Here&#39;s a slightly better proof for this relationship between numbers and their squares (but badly formatted (i dont have sadler spec book))
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Case 1: p is even
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Given $p = 2k$, $p^2 = (2k)^2 = 4k^2$
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>$\therefore p^2 = 2(2k^2)$ where in this case, the number multiplied by 2 is $2k^2$.
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Case 2: p is odd
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Given $p = 2k-1, p^2 = (2k-1)^2 = 4k^2-4k+1$
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>$4k^2 - 4k + 1 = 2(2k^2-2k) + 1$
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Now, given $2(k) + 1 = 2(k + 1) -1$,
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>$2(2k^2-2k) +1 = 2(2k^2-2k+1) -1$
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>$\therefore$ $p^2$ is an odd number, following the rule $p = 2k -1$
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>in this case, $k = 2k^2 -2k+1$
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Now, as $p^2$ is even, and $p$ is even, let $p = 2r$
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Thus, our equation can be written as:
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>$4r^2 = 2q^2$.
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>$q^2 = 2(r^2)$
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Thus, $q^2$ is even, where $k = r^2$.
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>As shown above, the square of a number’s parity (even or odd) is the same as the number’s parity. Therefore, $q$ is even.
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>However, this means that both $p$ and $q$ are even, and this contradicts our initial assumption that there are no common factors between $p$ and $q$ (even numbers have the common factor of 2).
+</span></span></code></pre></td></tr></table></div></div><p>Therefore, the statement $\sqrt{2} = \frac{p}{q}$ is false and thus $\sqrt{2}$ is not rational.
+Numbers like 0.012342342134 are rational, ($\frac{6171171067}{500000000000}$) and so are all the integers. Numbers like $\pi$ and $e$ are not rational. (they cannot be expressed as a fraction)</p><p>Thus, all numbers that are <strong>not</strong> natural, <strong>not</strong> integers and <strong>not</strong> rational, are <strong>real</strong> (for now). This includes:</p><ul><li>$\pi$</li><li>$e$</li><li>$\sqrt{3}$</li><li>1234.1237481237410283750134681039&mldr; (goes to infinity)</li></ul><p><strong>You can also call them irrational!</strong></p><p>Here&rsquo;s some general notation for these sets</p><p><strong>Notation:</strong></p><table><thead><tr><th>Name</th><th>Symbol</th></tr></thead><tbody><tr><td>Natural</td><td>$\mathbb{N}$</td></tr><tr><td>Integer</td><td>$\mathbb{Z}$</td></tr><tr><td>Rational</td><td>$\mathbb{Q}$</td></tr><tr><td>Real</td><td>$\mathbb{R}$</td></tr></tbody></table><p><strong>Extras:</strong></p><table><thead><tr><th>Name</th><th>Symbol</th></tr></thead><tbody><tr><td>Irrational</td><td>$\mathbb{I} \ or \ \mathbb{Q}^{&rsquo;}$</td></tr><tr><td>Complex</td><td>$\mathbb{C}$</td></tr><tr><td>Positive Integers</td><td>$\mathbb{Z}^+$</td></tr><tr><td>Negative Integers</td><td>$\mathbb{Z}^{-}$</td></tr><tr><td>Imaginary</td><td>$\mathbb{i}$</td></tr></tbody></table></article><hr><div class=page-end id=footer><div class=backlinks-container><h3>Backlinks</h3><ul class=backlinks><li><a href=/obsidiannotes-v.3/AESPE/R-AESPE-2/ data-ctx="Number Sets Notes" data-src=/AESPE/R-AESPE-2 class=internal-link>R-AESPE-2</a></li><li><a href=/obsidiannotes-v.3/Brilliant-Course-Complex-Numbers/ data-ctx="Number Sets Notes" data-src=/Brilliant-Course-Complex-Numbers class=internal-link>Brilliant Course Complex Numbers</a></li><li><a href=/obsidiannotes-v.3/Yr-10-Methods-Notes/ data-ctx="Number Sets Notes" data-src=/Yr-10-Methods-Notes class=internal-link>Yr 10 Methods Notes</a></li></ul></div><div><script src=https://cdn.jsdelivr.net/npm/d3@6.7.0/dist/d3.min.js integrity="sha256-+7jaYCp29O1JusNWHaYtgUn6EhuP0VaFuswhNV06MyI=" crossorigin=anonymous></script><h3>Interactive Graph</h3><div id=graph-container></div><style>:root{--g-node:var(--secondary);--g-node-active:var(--primary);--g-node-inactive:var(--visited);--g-link:var(--outlinegray);--g-link-active:#5a7282}</style><script src=https://eddietheed.github.io/obsidiannotes-v.3/js/graph.abd4bc2af3869a96524d7d23b76152c7.js></script></div></div><div id=contact_buttons><footer><p>Made by Edward Huynh using <a href=https://github.com/jackyzha0/quartz>Quartz</a>, © 2023</p><ul><li><a href=https://eddietheed.github.io/obsidiannotes-v.3/>Home</a></li><li><a href>Discord - DefinitelyEddie#5369</a></li><li><a href>Email - edwardleehuynh@gmail.com</a></li></ul></footer></div></div></body></html>
