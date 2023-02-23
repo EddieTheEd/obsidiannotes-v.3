@@ -55,7 +55,7 @@ title: "AECHE Class Notes"
 
 ### Additional Notes:
 - [Pilling Calculation Questions](Pilling%20Calculation%20Questions.md)
-- [[templates/AECHE Topic Notes Template]]
+- [AECHE Topic Notes Template](templates/AECHE%20Topic%20Notes%20Template.md)
 - [[AECHE/11AECHE Class Report]]
 - [[Hydrocarbons]]
 - [[Chemistry Definitions]]
