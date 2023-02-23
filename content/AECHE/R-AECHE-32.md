@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "11AECHE Class 32"
+aliases:
+- most important chem thing
 ---
 
 
