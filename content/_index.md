@@ -2,7 +2,6 @@
 layout: default
 title: "Ed's Obsidian Notes v.3"
 ---
-## Hello!
 
 > [!quote] Funny quote from me (past website)
 > ¯\\\_(ツ)\_/¯ maybe this works maybe it doesnt, but christian choe based\
@@ -14,6 +13,8 @@ title: "Ed's Obsidian Notes v.3"
 *all rise for the ascension of obsidiannotes-v.3, reborn from the ashes of the past and its failures. hours of tinkering with makefiles, deploy.yaml and the likes, only to CHANGE A SINGLE BUTTON ON THE GITHUB REPOSITORY FROM "Read repository contents and packages permissions" to "Read and write permissions" and it FINALLY WORKS. This is evidenced by the 15 failed commits before i finally got it to work.*
 
 *with the rise of a new obsidian notes version comes an announcement.The website shall be be reorganized into **~~the first Galactic Empire~~** a more efficient system using folders!!!! Please stand by as i find out how to make the whole folder sitch look less ugly :)*
+
+## Hello!
 
 Welcome to my website! I'm [Ed](about.md), and this website is essentially **Obsidian Publish on steroids**, i.e. *this is where I publish my obsidian notes*. 
 readme
