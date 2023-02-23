@@ -5,6 +5,9 @@ title: "Writings"
 
 Listed by order of creation.
 
+I dunno when this was created
+- [[Linux Github Saga]]
+
 - [[27-11-2022 Sleep is not as important]]
 - [[20-12-2022 Website Philosophy]]
 - [[23-12-2022 The Holiday Goals]]
@@ -14,4 +17,5 @@ Listed by order of creation.
 - [[05-02-2023 Fonts]]
 - [[18-02-2023 The Legend of 0 point 38mm]]
 - [[23-02-2023 The Chemical Blacklist]]
+- [[23-02-2023 The v.3 saga]]
 
