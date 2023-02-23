@@ -1,0 +1,61 @@
+
+---
+layout: default
+title: "AECHE Class Notes"
+---
+
+- [R-AECHE-1](R-AECHE-1.md)
+- [R-AECHE-2](R-AECHE-2.md)
+- [R-AECHE-3](R-AECHE-3.md)
+- [R-AECHE-4](R-AECHE-4.md)
+- [R-AECHE-5](R-AECHE-5.md)
+- [R-AECHE-6](R-AECHE-6.md)
+- [R-AECHE-7](R-AECHE-7.md)
+- [R-AECHE-8](R-AECHE-8.md)
+- [R-AECHE-9](R-AECHE-9.md)
+- [R-AECHE-10](R-AECHE-10.md)
+- [R-AECHE-11](R-AECHE-11.md)
+- [R-AECHE-12](R-AECHE-12.md)
+- [R-AECHE-13](R-AECHE-13.md)
+- [R-AECHE-14](R-AECHE-14.md)
+- [R-AECHE-15](R-AECHE-15.md)
+- [R-AECHE-16](R-AECHE-16.md)
+- [R-AECHE-17](R-AECHE-17.md)
+- [R-AECHE-18](R-AECHE-18.md)
+- [R-AECHE-19](R-AECHE-19.md)
+- [R-AECHE-20](R-AECHE-20.md)
+- [R-AECHE-21](R-AECHE-21.md)
+- [R-AECHE-22](R-AECHE-22.md)
+- [R-AECHE-23](R-AECHE-23.md)
+- [R-AECHE-24](R-AECHE-24.md)
+- [R-AECHE-25](R-AECHE-25.md)
+- [R-AECHE-26](R-AECHE-26.md)
+- [R-AECHE-27](R-AECHE-27.md)
+- [R-AECHE-28](R-AECHE-28.md)
+- [R-AECHE-29](R-AECHE-29.md)
+- [R-AECHE-30](R-AECHE-30.md)
+- [R-AECHE-31](R-AECHE-31.md)
+- [R-AECHE-32](R-AECHE-32.md)
+- [R-AECHE-33](R-AECHE-33.md)
+- [R-AECHE-34](R-AECHE-34.md)
+- [R-AECHE-35](R-AECHE-35.md)
+- [R-AECHE-36](R-AECHE-36.md)
+- [R-AECHE-37](R-AECHE-37.md)
+- [R-AECHE-38](R-AECHE-38.md)
+- [R-AECHE-39](R-AECHE-39.md)
+- [R-AECHE-40](R-AECHE-40.md)
+- [R-AECHE-41](R-AECHE-41.md)
+- [R-AECHE-42](R-AECHE-42.md)
+- [R-AECHE-43](R-AECHE-43.md)
+- [R-AECHE-44](R-AECHE-44.md)
+- [R-AECHE-45](R-AECHE-45.md)
+- [[R-AECHE-46]]
+- [R-AECHE-47](R-AECHE-47.md)
+- [[R-AECHE-48]]
+
+### Additional Notes:
+- [Pilling Calculation Questions](Pilling%20Calculation%20Questions.md)
+- [[templates/AECHE Topic Notes Template]]
+- [[AECHE/11AECHE Class Report]]
+- [[Hydrocarbons]]
+- [[Chemistry Definitions]]
