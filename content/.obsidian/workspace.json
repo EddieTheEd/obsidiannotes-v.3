@@ -86,6 +86,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"notes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":11.997807693440164}"
+                },
+                {
                   "title": "AEMET Notes",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"AEMET Notes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -102,89 +108,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "24599780b7085825",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "10ENG Notes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10ENG Notes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":19.331404082432897}"
-                },
-                {
-                  "title": "Chem Topic Test 1 Notes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Chem Topic Test 1 Notes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":38,\"ch\":97},\"to\":{\"line\":38,\"ch\":97}},\"scroll\":38.28102051679692}"
-                },
-                {
-                  "title": "AECHE Topic Notes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"AECHE Topic Notes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":31.871451370006298}"
-                },
-                {
-                  "title": "Chem Topic Test 1 Notes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Chem Topic Test 1 Notes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":90},\"to\":{\"line\":9,\"ch\":90}},\"scroll\":9.676891363718939}"
-                },
-                {
-                  "title": "AECHE Topic Notes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"AECHE Topic Notes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":6.628176841613317}"
-                },
-                {
-                  "title": "Properties of matter",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Properties of matter.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":179,\"ch\":16},\"to\":{\"line\":179,\"ch\":16}},\"scroll\":179.1281797310242}"
-                },
-                {
-                  "title": "AECHE Class Notes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"AECHE Class Notes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":60,\"ch\":53},\"to\":{\"line\":60,\"ch\":53}},\"scroll\":50.351128356983246}"
-                },
-                {
-                  "title": "AECHE Notes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"AECHE Notes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":10.975305450258876}"
-                },
-                {
-                  "title": "AELIT Notes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"AELIT Notes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":8.199306205162253}"
-                },
-                {
-                  "title": "10LIT Notes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10LIT Notes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "English Visual Text Notes.md",
+                "file": "Writings.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -192,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 3,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -313,7 +237,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "English Visual Text Notes.md",
+                "file": "Writings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -334,7 +258,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "English Visual Text Notes.md",
+                "file": "Writings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -445,17 +369,17 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "24599780b7085825",
+  "active": "a7edca21ee27d8cd",
   "lastOpenFiles": [
-    "10ENG Notes.md",
-    "Reflections on Australia's Immigration policy.md",
-    "Political podcast transcript.md",
-    "Operation Sovereign Borders policy.md",
+    "23-02-2023 The v 3 saga.md",
+    "Writings.md",
+    "notes.md",
+    "Development Status.md",
+    "History of the Atomic Model Notes.md",
+    "Cortex.md",
+    "Atomic Structure - Development of the Atomic Model.md",
     "English Visual Text Notes.md",
-    "English Short Speech.md",
-    "English Sem1 Quotes.md",
-    "English Podcast Transcript Brainstorm.md",
-    "English Podcast Draft 1.md",
-    "English Essay Edited Copy 1.md"
+    "10ENG Notes.md",
+    "Reflections on Australia's Immigration policy.md"
   ]
 }

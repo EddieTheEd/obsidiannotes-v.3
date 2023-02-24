@@ -18,4 +18,4 @@ I dunno when this was created
 - [[05-02-2023 Fonts]]
 - [[18-02-2023 The Legend of 0 point 38mm]]
 - [[23-02-2023 The Chemical Blacklist]]
-- [23-02-2023 The v.3 saga](23-02-2023%20The%20v.3%20saga.md)
+- [23-02-2023 The v 3 saga](23-02-2023%20The%20v%203%20saga.md)

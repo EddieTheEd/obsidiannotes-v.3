@@ -66,9 +66,13 @@ Like with some actual dedication.
 (not because christian blew my house up in minecraft)
 (again)
 
-## 20/02/2023
+## 23/02/2023
 For the past two days, i may have accidentally slightly potentially deleted my website by pressing random buttons on github. Not my smartest moment.
 
 Not to fear, the website is back up, we have evolved into v.3!!!!
 
 Alongside upgrading, I will start using markdown links.
+
+## 24/02/2023
+***BEHOLD!!!***
+The website has been overhauled. All the links I could possibly fix have been fixed (please report any broken ones), and I have removed all the sussy folder files. In comes a new age of organisation(shocker)
