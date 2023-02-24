@@ -194,77 +194,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e2dcd84fec7b12fd",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Rate of Reaction",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rate of Reaction.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":8},\"to\":{\"line\":2,\"ch\":8}},\"scroll\":4.91797784939397}"
-                },
-                {
-                  "title": "Cortex",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Cortex.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AESPE Notes.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2bbbf64b6759c851",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 1,
-              "stack": [
-                {
-                  "title": "Diff View",
-                  "icon": "git-pull-request",
-                  "state": "{\"type\":\"diff-view\",\"state\":{\"file\":\"content/Rate of Reaction.md\",\"staged\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Cortex",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Cortex.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "R-AESPE-1(S).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 6,
+        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -385,7 +317,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "R-AESPE-1(S).md",
+                "file": "Physics Definitions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -406,7 +338,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "R-AESPE-1(S).md",
+                "file": "Physics Definitions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -517,11 +449,11 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "2bbbf64b6759c851",
+  "active": "ecb6cb87966dd46b",
   "lastOpenFiles": [
-    "R-AESPE-1(S).md",
-    "Cortex.md",
     "AESPE Notes.md",
+    "Cortex.md",
+    "R-AESPE-1(S).md",
     "Rate of Reaction.md",
     "Physics Definitions.md",
     "Science Inquiry Skills Definitions.md",
