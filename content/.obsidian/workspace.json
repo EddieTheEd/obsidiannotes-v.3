@@ -89,7 +89,7 @@
                   "title": "11AECHE Published Notes",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"AECHE/11AECHE Published Notes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":4.31282716668255}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "title": "AECHE Topic Notes",
@@ -114,87 +114,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AECHE/AECHE Class Notes.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "199831c19feb0916",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 1,
-              "stack": [
-                {
-                  "title": "23-02-2023 The v.3 saga",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"23-02-2023 The v.3 saga.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":61},\"to\":{\"line\":8,\"ch\":61}},\"scroll\":9.477626664201184}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "How to write a good method",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"AECHE/How to write a good method.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "R-AESPE-3",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"AESPE/R-AESPE-3.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":68},\"to\":{\"line\":12,\"ch\":68}},\"scroll\":10.062404606372368}"
-                },
-                {
-                  "title": "R-AESPE-2",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"AESPE/R-AESPE-2.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":35},\"to\":{\"line\":39,\"ch\":35}},\"scroll\":37.980511395155325}"
-                },
-                {
-                  "title": "R-AESPE-1",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"AESPE/R-AESPE-1.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":39.014371995192306}"
-                },
-                {
-                  "title": "Cortex",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Cortex.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Writings.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9a71864f9a86ac1a",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10ENG/Reflections on Australia's Immigration policy.md",
+                "file": "notes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -202,7 +122,6 @@
             }
           }
         ],
-        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -323,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10ENG/Reflections on Australia's Immigration policy.md",
+                "file": "_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -344,7 +263,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10ENG/Reflections on Australia's Immigration policy.md",
+                "file": "_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -478,17 +397,17 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "9a71864f9a86ac1a",
+  "active": "41d243c617138beb",
   "lastOpenFiles": [
-    "Writings.md",
-    "23-02-2023 The v.3 saga.md",
-    "AECHE/How to write a good method.md",
-    "AESPE/R-AESPE-3.md",
-    "AECHE/AECHE Class Notes.md",
-    "AESPE/R-AESPE-2.md",
-    "AESPE/R-AESPE-1.md",
+    "Development Status.md",
+    "notes.md",
     "Cortex.md",
+    "_index.md",
+    "since im not good at coding.md",
+    "AECHE/AECHE Class Notes.md",
+    "10LIT/10LIT Notes.md",
     "AECHE/11AECHE Published Notes.md",
-    "AECHE/AECHE Topic Notes.md"
+    "10ENG/Reflections on Australia's Immigration policy.md",
+    "10TCS/10TCS Notes.md"
   ]
 }
