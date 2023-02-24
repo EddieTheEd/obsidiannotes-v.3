@@ -1,3 +1,8 @@
+---
+layout: default
+title: "English Creative  Assessment 1st Draft"
+---
+
 An ocean of anger had consumed the once quiet town of San Latzio. Two distinctively radical schools of thought had entrenched themselves deep within the community, creating a sharp division between the beliefs of the townsfolk. On one hand, a devoutly religious congregation, and on the other, a purely scientific, technologically driven perspective. An unquestionably prominent tension had risen, with both sides prepared to set the town ablaze in a firestorm of fury.
 
 Leaning on a pole opposite a dimly lit door, Reverend Lorenzo spotted the slender man slowly approaching under the veil of the night sky. The pitch black surrounding the man quickly parted ways, revealing a plain white coat and an eccentric, recalcitrant hairstyle.

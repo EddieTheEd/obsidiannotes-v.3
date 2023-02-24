@@ -1,10 +1,7 @@
-*Date: 20220405 Time: 0851*
-
-Status: #10ENG 
-
-Tags:
-
-# English Podcast Draft 1
+---
+layout: default
+title: "English Podcast Draft 1"
+---
 
 **People involved:**
 

@@ -1,8 +1,7 @@
-*Date: 20220510 Time: 0918*
-
-Status: #10ENG 
-
-# English Essay Draft
+---
+layout: default
+title: "English Essay Draft 2"
+---
 
 Question (4): Discuss how particular values and attitudes are **promoted** within at least one studied text to **challenge** an audience.
 

@@ -1,3 +1,8 @@
+---
+layout: default
+title: "English Short Speech"
+---
+
 Sustainability is not simply an ideology one can take, but a necessary sacrifice we must make as a species for our own self-preservation.
 
 Perhaps you envision a climate change activist as a childish university student who shouts back the eco-friendly rhetoric they've heard online. 

@@ -1,8 +1,7 @@
-#10ENG 
-
-Tags: [[English Yr 11]]
-
-Exposition:
+---
+layout: default
+title: "English Visual Text Notes"
+---
 
 Initial scene: 
 * Long shot

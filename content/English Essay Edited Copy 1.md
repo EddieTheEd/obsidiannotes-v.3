@@ -1,6 +1,7 @@
-Status: #10ENG 
-
-# English Essay
+---
+layout: default
+title: "English Essay Edited Copy 1"
+---
 
 Question (4): Discuss how particular values and attitudes are promoted within at least one studied text to challenge an audience.
 

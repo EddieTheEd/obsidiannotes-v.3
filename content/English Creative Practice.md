@@ -1,10 +1,7 @@
-*Date: 2022 06 23 Time: 13:26*
-
-Status: #10LIT
-
-this was a 10 minute practice writing for english, where i had to use specific words.
-
-# English Creative Practice
+---
+layout: default
+title: "English Creative Practice"
+---
 
 Claudia got off her bicycle as she arrived at the café. 'il Bueno amore', she read on a sign at the front-most of the ancient building. Its antique, wooden aesthetic propagated an inviting atmosphere, drawing Claudia further towards the entrance.
 

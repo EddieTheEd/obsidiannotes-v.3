@@ -3,7 +3,6 @@ layout: default
 title: "10ENG Notes"
 ---
 
-- [[Literature Course Concepts]]
 - [[English Creative  Assessment 1st Draft]]
 - [[English Creative Assessment 2nd Draft]]
 - [[English Creative Practice]]

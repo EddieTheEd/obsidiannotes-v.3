@@ -1,3 +1,8 @@
+---
+layout: default
+title: "English Creative Assessment 2nd Draft"
+---
+
 An ocean of hatred had washed over the once quiet town of San Latzio. Two distinctively radical schools of thought had entrenched themselves deep within the community, creating a sharp division between the beliefs of the townsfolk. On one hand, a devoutly religious congregation, and on the other, a purely scientific, technologically driven perspective. An unquestionably prominent tension had risen, with both sides prepared to set the town ablaze in a firestorm of fury.
 
 The Reverend sat at the front table of a local pub. It was well known for its exquisite vintage wine as San Latzio's gold standard, alongside being notoriously hard to find. 

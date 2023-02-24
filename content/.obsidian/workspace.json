@@ -120,6 +120,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "10ENG Notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10ENG Notes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":19.331404082432897}"
+                },
+                {
+                  "title": "Chem Topic Test 1 Notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Chem Topic Test 1 Notes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":38,\"ch\":97},\"to\":{\"line\":38,\"ch\":97}},\"scroll\":38.28102051679692}"
+                },
+                {
                   "title": "AECHE Topic Notes",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"AECHE Topic Notes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -172,7 +184,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chem Topic Test 1 Notes.md",
+                "file": "English Visual Text Notes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -301,7 +313,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chem Topic Test 1 Notes.md",
+                "file": "English Visual Text Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -322,7 +334,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chem Topic Test 1 Notes.md",
+                "file": "English Visual Text Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -435,15 +447,15 @@
   },
   "active": "24599780b7085825",
   "lastOpenFiles": [
-    "AECHE Topic Notes.md",
-    "Chem Topic Test 1 Notes.md",
-    "Properties of matter.md",
-    "AECHE Class Notes.md",
-    "Chemistry Definitions.md",
-    "Chemistry Yr 11.md",
-    "Cortex.md",
-    "Chemi[Chemistry Definitions](Chemistry%20Definitions.md)stry Definitions.md",
-    "AECHE Notes.md",
-    "AELIT Notes.md"
+    "10ENG Notes.md",
+    "Reflections on Australia's Immigration policy.md",
+    "Political podcast transcript.md",
+    "Operation Sovereign Borders policy.md",
+    "English Visual Text Notes.md",
+    "English Short Speech.md",
+    "English Sem1 Quotes.md",
+    "English Podcast Transcript Brainstorm.md",
+    "English Podcast Draft 1.md",
+    "English Essay Edited Copy 1.md"
   ]
 }

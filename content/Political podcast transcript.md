@@ -1,11 +1,7 @@
-*Date: 20220329 Time: 0908*
-
-Status: #10ENG 
-
-Tags:
-
-# Political podcast transcript
-
+---
+layout: default
+title: "Political podcast transcript"
+---
 
 AYELET: Hi. This is Ayelet (ph) from Montclair, N.J. I will be turning 40 this year, and in the lead-up to my birthday, I'm trying to accomplish 40 new things. One of those is sending a timestamp to the NPR POLITICS PODCAST. This podcast was recorded at...
 
