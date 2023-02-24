@@ -86,6 +86,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "AEMET Notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"AEMET Notes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "Cortex",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Cortex.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -96,7 +102,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AEMET Notes.md",
+                "file": "notes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -132,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 3,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -253,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "R-AEMET-1(S).md",
+                "file": "notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -274,7 +280,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "R-AEMET-1(S).md",
+                "file": "notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -385,12 +391,12 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "a9b01e59f03fb49e",
+  "active": "a7edca21ee27d8cd",
   "lastOpenFiles": [
     "AEMET Notes.md",
+    "Development Status.md",
     "R-AEMET-1(S).md",
     "Cortex.md",
-    "Development Status.md",
     "Literature In Class Essay + Planning.md",
     "notes.md",
     "AEPHY Notes.md",
