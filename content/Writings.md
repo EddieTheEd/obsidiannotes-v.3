@@ -19,3 +19,4 @@ I dunno when this was created
 - [[18-02-2023 The Legend of 0 point 38mm]]
 - [[23-02-2023 The Chemical Blacklist]]
 - [23-02-2023 The v 3 saga](23-02-2023%20The%20v%203%20saga.md)
+- [24-02-2023 An angrily written response to spicatas claims about my css](24-02-2023%20An%20angrily%20written%20response%20to%20spicatas%20claims%20about%20my%20css.md)
