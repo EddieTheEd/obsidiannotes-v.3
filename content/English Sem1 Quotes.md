@@ -1,8 +1,8 @@
-*Date: 20220529 Time: 2020*
+---
+layout: default
+title: "English Sem1 Quotes"
+---
 
-Status: #10ENG 
-
-Tags:
 
 # English Sem1 Quotes
 

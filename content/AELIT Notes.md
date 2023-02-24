@@ -1,5 +1,5 @@
 ---
 layout: default
-title: "{{title}}"
+title: "AELIT Notes"
 ---
 

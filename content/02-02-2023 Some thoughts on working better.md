@@ -36,3 +36,8 @@ I am considering using [Amie](https://www.producthunt.com/products/amie-2) becau
 Since I want to integrate quartz into this, I may have to completely scratch the whole folder thing in place of organisational nodes. I wanted the folders cause I wanted to use the funny plugin I found (rapid notes) but I guess it's not really worth saving a few seconds in place of having the majority of my website be depreciated. Shame.
 
 Also, HOW DO YOU SIGN UP FOR AMIE PLEASE HELP
+
+I am considering making some sort of indux/nexus file which is like a directory to all the possible topics. It should be sorted quite like the notes.md page, and link to all possible topics, even the weird "rabbit holes".
+
+### The Goal
+Here is my goal for the grand reformation, i.e. the upgrade from v.2 to v.3 I will make ti so that every single page in my vault is accessible via graph nodes, and every single page is linked and formatted. I have a weekend to do so before I have to get into studying for assessments. I don't think I can do it but I'll definitely do my best.

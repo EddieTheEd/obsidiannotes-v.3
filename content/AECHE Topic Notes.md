@@ -21,7 +21,7 @@ title: "AECHE Topic Notes"
 - [[Intermolecular Forces|Intermolecular Forces]] 🟥
 - [[Chromatography|Chromatography]] 🟨
 - [[Solubility|Solubility]] 🟥
-- [[AECHE/Acids + Bases|Acid + Bases]] 🟥
+- [[Acids + Bases|Acid + Bases]] 🟥
 - [[Stoichiometry|Stoichiometry]] 🟥
 - [[Organic Chem - Structure and Naming|Organic Chem - Structure and Naming]] 🟥
 - [[Reactions of Hydrocarbons|Reactions of Hydrocarbons]] 🟥

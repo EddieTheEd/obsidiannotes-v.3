@@ -3,7 +3,7 @@ layout: default
 title: "Romanticism Homework"
 ---
 
-*will be rephrasing the romanticism stuff from the assignment last year, [[10LIT/Literature Romanticism Overview]]*
+*will be rephrasing the romanticism stuff from the assignment last year, [[Literature Romanticism Overview]]*
 
 ## Outline (word for word the homework assigned)
 - Start general, what is the movement? Who are the romantics? What are the ideas and philosophies? Romantic art, politics, religion, etc.

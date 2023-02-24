@@ -1,8 +1,7 @@
-*Date: 2022 06 20 Time: 09:07*
-
-Status: #10LIT
-
-Tags:
+---
+layout: default
+title: "Literature Romanticism Overview"
+---
 
 # Literature Romanticism Overview
 

@@ -7,7 +7,7 @@ Listed by order of creation.
 
 I dunno when this was created
 - [[Linux Github Saga]]
-- [Chemistry Textbook review](AECHE/Chemistry%20Resources%20review.md)
+- [Chemistry Textbook review](Chemistry%20Resources%20review.md)
 
 - [[27-11-2022 Sleep is not as important]]
 - [[20-12-2022 Website Philosophy]]
