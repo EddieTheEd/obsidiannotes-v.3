@@ -1,11 +1,10 @@
+---
+layout: default
+title: "Spec Notes"
+---
 
-*Date: 2022 04 23 Time: 18:24*
-
-Status: 
-
-Tags: 
 
 # Spec Notes
 
-[[notes/Brilliant Course Complex Numbers]]
+[Brilliant Course Complex Numbers](Brilliant%20Course%20Complex%20Numbers.md)
 

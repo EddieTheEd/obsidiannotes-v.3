@@ -138,7 +138,7 @@
             }
           },
           {
-            "id": "a4ba3b1e09b89b05",
+            "id": "9c417219a3125267",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -158,7 +158,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "English Podcast Transcript Brainstorm.md",
+                "file": "Operation Sovereign Borders policy.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -287,7 +287,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "English Podcast Transcript Brainstorm.md",
+                "file": "Operation Sovereign Borders policy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -308,7 +308,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "English Podcast Transcript Brainstorm.md",
+                "file": "Operation Sovereign Borders policy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -419,17 +419,17 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "a4ba3b1e09b89b05",
+  "active": "9c417219a3125267",
   "lastOpenFiles": [
-    "How to write a good method.md",
     "Cortex.md",
-    "English Podcast Transcript Brainstorm.md",
     "R-AEMET-1(S).md",
+    "English Podcast Transcript Brainstorm.md",
+    "Spec Notes.md",
+    "Brilliant Course Complex Numbers.md",
+    "How to write a good method.md",
     "AECHE Notes.md",
     "Chem Cap 1 Notes.md",
     "notes.md",
-    "AEMET Notes.md",
-    "Development Status.md",
-    "Literature In Class Essay + Planning.md"
+    "AEMET Notes.md"
   ]
 }
