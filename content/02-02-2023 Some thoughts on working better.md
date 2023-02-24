@@ -31,3 +31,8 @@ Anyways anyways anyways, I've been quite productive recently, doing chem and stu
 So I've been very busy in the past few days, i.e. so busy I haven't been able to do anything but work. I guess this is a good system? But I've found this methodology of mindlessly doing stuff for the sake of doing inefficient and often missing the point. Not poggers. But now its the weekend, maybe some miracle idea will hit me.
 
 I am considering using [Amie](https://www.producthunt.com/products/amie-2) because it looks cool and todoist is expensive. But essentially I'm looking for something that will send notifications to my Samsung watch because I keep forgetting my classes :(
+
+## 24-02-2023
+Since I want to integrate quartz into this, I may have to completely scratch the whole folder thing in place of organisational nodes. I wanted the folders cause I wanted to use the funny plugin I found (rapid notes) but I guess it's not really worth saving a few seconds in place of having the majority of my website be depreciated. Shame.
+
+Also, HOW DO YOU SIGN UP FOR AMIE PLEASE HELP
