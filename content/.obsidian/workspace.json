@@ -136,67 +136,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "ecb6cb87966dd46b",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Science Inquiry Skills Definitions",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Science Inquiry Skills Definitions.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}},\"scroll\":0.6116620259689334}"
-                },
-                {
-                  "title": "ASDC Project",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ASDC Project.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":3},\"to\":{\"line\":3,\"ch\":3}},\"scroll\":3.1330963387573965}"
-                },
-                {
-                  "title": "Physics Worksheet 1 Meczes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Physics Worksheet 1 Meczes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}},\"scroll\":5.772346985946745}"
-                },
-                {
-                  "title": "Oil Documentary Notes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Oil Documentary Notes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}},\"scroll\":8.364883758174736}"
-                },
-                {
-                  "title": "Science Physics CAT Nuclear Waste",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Science Physics CAT Nuclear Waste.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":3},\"to\":{\"line\":3,\"ch\":3}},\"scroll\":8.844237808685401}"
-                },
-                {
-                  "title": "Copper Cycle Notes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Copper Cycle Notes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":4.079841900887574}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Physics Definitions.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4,
+        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -317,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physics Definitions.md",
+                "file": "10SCI Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -338,7 +280,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physics Definitions.md",
+                "file": "10SCI Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -449,13 +391,13 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "ecb6cb87966dd46b",
+  "active": "f4cb1bacac0ca92b",
   "lastOpenFiles": [
+    "Physics Definitions.md",
     "AESPE Notes.md",
     "Cortex.md",
     "R-AESPE-1(S).md",
     "Rate of Reaction.md",
-    "Physics Definitions.md",
     "Science Inquiry Skills Definitions.md",
     "ASDC Project.md",
     "Physics Worksheet 1 Meczes.md",
