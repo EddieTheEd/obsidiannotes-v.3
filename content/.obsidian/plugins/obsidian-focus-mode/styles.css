@@ -1,0 +1,37 @@
+.focus-mode .cm-s-obsidian div:not(.CodeMirror-activeline) > .CodeMirror-line {
+    opacity: 0.85;
+    filter: saturate(0.85);
+}
+
+.focus-mode .status-bar,
+.focus-mode .view-actions,
+.focus-mode .view-header-icon,
+.focus-mode .workspace-ribbon:not(.mod-left),
+.focus-mode .workspace-split.maximised .workspace-leaf:not(.mod-active),
+.focus-mode
+    .workspace-split.maximised
+    .workspace-leaf.mod-active
+    ~ .workspace-split,
+.focus-mode.plugin-tabs .stayopen .view-header {
+    display: none;
+}
+
+.focus-mode .view-content {
+    height: 100%;
+}
+
+.focus-mode .workspace-split.maximised .workspace-leaf.mod-active {
+    /* 4px is for scrollbar width: */
+    flex-basis: calc(100% - 4px);
+}
+
+.focus-mode .workspace-ribbon,
+.focus-mode .sidebar-toggle-button {
+    visibility: hidden;
+}
+
+.focus-mode .workspace-ribbon::before,
+.focus-mode
+    .side-dock-ribbon-action[aria-label="Toggle Focus Mode (Shift + Click to show active pane only)"] {
+    visibility: visible;
+}

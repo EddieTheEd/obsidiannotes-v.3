@@ -1,0 +1,11 @@
+{
+  "promptDelete": false,
+  "attachmentFolderPath": "000_Files/000a_images",
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "absolute",
+  "strictLineBreaks": false,
+  "rightToLeft": false,
+  "spellcheck": true,
+  "showLineNumber": true,
+  "useMarkdownLinks": true
+}

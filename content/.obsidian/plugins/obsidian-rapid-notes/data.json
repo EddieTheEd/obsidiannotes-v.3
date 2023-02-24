@@ -1,0 +1,28 @@
+{
+  "prefixedFolders": [
+    {
+      "folder": "AECSL",
+      "prefix": "AECSL"
+    },
+    {
+      "folder": "AELIT",
+      "prefix": "AELIT"
+    },
+    {
+      "folder": "AEMET",
+      "prefix": "AEMET"
+    },
+    {
+      "folder": "AEPHY",
+      "prefix": "AEPHY"
+    },
+    {
+      "folder": "AESPE",
+      "prefix": "AESPE"
+    },
+    {
+      "folder": "ATCHE",
+      "prefix": "ATCHE"
+    }
+  ]
+}
