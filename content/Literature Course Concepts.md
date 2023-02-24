@@ -1,10 +1,7 @@
-*Date: 20220417 Time: 1131*
-
-Status: #10ENG
-
-Tags: [[English Yr 11]]
-
-# English Course Concepts
+---
+layout: default
+title: "Literature Course Concepts"
+---
 
 * **Voice**: how the author uses tone to promote ideas, how characters' voice is conveyed for ideas,
 * **Value**: what people hold important.

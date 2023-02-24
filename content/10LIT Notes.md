@@ -11,6 +11,3 @@ title: "10LIT Notes"
 - [[Literature Rationale]]
 - [[Literature Romanticism Overview]]
 - [[Lit Exam Essay Planning]]
-
-[[Axis Victory|Not sus]]
-[[A Tale of Two Suns|less sus but i think its still sus]]

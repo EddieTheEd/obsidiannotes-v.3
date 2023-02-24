@@ -84,13 +84,19 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Cortex",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Cortex.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":4.900355029585799}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cortex.md",
+                "file": "notes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -219,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cortex.md",
+                "file": "notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,7 +246,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cortex.md",
+                "file": "notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -351,17 +357,17 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "deed1e8414dbbd5d",
+  "active": "76a04c5422b53ce0",
   "lastOpenFiles": [
-    "Cortex.md",
+    "AEPHY Notes.md",
+    "AELIT Notes.md",
     "notes.md",
+    "ATCHE Notes.md",
+    "Cortex.md",
+    "10LIT Notes.md",
+    "Literature Course Concepts.md",
+    "AECSL Notes.md",
     "AECHE Notes.md",
-    "AECHE Published Notes.md",
-    "AESPE Notes.md",
-    "templates/AECHE Topic Notes Template.md",
-    "templates/AEMET Template.md",
-    "Development Status.md",
-    "10TCS Notes.md",
-    "Transaction-context-diagram.drawio"
+    "AECHE Published Notes.md"
   ]
 }
