@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Science Physics CAT Nuclear Waste"
 ---
 
 ## The Problem with Nuclear Waste

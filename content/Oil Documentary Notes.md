@@ -1,12 +1,7 @@
-
-*Date: 2022 07 27 Time: 08:55*
-
-Status: 
-
-Tags: 
-
-# Oil Documentary Notes
-
+---
+layout: default
+title: "Oil Documentary Notes"
+---
 
 - Marine sediment laid down during age of dinosaurs
 - Buried deep

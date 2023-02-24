@@ -1,8 +1,7 @@
 ---
 layout: default
+title: "Chinese Speaking Assessment 2"
 ---
-
-# Chinese Speaking Assessment 2
 
 天天的妈妈会做西餐，不会做中餐。天天加平时一日三餐都吃西餐。
 天天家早饭一般吃面包，喝牛奶，有时候吃麦片，喝果汁。

@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "ASDC Project"
 ---
 
 # Ore Processing Plan

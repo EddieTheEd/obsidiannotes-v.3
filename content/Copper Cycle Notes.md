@@ -1,6 +1,7 @@
-
-# Copper Cycle Notes
-
+---
+layout: default
+title: "Copper Cycle Notes"
+---
 
 kek copper cycle moment
 

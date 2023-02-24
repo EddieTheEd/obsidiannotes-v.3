@@ -1,10 +1,7 @@
-*Date: 2022 05 12 Time: 09:45*
-
-Status: #10PHY
-
-Tags: 
-
-# Physics Definitions
+---
+layout: default
+title: "Physics Definitions"
+---
 
 **Distance:** The total movement of an object without any regard to direction.
 **Displacement:** The change in position of an object.

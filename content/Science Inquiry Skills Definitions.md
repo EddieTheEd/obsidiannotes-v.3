@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Science Inquiry Skills Definitions"
+---
+
 Hypothesis: Link between independent and dependent variable, a prediction about what is going to happen. (observation)
 Independent variable.: The variable that is changed. It's the one being investigated. **Where possible, use units!**
 Dependent variable: The variable that is measured. **Where possible, put units!**

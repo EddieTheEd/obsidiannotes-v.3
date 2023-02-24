@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Comp Sci Networking Revision"
+---
+
 1. What is the role of the following hardware devices in a communications network?
 -   Router
 	- **Send and receives packets of data to and from other networks, relays to switch**

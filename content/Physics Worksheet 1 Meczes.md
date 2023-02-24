@@ -1,11 +1,7 @@
-
-*Date: 2022 05 18 Time: 09:02*
-
-Status: #10PHY
-
-Tags: 
-# Physics Worksheet 1 Meczes
-
+---
+layout: default
+title: "Physics Worksheet 1 Meczes"
+---
 
 Q1. Weight is the effect of gravity on an object's mass. Therefore, if mass remains constant, then only gravity will affect mass. In comparison to Earth, the moon has less mass than the Earth. Thus, your weight on the moon is a lot less in comparison to when on the Earth as there is less gravitational effect on your gravity.
 Q2. Due to inertia, objects will remain in motion unless an outer force acts upon them. Thus, when the bus stops the passengers inside are still going in a forwards motion. This causes them to move forwards until the force is balanced.

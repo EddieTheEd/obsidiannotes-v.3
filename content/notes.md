@@ -34,12 +34,12 @@ I will not be adding a "return to x" button, that exists already.
 - [ATCHE Notes](ATCHE%20Notes.md)
 
 ### Obscure Rabbit Holes
-- [[Markdown Resources]]
+- [Markdown Resources](Markdown%20Resources.md)
 - [[Math Working Out]]
 - [[Math Working Out 2]]
 - [[The most important symbol in the universe]]
-- [[Spec Notes]]
-- [[Spec Proofs]]
+- [Spec Notes](Spec%20Notes.md)
+- [Spec Proofs](Spec%20Proofs.md)
 - [[Finding angle given 3 sides without using cosine rule]]
 
 ## Ariz's Notes
