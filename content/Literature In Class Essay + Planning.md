@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Literature In Class Essay + Planning"
 ---
 
 # Literature In Class Essay
