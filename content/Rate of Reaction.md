@@ -9,4 +9,4 @@ title: "Rate of Reaction"
 
 
 # Related Class Notes
-- [[11AECHE Class 44]]
+- [R-AECHE-44](R-AECHE-44.md)
