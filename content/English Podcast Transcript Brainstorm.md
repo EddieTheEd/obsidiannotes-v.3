@@ -30,7 +30,7 @@ Rough Script:
 
 ****
 
-[notes/English Podcast Draft 2](notes/English%20Podcast%20Draft%202)
+[English Essay Draft 2](English%20Essay%20Draft%202.md)
 
 
 ---
