@@ -1,4 +1,7 @@
-Status: #10LIT 
+---
+layout: default
+title: "Literature Extract"
+---
 
 **Chapter 1: Solace**
 

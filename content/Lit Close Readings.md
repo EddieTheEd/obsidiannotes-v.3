@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Lit Close Readings"
+---
+
 "back to melbourne" is a postmodernist poem discussing an individual's experience with the city of Melbourne. The text presents Melbourne as an emotionless, cruel city that neglects its citizens. My interpretation of the text is that through consonance, anaphora and imagery it critiques the concept of identity within the context of Melbourne, where the city's social and cultural setting is dysfunctional.
 
 Through consonance, the poem presents the repetitive characteristics of life in Melbourne from a cynical perspective. The persona is shown to "find carlton cappuccino coffee comfort". In using consonance, the text emphasises the over-complicated lifestyle individuals live in Melbourne, with a basic item like coffee having multiple, excessive labels attached to it. The text criticises the artificiality of Melbourne's lifestyle, by cynically highlighting the excessive stylisation of generic goods. Furthermore, in using consonance to highlight the "manicured madonnas", the text brings to light the artificiality of women that excessively modify their beauty. In conveying that the women in Melbourne are heavily manicured, the text reinforces the stigma of artificial beauty taking prevalence within Melbourne's society and thus condemns the norms of synthetic beauty prevalent in Melbourne. Thus, through consonance, the text critiques how social norms in Melbourne revolve around artificiality and redundancy.

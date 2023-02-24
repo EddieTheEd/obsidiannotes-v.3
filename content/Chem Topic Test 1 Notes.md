@@ -1,28 +1,13 @@
-
-*Date: 2022 07 29 Time: 20:06*
-
-Status: [[AECHE Topic Notes]]
-
-Tags: 
-
-# Chem Topic Test 1 Notes
-
-
-
-
 ---
-## Related Class Notes
-
+layout: default
+title: "Chem Topic Test 1 Notes"
 ---
-## References
-
-# Chem Topic Test 1 Notes
 
 things in italics (*these things*) are extension
 
 **Topics:**
 - Periodic Table and Bonding
-	- See [[History of the Atomic Model Notes]]
+	- See [History of the Atomic Model Notes](History%20of%20the%20Atomic%20Model%20Notes.md)
 	- What does Valency mean (vs valence electrons)?
 		- **Valency:** The **combining power** of an atom, and is equal to **the number of hydrogen atoms** it could combine with or displace.
 		- Number of valence electrons refer to the **number of electrons** in an atom's Valence (outer) shell.

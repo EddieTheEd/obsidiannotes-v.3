@@ -1,12 +1,7 @@
-*Date: 2022 04 27 Time: 20:03*
-
-
-Status: 
-
-Tags: [[Chemistry Yr 11]]
-
-
-# Chemistry Definitions
+---
+layout: default
+title: "Chemistry Definitions"
+---
 
 **Periodicity:** The occurrence of similar properties in elements occupying similar positions in the periodic table.
 **First ionisation energy:** The energy required to remove one mole of the most loosely held valence electron from one mole of gaseous atoms.

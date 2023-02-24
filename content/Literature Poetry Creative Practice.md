@@ -1,10 +1,7 @@
-*Date: 2022 06 30 Time: 14:28*
-
-Status: #10LIT
-
-Tags:
-
-# Literature Poetry Creative Practice
+---
+layout: default
+title: "Literature Poetry Creative Practice"
+---
 
 free verse
 

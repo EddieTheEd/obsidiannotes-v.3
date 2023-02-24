@@ -178,4 +178,3 @@ Definition of a few key things:
 - [[R-AECHE-7]]
 - [[R-AECHE-18]]
 - [[R-AECHE-23]]
-- [[Chem Cap 1 Notes]]

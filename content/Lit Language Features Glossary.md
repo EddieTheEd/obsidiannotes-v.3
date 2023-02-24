@@ -1,9 +1,7 @@
-
-Status: #10LIT
-
-Tags:
-
-# Lit Language Features Glossary
+---
+layout: default
+title: "Lit Language Features Glossary"
+---
 
 | Language feature    | Description                                                                                     |
 | ------------------- | ----------------------------------------------------------------------------------------------- |

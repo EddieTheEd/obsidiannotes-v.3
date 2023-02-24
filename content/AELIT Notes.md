@@ -7,5 +7,6 @@ title: "AELIT Notes"
 - [Literature Course Concepts](Literature%20Course%20Concepts.md)
 - [Post Colonial Theory](Post%20Colonial%20Theory.md)
 - [Romantic Movement Lens](Romantic%20Movement%20Lens.md)
+- [Romanticism Homework](Romanticism%20Homework.md)
 
 - [R-AELIT-1](R-AELIT-1.md)

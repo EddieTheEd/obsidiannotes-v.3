@@ -58,4 +58,4 @@ title: "AECHE Class Notes"
 ](templates/AECHE%20Topic%20Notes%20Template.md)
 - [[11AECHE Class Report]]
 - [[Hydrocarbons]]
-- [[Chemistry Definitions]]
+- [Chemistry Definitions](Chemistry%20Definitions.md)
