@@ -44,7 +44,7 @@ I will not be adding a "return to x" button, that exists already.
 
 ## Ariz's Notes
 
--[Computer-Science-Part-1](Computer-Science-Part-1.md)
+- [Computer-Science-Part-1](Computer-Science-Part-1.md)
 - [Computer-Science-Part-2](Computer-Science-Part-2.md)
 
 ## For Fred:

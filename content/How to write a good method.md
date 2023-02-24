@@ -1,12 +1,7 @@
-
-*20220312 1633*
-
-
-Status: 
-
-Tags: [[notes/Separation Techniques]]
-
-
+---
+layout: default
+title: "How to write a good method"
+---
 
 #### A good method:
 -   **Is a numbered list of instructions, not a description or explanation.**
