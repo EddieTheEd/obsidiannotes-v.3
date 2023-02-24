@@ -1,3 +1,7 @@
+---
+layout: default
+title: "Markdown Resources"
+---
 
 https://www.markdownguide.org/basic-syntax/#paragraphs-1
 

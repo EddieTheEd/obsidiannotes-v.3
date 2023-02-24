@@ -108,65 +108,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a9b01e59f03fb49e",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Cortex",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Cortex.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "R-AEMET-1(S).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9c417219a3125267",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Cortex",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Cortex.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operation Sovereign Borders policy.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -287,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operation Sovereign Borders policy.md",
+                "file": "notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -308,7 +252,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operation Sovereign Borders policy.md",
+                "file": "notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -419,17 +363,17 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "9c417219a3125267",
+  "active": "a7edca21ee27d8cd",
   "lastOpenFiles": [
-    "Cortex.md",
-    "R-AEMET-1(S).md",
-    "English Podcast Transcript Brainstorm.md",
     "Spec Notes.md",
-    "Brilliant Course Complex Numbers.md",
-    "How to write a good method.md",
-    "AECHE Notes.md",
-    "Chem Cap 1 Notes.md",
     "notes.md",
-    "AEMET Notes.md"
+    "The most important symbol in the universe.md",
+    "Computer-Science-Part-2.md",
+    "Computer-Science-Part-1.md",
+    "Spec Proofs.md",
+    "Markdown Resources.md",
+    "R-AEMET-1(S).md",
+    "Operation Sovereign Borders policy.md",
+    "Cortex.md"
   ]
 }

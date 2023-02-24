@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Computer-Science-Part-1"
+---
+
 # System Analysis
 
 SDLC (System development life cycle):

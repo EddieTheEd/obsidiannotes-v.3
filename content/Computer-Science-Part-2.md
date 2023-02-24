@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Computer-Science-Part-2"
+---
+
 # Computer Science Exam Prep (Monolithic Document)
 Here is a monolithic document that contains all of my Computer Science notes, which I made in preparation for the Semester 1 Exam.
 
