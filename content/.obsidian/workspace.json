@@ -122,42 +122,32 @@
             }
           },
           {
-            "id": "1509e1db17d0d7d2",
+            "id": "199831c19feb0916",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "23-02-2023 The v.3 saga",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"23-02-2023 The v.3 saga.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":61},\"to\":{\"line\":8,\"ch\":61}},\"scroll\":9.477626664201184}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
                 },
                 {
-                  "title": "Cortex",
+                  "title": "How to write a good method",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Cortex.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Writings.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "199831c19feb0916",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"AECHE/How to write a good method.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
                 {
-                  "state": "{}",
-                  "eState": "{}"
+                  "title": "R-AESPE-3",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"AESPE/R-AESPE-3.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":68},\"to\":{\"line\":12,\"ch\":68}},\"scroll\":10.062404606372368}"
                 },
                 {
                   "title": "R-AESPE-2",
@@ -182,7 +172,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AESPE/R-AESPE-3.md",
+                "file": "Writings.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -190,7 +180,7 @@
             }
           }
         ],
-        "currentTab": 4,
+        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -311,7 +301,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AESPE/R-AESPE-3.md",
+                "file": "Writings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -332,7 +322,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AESPE/R-AESPE-3.md",
+                "file": "Writings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -468,15 +458,15 @@
   },
   "active": "199831c19feb0916",
   "lastOpenFiles": [
+    "23-02-2023 The v.3 saga.md",
+    "Writings.md",
+    "AECHE/How to write a good method.md",
+    "AESPE/R-AESPE-3.md",
+    "AECHE/AECHE Class Notes.md",
     "AESPE/R-AESPE-2.md",
     "AESPE/R-AESPE-1.md",
     "Cortex.md",
-    "AECHE/AECHE Class Notes.md",
     "AECHE/11AECHE Published Notes.md",
-    "AECHE/AECHE Topic Notes.md",
-    "AECHE/Electron Configuration.md",
-    "AECHE/R-AECHE-32.md",
-    "Development Status.md",
-    "_index.md"
+    "AECHE/AECHE Topic Notes.md"
   ]
 }

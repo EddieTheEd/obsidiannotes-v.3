@@ -1,7 +1,7 @@
 {
   "baseFontSize": 22,
   "translucency": false,
-  "cssTheme": "Minimal",
+  "cssTheme": "AnuPpuccin",
   "enabledCssSnippets": [
     "catpuccin",
     "custom-admonitions.7bfb44"
