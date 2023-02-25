@@ -3,11 +3,8 @@ layout: default
 title: "Ed's Obsidian Notes v.3"
 ---
 
-> [!quote] Funny quote from me (past website)
+> [!quote] Funny quote from me (past website)(this is prehistoric)
 > ¯\\\_(ツ)\_/¯ maybe this works maybe it doesnt, but christian choe based\
-
-![[000_Files/000a_images/surprise hydroiodic acid jumpscare.png]]
-*surprise hydroiodic acid jumpscare, aka the "Cativa process" i mean cmon literally calling it a catalytic cycle regarding hydroiodic acid and alkyls would've sufficed*
 
 ## v.3
 *all rise for the ascension of obsidiannotes-v.3, reborn from the ashes of the past and its failures. hours of tinkering with makefiles, deploy.yaml and the likes, only to CHANGE A SINGLE BUTTON ON THE GITHUB REPOSITORY FROM "Read repository contents and packages permissions" to "Read and write permissions" and it FINALLY WORKS. This is evidenced by the 15 failed commits before i finally got it to work.*
@@ -24,24 +21,16 @@ And this is my [website philosophy](20-12-2022%20Website%20Philosophy). Enjoy :)
 
 ___
 
-Heres a rough outline of the contents of this website:
-- [Writings](Writings.md)
-- Subjects (Order of quality)
-	- Yr 11 Chem (its very scattered, class notes are where its at)
-	- Yr 12 Chem (im trying new things)
-	- Yr 11 Methods
-	- Yr 11 Spec
-	- Yr 11 Phys
-	- Yr 11 Lit (??? mostly just my practice essays)
-	- Yr 11 Chinese(its just grammar(and my speaking drafts))
-- Discontinued Subjects:
-	- All the subjects I did in yr 10 (math, science, etc.)
-		- i.e. the stuff in [[notes]]
-- Fred's random test things (for some reason he agreed to pay me 10 dollars a week, the absolute fool and moron)
-	- you'll have to try and find them though, i cant be bothered to make them accessible.
+Please see [notes](notes.md) or [writings](Writings.md), this is where all the stuff is :)
 
 > [!NOTE]
-> Year 11 Chemistry is essentially defunct. But I will be somewhat updating it as I do my revision for Year 12 Chem  Sem 1 (i think)
+> Year 11 Chemistry is discontinued. It sucked anyways. Stupid first test, stupid schodinger model
+
+___
+
+## The Truth
+
+![](000_Files/000a_images/fax.png)
 
 ___
 
