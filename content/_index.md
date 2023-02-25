@@ -17,8 +17,7 @@ title: "Ed's Obsidian Notes v.3"
 ## Hello!
 
 Welcome to my website! I'm [Ed](about.md), and this website is essentially **Obsidian Publish on steroids**, i.e. *this is where I publish my obsidian notes*. 
-readme
-am no longer pranaf anymore, forgive identity crisis
+
 The website runs using **Github pages** and **Quartz**, with special thanks to Jacky Zhao [(here is the github page)](https://github.com/jackyzha0), who essentially wrote all the code, did all the hard work, while I've just stolen it. :)
 
 And this is my [website philosophy](20-12-2022%20Website%20Philosophy). Enjoy :)

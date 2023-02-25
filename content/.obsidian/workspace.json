@@ -166,7 +166,6 @@
             }
           }
         ],
-        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -287,7 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "25-02-2023 How to make a note-taking website WITHOUT PAYING.md",
+                "file": "_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -308,7 +307,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "25-02-2023 How to make a note-taking website WITHOUT PAYING.md",
+                "file": "_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -419,8 +418,9 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "e164d4b87f89907e",
+  "active": "41d243c617138beb",
   "lastOpenFiles": [
+    "25-02-2023 How to make a note-taking website WITHOUT PAYING.md",
     "Cortex.md",
     "Writings.md",
     "notes.md",
@@ -429,7 +429,6 @@
     "24-02-2023 An angrily written response to spicatas claims about my css.md",
     "23-02-2023 The v 3 saga.md",
     "History of the Atomic Model Notes.md",
-    "Atomic Structure - Development of the Atomic Model.md",
-    "English Visual Text Notes.md"
+    "Atomic Structure - Development of the Atomic Model.md"
   ]
 }
