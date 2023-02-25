@@ -50,7 +50,7 @@ ___
 
 - **All current notes *should* be available at** [notes](notes.md) 
 - You may also wish to peruse through some sister-sites of this website, which I wholly recommend you do. Especially *"spicata"*'s one. You'll find them all [here](https://notes-coalition.github.io/).
-	- UPDATE: I no longer associate my website with the one owned by "M.Spicata"(Christian Choe), he has become too jzhao. I like jzhao. I would  love to be him. However he has gone too far. Christian has lost his identity and become entirely jzhao. He has memorised his bloody lifestyle and looked at his finances. This is deeply concerning. Not poggers. - Ed
+	- UPDATE: I no longer associate my website with the one owned by "M.Spicata", he has become too jzhao. I like jzhao. I would  love to be him. However he has gone too far. Christian has lost his identity and become entirely jzhao. He has memorised his bloody lifestyle and looked at his finances. This is deeply concerning. Not poggers. - Ed
 		- UPDATE UPDATE: Having seen the amogus that rests dormant on Christian's index page, I am now happily associating with him once again. Sending digital love and smiley faces. - Ed ඞ
 - I recommend looking through the [Topic Notes](AECHE%20Topic%20Notes.md) above all, as most of the [Class Notes](AECHE%20Class%20Notes.md) are unformatted, and the [Published Notes](AECHE%20Published%20Notes.md) is looking quite barren. Please note however, I am yet to fully transition to a topic-style system when writing notes, so most of the topic notes have nothing in them. Do check out [Electron Configuration](Electron%20Configuration.md), I think its the only one with stuff.
 - The *Table of Contents* section for all the class notes will be pretty scuffed.  Kindly ignore them.
