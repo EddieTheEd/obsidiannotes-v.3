@@ -76,7 +76,7 @@
             }
           },
           {
-            "id": "a7edca21ee27d8cd",
+            "id": "26ca4da827ba3b2a",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -86,41 +86,24 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "Writings",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Writings.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "notes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"notes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":11.997807693440164}"
-                },
-                {
-                  "title": "AEMET Notes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"AEMET Notes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
                   "title": "Cortex",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Cortex.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.7936064772996764}"
                 }
               ]
             },
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "content/.obsidian/workspace.json",
-                "staged": false
+                "file": "notes.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -241,6 +224,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -261,6 +245,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -371,15 +356,15 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "a7edca21ee27d8cd",
+  "active": "41d243c617138beb",
   "lastOpenFiles": [
-    "Writings.md",
+    "notes.md",
+    "Cortex.md",
     "Development Status.md",
+    "Writings.md",
     "_index.md",
     "24-02-2023 An angrily written response to spicatas claims about my css.md",
-    "Cortex.md",
     "23-02-2023 The v 3 saga.md",
-    "notes.md",
     "History of the Atomic Model Notes.md",
     "Atomic Structure - Development of the Atomic Model.md",
     "English Visual Text Notes.md"
