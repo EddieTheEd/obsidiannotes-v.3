@@ -11,7 +11,7 @@ title: "Ed's Obsidian Notes v.3"
 
 *with the rise of a new obsidian notes version comes an announcement.The website shall be be reorganized into **~~the first Galactic Empire~~** a more efficient system using folders!!!! Please stand by as i find out how to make the whole folder sitch look less ugly :)*
 
-## Hello!
+## Hello!it
 
 Welcome to my website! I'm [Ed](about.md), and this website is essentially **Obsidian Publish on steroids**, i.e. *this is where I publish my obsidian notes*. 
 
