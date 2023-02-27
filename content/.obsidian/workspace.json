@@ -62,13 +62,19 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Development Status",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Development Status.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":1},\"to\":{\"line\":11,\"ch\":1}},\"scroll\":12.115538958487425}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development Status.md",
+                "file": "Linux Github Saga.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -154,41 +160,7 @@
             }
           },
           {
-            "id": "14f268fd15d4bd2c",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "notes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"notes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Cortex",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Cortex.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Writings.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e164d4b87f89907e",
+            "id": "70751aa37f12c869",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -337,7 +309,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Writings.md",
+                "file": "25-02-2023 How to make a note-taking website WITHOUT PAYING.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -358,7 +330,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writings.md",
+                "file": "25-02-2023 How to make a note-taking website WITHOUT PAYING.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -469,17 +441,17 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "14f268fd15d4bd2c",
+  "active": "70751aa37f12c869",
   "lastOpenFiles": [
     "R-AESPE-6.md",
-    "AESPE Notes.md",
-    "Cortex.md",
-    "notes.md",
-    "Writings.md",
-    "_index.md",
-    "000_Files/000a_images/Pasted image 20230225205308.png",
     "25-02-2023 How to make a note-taking website WITHOUT PAYING.md",
+    "Linux Github Saga.md",
     "Development Status.md",
-    "24-02-2023 An angrily written response to spicatas claims about my css.md"
+    "000_Files/000a_images/Pasted image 20230227093845.png.md",
+    "Cortex.md",
+    "000_Files/000a_images/Pasted image 20230227093034.png.md",
+    "000_Files/000a_images/Pasted image 20230227093034.png",
+    "AESPE Notes.md",
+    "Writings.md"
   ]
 }
