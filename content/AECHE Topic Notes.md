@@ -11,7 +11,7 @@ title: "AECHE Topic Notes"
 - [[Essential Chemistry Skills|Essential Chemistry Skills]] 🟥
 - [[Properties of matter|Properties of matter]] 🟩
 - [[Nanomaterials|Nanomaterials]] 🟩
-- [[Atomic Structure - Development of the Atomic Model|Atomic Structure - Development of the Atomic Model]] 🟩
+- [Properties of matter](Properties%20of%20matter.md) 🟩
 - [[Electron Configuration|Electron Configuration]] 🟩
 - [[The Periodic Table|The Periodic Table]] 🟨
 - [[Introduction to Bonding|Introduction to Bonding]] 🟥

@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Math Working Out"
+---
+
 
 
 $f(x) = \frac{wx}{x^2+b(w+b)}$
