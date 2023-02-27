@@ -11,5 +11,6 @@
   "anuppuccin-theme-settings@@anp-bg-fix": false,
   "anuppuccin-theme-settings@@anp-colorful-frame-color@@light": "#E1C995",
   "anuppuccin-theme-settings@@anp-colorful-frame-color@@dark": "#FEA504",
-  "anuppuccin-theme-settings@@ctp-custom-yellow@@dark": "#FFCE61"
+  "anuppuccin-theme-settings@@ctp-custom-yellow@@dark": "#FFCE61",
+  "anuppuccin-theme-settings@@anp-background-image-toggle": true
 }
