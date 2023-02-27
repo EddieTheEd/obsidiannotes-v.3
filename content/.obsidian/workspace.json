@@ -216,7 +216,7 @@
             }
           }
         ],
-        "currentTab": 4,
+        "currentTab": 5,
         "stacked": true
       }
     ],
@@ -337,7 +337,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "R-AESPE-6.md",
+                "file": "Writings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -358,7 +358,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "R-AESPE-6.md",
+                "file": "Writings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -469,10 +469,10 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "c5c70ee270c122e9",
+  "active": "14f268fd15d4bd2c",
   "lastOpenFiles": [
-    "AESPE Notes.md",
     "R-AESPE-6.md",
+    "AESPE Notes.md",
     "Cortex.md",
     "notes.md",
     "Writings.md",

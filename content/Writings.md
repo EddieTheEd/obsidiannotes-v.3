@@ -23,5 +23,5 @@ I dunno when this was created
 
 ## Logs(Multi-use, will be updated periodically)
 - [[02-02-2023 Some thoughts on working better]]
-- [[18-02-2023 The Legend of 0 point 38mm
-- [[23-02-2023 The Chemical Blacklist]]]]
+- [[18-02-2023 The Legend of 0 point 38mm]]
+- [[23-02-2023 The Chemical Blacklist]]
