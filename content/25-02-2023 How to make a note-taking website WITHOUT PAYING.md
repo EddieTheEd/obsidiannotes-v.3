@@ -73,4 +73,135 @@ First of all, we need to setup quartz so the pages will work. I suggest reading 
 ![](000_Files/000a_images/pages%20quartz.png)
 
 ## Configuring the clone
-Ok, but to personalise your website we need to modify some things directly in the folder
+Ok, but to personalise your website we need to modify some things directly in the repository folder. 
+
+1. Open the folder as before. It should look as it did before.
+![](000_Files/000a_images/inital%20folder%20quartz.png)
+
+I will now list the things that should be changed.
+- config.toml: (if you are using custom domain)
+```
+baseURL = "https://<YOUR-DOMAIN>/"
+```
+OR if you are using github pages:
+```
+baseURL = "https://<YOUR-GITHUB-USERNAME>.github.io/quartz/"
+```
+
+- /.github/workflows/deploy.yaml: (if you are using custom domain)
+```
+- name: Deploy  
+  uses: peaceiris/actions-gh-pages@v3  
+  with:  
+	github_token: ${{ secrets.GITHUB_TOKEN }} # this can stay as is, GitHub fills this in for us!
+	publish_dir: ./public  
+	publish_branch: master
+	cname: <YOUR-DOMAIN>
+```
+OR if you are using github pages:
+```
+cname: <YOUR-DOMAIN>
+```
+
+## Making it yours
+
+Alright! Upon your first push, the website will come to life. However, you might notice that it looks very much like the default site. So it's time to customise it, to your liking!
+
+Once again, here's a list of the things that can be changed:
+- data/config.yaml:
+```
+# The name to display in the footer
+name: Jacky Zhao
+
+# whether to globally show the table of contents on each page
+# this can be turned off on a per-page basis by adding this to the
+# front-matter of that note
+enableToc: true
+
+# whether to by-default open or close the table of contents on each page
+openToc: false
+
+# whether to display on-hover link preview cards
+enableLinkPreview: true
+
+# whether to render titles for code blocks
+enableCodeBlockTitle: true 
+
+# whether to render copy buttons for code blocks
+enableCodeBlockCopy: true 
+
+# whether to render callouts
+enableCallouts: true
+
+# whether to try to process Latex
+enableLatex: true
+
+# whether to enable single-page-app style rendering
+# this prevents flashes of unstyled content and improves
+# smoothness of Quartz. More info in issue #109 on GitHub
+enableSPA: true
+
+# whether to render a footer
+enableFooter: true
+
+# whether backlinks of pages should show the context in which
+# they were mentioned
+enableContextualBacklinks: true
+
+# whether to show a section of recent notes on the home page
+enableRecentNotes: false
+
+# whether to display an 'edit' button next to the last edited field
+# that links to github
+enableGitHubEdit: true
+GitHubLink: https://github.com/jackyzha0/quartz/tree/hugo/content
+
+# whether to render mermaid diagrams
+enableMermaid: true
+
+# whether to use Operand to power semantic search
+# IMPORTANT: replace this API key with your own if you plan on using
+# Operand search!
+search:
+  enableSemanticSearch: false
+  operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
+  operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
+
+# page description used for SEO
+description:
+  Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
+  Wikilink support, backlinks, local graph, tags, and link previews.
+
+# title of the home page (also for SEO)
+page_title:
+  "🪴 Quartz 3.3"
+
+# links to show in the footer
+links:
+  - link_name: Twitter
+    link: https://twitter.com/_jzhao
+  - link_name: Github
+    link: https://github.com/jackyzha0
+```
+
+- static/icon.png
+	- Changing this will change the icon that appears to the left of your website name. 
+
+- assets/styles/custom.scss
+	- To change the colours of things.
+
+## TLDR 
+That should be it! If you find anything confusing or you want to add any tips, please feel free to email me.
+
+## Troubleshooting
+
+1. Actions returning exit code 128
+![](000_Files/000a_images/debug.png)
+
+This means your computer doesn't have the right access tokens. I suspect this only affects Linux computers.
+
+SOLUTION:
+1. Open the settings tab
+2. Open the actions tabs, then the general tab.
+3. Under the "Workflow permissions" header, select the **read and write permissions** option. This ensures the GITHUB_TOKEN in the deploy action can push to the website. 
+4. Save.
