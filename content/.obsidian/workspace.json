@@ -57,24 +57,24 @@
             "id": "d3bae80dd0606953",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Linux Github Saga",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Linux Github Saga.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "Development Status",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Development Status.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":1},\"to\":{\"line\":11,\"ch\":1}},\"scroll\":12.115538958487425}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux Github Saga.md",
+                "file": "Development Status.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -92,6 +92,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"notes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "Cortex",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Cortex.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -102,57 +108,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "99a8082b9c077a40",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AESPE Notes.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c5c70ee270c122e9",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Cortex",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Cortex.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "R-AESPE-6.md",
+                "file": "Writings.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -188,7 +144,7 @@
             }
           }
         ],
-        "currentTab": 5,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -309,7 +265,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "25-02-2023 How to make a note-taking website WITHOUT PAYING.md",
+                "file": "Writings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +286,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "25-02-2023 How to make a note-taking website WITHOUT PAYING.md",
+                "file": "Writings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -441,17 +397,17 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "70751aa37f12c869",
+  "active": "26ca4da827ba3b2a",
   "lastOpenFiles": [
-    "R-AESPE-6.md",
-    "25-02-2023 How to make a note-taking website WITHOUT PAYING.md",
-    "Linux Github Saga.md",
+    "notes.md",
     "Development Status.md",
+    "Linux Github Saga.md",
+    "25-02-2023 How to make a note-taking website WITHOUT PAYING.md",
+    "R-AESPE-6.md",
     "000_Files/000a_images/Pasted image 20230227093845.png.md",
     "Cortex.md",
     "000_Files/000a_images/Pasted image 20230227093034.png.md",
     "000_Files/000a_images/Pasted image 20230227093034.png",
-    "AESPE Notes.md",
-    "Writings.md"
+    "AESPE Notes.md"
   ]
 }
