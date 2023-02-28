@@ -82,3 +82,6 @@ The website has been overhauled. All the links I could possibly fix have been fi
 Links are fixed
 
 I think this is the final evolution
+
+- I have made dark mode the default. It is a great day.
+- Assassinated the monkey
