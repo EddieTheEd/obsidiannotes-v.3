@@ -6,6 +6,9 @@ title: "Ed's Obsidian Notes v.3"
 > [!quote] Funny quote from me (past website)(this is prehistoric)
 > ¯\\\_(ツ)\_/¯ maybe this works maybe it doesnt, but christian choe based\
 
+## HEY
+TAJ GO BE ORIGINAL FOR A CHANGE DONT CC MY WEBSITE
+
 ## v.3
 *all rise for the ascension of obsidiannotes-v.3, reborn from the ashes of the past and its failures. hours of tinkering with makefiles, deploy.yaml and the likes, only to CHANGE A SINGLE BUTTON ON THE GITHUB REPOSITORY FROM "Read repository contents and packages permissions" to "Read and write permissions" and it FINALLY WORKS. This is evidenced by the 15 failed commits before i finally got it to work.*
 

@@ -82,7 +82,6 @@
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -203,7 +202,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Development Status.md",
+                "file": "_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Development Status.md",
+                "file": "_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -335,10 +334,10 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "d3bae80dd0606953",
+  "active": "41d243c617138beb",
   "lastOpenFiles": [
-    "_index.md",
     "Development Status.md",
+    "_index.md",
     "11AECHE Class Report.md",
     "R-ATCHE-4.md",
     "ATCHE Notes.md",
