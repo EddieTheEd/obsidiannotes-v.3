@@ -76,3 +76,9 @@ Alongside upgrading, I will start using markdown links.
 ## 24/02/2023
 ***BEHOLD!!!***
 The website has been overhauled. All the links I could possibly fix have been fixed (please report any broken ones), and I have removed all the sussy folder files. In comes a new age of organisation(shocker)
+
+## 28/02/2023
+
+Links are fixed
+
+I think this is the final evolution
