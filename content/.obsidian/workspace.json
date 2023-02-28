@@ -92,32 +92,10 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "Cortex",
+                  "title": "AECSL Notes",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Cortex.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"AECSL Notes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AECSL Notes.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9462879aa13394a8",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
                 },
                 {
                   "title": "Cortex",
@@ -130,7 +108,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "R-AECSL-1.md",
+                "file": "R-ATCHE-4.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -138,6 +116,7 @@
             }
           }
         ],
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -258,7 +237,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_index.md",
+                "file": "R-ATCHE-4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -279,7 +258,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_index.md",
+                "file": "R-ATCHE-4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -390,13 +369,13 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "41d243c617138beb",
+  "active": "43fe0e9e5d453691",
   "lastOpenFiles": [
-    "R-AECSL-1.md",
-    "Cortex.md",
     "AECSL Notes.md",
-    "Development Status.md",
+    "R-AECSL-1.md",
     "_index.md",
+    "Cortex.md",
+    "Development Status.md",
     "11AECHE Class Report.md",
     "R-ATCHE-4.md",
     "ATCHE Notes.md",
