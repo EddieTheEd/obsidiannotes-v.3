@@ -21,6 +21,7 @@ I dunno when this was created
 - [23-02-2023 The v 3 saga](23-02-2023%20The%20v%203%20saga.md)
 - [24-02-2023 An angrily written response to spicatas claims about my css](24-02-2023%20An%20angrily%20written%20response%20to%20spicatas%20claims%20about%20my%20css.md)
 - [[25-02-2023 How to make a note-taking website WITHOUT PAYING]]
+- [[28-02-2023 A response to spicatas claims on tutors]]
 
 ## Logs(Multi-use, will be updated periodically)
 - [[02-02-2023 Some thoughts on working better]]

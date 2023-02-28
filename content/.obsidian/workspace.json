@@ -82,7 +82,7 @@
             }
           },
           {
-            "id": "43fe0e9e5d453691",
+            "id": "d5b1a52e051026e8",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -92,16 +92,10 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "R-ATCHE-4",
+                  "title": "Writings",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"R-ATCHE-4.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "AECSL Notes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"AECSL Notes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Writings.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":65},\"to\":{\"line\":22,\"ch\":65}},\"scroll\":23.129370378452936}"
                 },
                 {
                   "title": "Cortex",
@@ -114,7 +108,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hydrocarbons.md",
+                "file": "28-02-2023 A response to spicatas claims on tutors.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -243,7 +237,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hydrocarbons.md",
+                "file": "28-02-2023 A response to spicatas claims on tutors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -264,7 +258,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hydrocarbons.md",
+                "file": "28-02-2023 A response to spicatas claims on tutors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -375,17 +369,17 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "43fe0e9e5d453691",
+  "active": "d5b1a52e051026e8",
   "lastOpenFiles": [
-    "R-ATCHE-4.md",
+    "Writings.md",
+    "Cortex.md",
     "Development Status.md",
+    "Hydrocarbons.md",
+    "R-ATCHE-4.md",
     "AECSL Notes.md",
     "R-AECSL-1.md",
     "_index.md",
-    "Cortex.md",
     "11AECHE Class Report.md",
-    "ATCHE Notes.md",
-    "notes.md",
-    "25-02-2023 How to make a note-taking website WITHOUT PAYING.md"
+    "ATCHE Notes.md"
   ]
 }
