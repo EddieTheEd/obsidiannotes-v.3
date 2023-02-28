@@ -1,10 +1,7 @@
-*Date: 2022 05 08 Time: 20:34*
-
-
-Status: 
-
-Tags: 
-
+---
+layout: default
+title: "Hydrocarbons"
+---
 
 # Hydrocarbons
 
