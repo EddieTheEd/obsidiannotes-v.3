@@ -1,4 +1,4 @@
-const userPref = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'
+const userPref = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'light' : 'dark'
 const currentTheme = localStorage.getItem('theme') ?? userPref
 const syntaxTheme = document.querySelector("#theme-link");
 
