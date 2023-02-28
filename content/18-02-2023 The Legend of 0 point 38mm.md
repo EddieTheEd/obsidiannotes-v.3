@@ -20,5 +20,3 @@ Now this was a significant upgrade. This pen allowed my handwriting to be "reaso
 
 ## 4. Pentel Energel 0.4mm ball Needle Point + Pop Urban 0.7mm ball pen
 You may ask "What the hell is Pop Urban"? Well, first, popular. No, not the adjective, the store in many Asian countries! Popular  supplies a brand, "Pop Urban". I'm now just realising that they probably own this pen brand. Anyways, despite being 0.7mm, the ink produced was vivid and sharp, and was almost as smooth as the Sharpie pen. Hence, I used it in conjunction with the Pentel pen. Now this pen was quite like the Muji 0.38 one. Incredibly sharp, but very smooth as well. Problem is, the Pop Urban pens only come from Popular, and the Pentel pen is like $6 per pen, which is absolutely ridiculous. So, the journey continues for the perfect pen. And I think I'm on to something. Here's to the future.
-
-christian choe 

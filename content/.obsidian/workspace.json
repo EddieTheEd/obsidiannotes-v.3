@@ -92,6 +92,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "28-02-2023 A response to spicatas claims on tutors",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"28-02-2023 A response to spicatas claims on tutors.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":0},\"to\":{\"line\":32,\"ch\":0}},\"scroll\":27.384087347448226}"
+                },
+                {
                   "title": "Writings",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Writings.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -108,7 +114,131 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "28-02-2023 A response to spicatas claims on tutors.md",
+                "file": "Writings.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8280a1ac5a404089",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "_index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_index.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":3},\"to\":{\"line\":3,\"ch\":3}},\"scroll\":10.45328020987426}"
+                },
+                {
+                  "title": "R-AELIT-1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"R-AELIT-1.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":46},\"to\":{\"line\":7,\"ch\":46}},\"scroll\":9.0536754738912}"
+                },
+                {
+                  "title": "Water Quality",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Water Quality.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":99,\"ch\":6},\"to\":{\"line\":99,\"ch\":6}},\"scroll\":99.80441591516136}"
+                },
+                {
+                  "title": "Fred Exam Chem 1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Fred Exam Chem 1.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":177,\"ch\":79},\"to\":{\"line\":177,\"ch\":79}},\"scroll\":143.1395420388759}"
+                },
+                {
+                  "title": "How making a website erodes your mental stability",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"How making a website erodes your mental stability.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":56},\"to\":{\"line\":19,\"ch\":56}},\"scroll\":21.962985392011834}"
+                },
+                {
+                  "title": "Fred Exam Chem 1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Fred Exam Chem 1.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":177,\"ch\":79},\"to\":{\"line\":177,\"ch\":79}},\"scroll\":179.4150598650148}"
+                },
+                {
+                  "title": "English Creative  Assessment 1st Draft",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"English Creative  Assessment 1st Draft.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":59,\"ch\":129},\"to\":{\"line\":59,\"ch\":129}},\"scroll\":59.74830309252847}"
+                },
+                {
+                  "title": "Development Status",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Development Status.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":65,\"ch\":13},\"to\":{\"line\":65,\"ch\":13}},\"scroll\":68.20345868151226}"
+                },
+                {
+                  "title": "English Creative  Assessment 1st Draft",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"English Creative  Assessment 1st Draft.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":59,\"ch\":129},\"to\":{\"line\":59,\"ch\":129}},\"scroll\":59.74830309252847}"
+                },
+                {
+                  "title": "Development Status",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Development Status.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":65,\"ch\":13},\"to\":{\"line\":65,\"ch\":13}},\"scroll\":68.20345868151226}"
+                },
+                {
+                  "title": "Axis Victory",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Axis Victory.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":42},\"to\":{\"line\":6,\"ch\":42}},\"scroll\":10.105728550295858}"
+                },
+                {
+                  "title": "27-11-2022 Sleep is not as important",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"27-11-2022 Sleep is not as important.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":74},\"to\":{\"line\":39,\"ch\":74}},\"scroll\":39.53786872457471}"
+                },
+                {
+                  "title": "20-12-2022 Website Philosophy",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-12-2022 Website Philosophy.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":30},\"to\":{\"line\":27,\"ch\":30}},\"scroll\":29.125639677329882}"
+                },
+                {
+                  "title": "18-02-2023 The Legend of 0 point 38mm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"18-02-2023 The Legend of 0 point 38mm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":0},\"to\":{\"line\":22,\"ch\":0}},\"scroll\":23.96857109837278}"
+                },
+                {
+                  "title": "02-02-2023 Some thoughts on working better",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-02-2023 Some thoughts on working better.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":68},\"to\":{\"line\":25,\"ch\":68}},\"scroll\":26.251939141087277}"
+                },
+                {
+                  "title": "_index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_index.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":44,\"ch\":74},\"to\":{\"line\":44,\"ch\":74}},\"scroll\":44.222822884368156}"
+                },
+                {
+                  "title": "20-12-2022 Website Philosophy",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-12-2022 Website Philosophy.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":30},\"to\":{\"line\":27,\"ch\":39}},\"scroll\":29.020445520525147}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20-12-2022 Website Philosophy.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -116,7 +246,7 @@
             }
           }
         ],
-        "currentTab": 2,
+        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -164,7 +294,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "podcast draft 2",
+                "query": "christian",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -208,7 +338,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -237,7 +367,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "28-02-2023 A response to spicatas claims on tutors.md",
+                "file": "20-12-2022 Website Philosophy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,12 +388,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "28-02-2023 A response to spicatas claims on tutors.md",
+                "file": "20-12-2022 Website Philosophy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
+                "showSearch": true,
+                "searchQuery": "christian",
                 "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -369,17 +499,17 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "d5b1a52e051026e8",
+  "active": "8280a1ac5a404089",
   "lastOpenFiles": [
-    "Writings.md",
-    "Cortex.md",
-    "Development Status.md",
-    "Hydrocarbons.md",
-    "R-ATCHE-4.md",
-    "AECSL Notes.md",
-    "R-AECSL-1.md",
     "_index.md",
-    "11AECHE Class Report.md",
-    "ATCHE Notes.md"
+    "R-AELIT-1.md",
+    "Water Quality.md",
+    "Fred Exam Chem 1.md",
+    "How making a website erodes your mental stability.md",
+    "English Creative  Assessment 1st Draft.md",
+    "Development Status.md",
+    "Axis Victory.md",
+    "27-11-2022 Sleep is not as important.md",
+    "20-12-2022 Website Philosophy.md"
   ]
 }
