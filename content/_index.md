@@ -45,7 +45,7 @@ ___
 		- UPDATE UPDATE: Having seen the amogus that rests dormant on Christian's index page, I am now happily associating with him once again. Sending digital love and smiley faces. - Ed ඞ
 - I recommend looking through the [Topic Notes](AECHE%20Topic%20Notes.md) above all, as most of the [Class Notes](AECHE%20Class%20Notes.md) are unformatted, and the [Published Notes](AECHE%20Published%20Notes.md) is looking quite barren. Please note however, I am yet to fully transition to a topic-style system when writing notes, so most of the topic notes have nothing in them. Do check out [Electron Configuration](Electron%20Configuration.md), I think its the only one with stuff.
 - The *Table of Contents* section for all the class notes will be pretty scuffed.  Kindly ignore them.
-- The monkey face logo was chosen by Atharva Sathe. :)
+- ~~The monkey face logo was chosen by Atharva Sathe. :)~~ the monkey has been assassinated
 
 ___
 
