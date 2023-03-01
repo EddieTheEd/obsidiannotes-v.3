@@ -122,6 +122,28 @@
             }
           },
           {
+            "id": "35f8d8131877f89c",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "28-02-2023 A response to spicatas claims on tutors.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "8280a1ac5a404089",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -338,7 +360,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -367,7 +389,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "20-12-2022 Website Philosophy.md",
+                "file": "28-02-2023 A response to spicatas claims on tutors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -388,12 +410,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20-12-2022 Website Philosophy.md",
+                "file": "28-02-2023 A response to spicatas claims on tutors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
-                "searchQuery": "christian",
+                "searchQuery": "",
                 "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -499,17 +521,17 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "8280a1ac5a404089",
+  "active": "35f8d8131877f89c",
   "lastOpenFiles": [
+    "Writings.md",
+    "20-12-2022 Website Philosophy.md",
+    "Science Inquiry Skills Definitions.md",
+    "Cortex.md",
     "_index.md",
     "R-AELIT-1.md",
     "Water Quality.md",
     "Fred Exam Chem 1.md",
     "How making a website erodes your mental stability.md",
-    "English Creative  Assessment 1st Draft.md",
-    "Development Status.md",
-    "Axis Victory.md",
-    "27-11-2022 Sleep is not as important.md",
-    "20-12-2022 Website Philosophy.md"
+    "English Creative  Assessment 1st Draft.md"
   ]
 }
