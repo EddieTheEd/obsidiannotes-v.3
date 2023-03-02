@@ -19,7 +19,7 @@ e.g.
 - $\exists$ means 'there exists'
 	- Note: in assessments, **don't use these symbols!**
 
-## Proving/Disprohere exists a square prime number.ving statements with quantifiers
+## Proving/Disproving there exists a square prime number statements with quantifiers
 - There exists a prime here exists a square prime number.number which is not odd.
 - Proof: 2 is even, 2 is prime. 
 	- **TLDR: By citing one example is adequate to prove "There exists" statements are *true***
