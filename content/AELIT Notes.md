@@ -8,5 +8,6 @@ title: "AELIT Notes"
 - [Post Colonial Theory](Post%20Colonial%20Theory.md)
 - [Romantic Movement Lens](Romantic%20Movement%20Lens.md)
 - [Romanticism Homework](Romanticism%20Homework.md)
+- [Gothic Genre in the Victorian Era](Gothic%20Genre%20in%20the%20Victorian%20Era.md)
 
 - [R-AELIT-1](R-AELIT-1.md)
