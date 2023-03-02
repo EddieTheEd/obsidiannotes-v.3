@@ -107,4 +107,9 @@ Overall ion concentration is decreased. The reverse reaction produces more moles
 
 - Hence, when the concentration of everything is decreased, the forward reaction is much more impacted by the dilution as it is even harder to have the 4 ions collide. 
 
+## Important Note
+- I will be referring to Le Chatelier's Principle as Le Shat from now on. Both because it is easier and it is funny.
+
+- We **usually** say partially counteract, but we **must say only counteract** for special cases. i.e. decomposition of $CaCO_{3}$.
+
 
