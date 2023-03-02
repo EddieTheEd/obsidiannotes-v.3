@@ -3,8 +3,12 @@ layout: default
 title: "Ed's Obsidian Notes v.3"
 ---
 
-> [!quote] Funny quote from me (past website)(this is prehistoric)
-> ¯\\\_(ツ)\_/¯ maybe this works maybe it doesnt, but christian choe based\
+
+
+
+```yaml {title="Funny quote from me (past website)(this is prehistoric)"}
+¯\\\_(ツ)\_/¯ maybe this works maybe it doesnt, but christian choe based\
+```
 
 ## HEY
 TAJ GO BE ORIGINAL FOR A CHANGE DONT CC MY WEBSITE

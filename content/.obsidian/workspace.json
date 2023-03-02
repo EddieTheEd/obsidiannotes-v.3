@@ -198,7 +198,7 @@
             }
           },
           {
-            "id": "f01dd5bb15858c02",
+            "id": "35f3bae74ab6d7e9",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -206,19 +206,13 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "notes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"notes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":28.61192429251571}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-02-2023 Some thoughts on working better.md",
+                "file": "Comp Sci Task 1.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -226,7 +220,6 @@
             }
           }
         ],
-        "currentTab": 5,
         "stacked": true
       }
     ],
@@ -322,7 +315,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "9269a3f4297f043b",
@@ -347,7 +341,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gothic Genre in the Victorian Era.md",
+                "file": "_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -368,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gothic Genre in the Victorian Era.md",
+                "file": "_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -461,7 +455,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -479,17 +474,17 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "2885cfbf943c4a0d",
+  "active": "41d243c617138beb",
   "lastOpenFiles": [
-    "02-02-2023 Some thoughts on working better.md",
-    "notes.md",
+    "Comp Sci Task 1.md",
+    "templates/Callouts.md",
+    "_index.md",
+    "Pilling Calculation Questions.md",
     "AELIT Notes.md",
+    "02-02-2023 Some thoughts on working better.md",
     "Gothic Genre in the Victorian Era.md",
+    "notes.md",
     "R-AESPE-4.md",
-    "AESPE Notes.md",
-    "R-ATCHE-5.md",
-    "ATCHE Notes.md",
-    "Development Status.md",
-    "History of the Atomic Model Notes.md"
+    "AESPE Notes.md"
   ]
 }
