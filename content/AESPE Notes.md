@@ -9,5 +9,6 @@ title: "AESPE Notes"
 - [R-AESPE-4](R-AESPE-4.md)
 - [R-AESPE-5](R-AESPE-5.md)
 - [R-AESPE-6](R-AESPE-6.md)
+- [R-AESPE-7](R-AESPE-7.md)
 
 - [[R-AESPE-1(S)]]
