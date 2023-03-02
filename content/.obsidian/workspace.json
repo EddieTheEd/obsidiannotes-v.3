@@ -196,9 +196,37 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f01dd5bb15858c02",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"notes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":28.61192429251571}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-02-2023 Some thoughts on working better.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6,
+        "currentTab": 5,
         "stacked": true
       }
     ],
@@ -319,7 +347,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AELIT Notes.md",
+                "file": "Gothic Genre in the Victorian Era.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -340,7 +368,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AELIT Notes.md",
+                "file": "Gothic Genre in the Victorian Era.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -451,17 +479,17 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "2c5890cb7e7f60ee",
+  "active": "2885cfbf943c4a0d",
   "lastOpenFiles": [
+    "02-02-2023 Some thoughts on working better.md",
+    "notes.md",
+    "AELIT Notes.md",
     "Gothic Genre in the Victorian Era.md",
     "R-AESPE-4.md",
     "AESPE Notes.md",
     "R-ATCHE-5.md",
     "ATCHE Notes.md",
     "Development Status.md",
-    "History of the Atomic Model Notes.md",
-    "Writings.md",
-    "28-02-2023 A response to spicatas claims on tutors.md",
-    "R-AESPE-7.md"
+    "History of the Atomic Model Notes.md"
   ]
 }
