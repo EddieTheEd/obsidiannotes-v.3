@@ -5,7 +5,7 @@
 <body>
 {{partial "search.html" .}}
 <div class="singlePage">
-    <!-- Begin actual content -->
+
     {{partial "header.html" .}}
     <article>
         {{partial "toc.html" .}}
@@ -13,7 +13,6 @@
         {{if $.Site.Data.config.enableRecentNotes}}
           {{partial "recent.html" . }}
         {{end}}
-        {{partial "recent.html" . }}
     </article>
     {{partial "footerIndex.html" .}}
 </div>
