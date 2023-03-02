@@ -15,7 +15,7 @@
     {{end}}
     {{- range $lnk, $ctx := $backlinks -}}
       {{$l := printf "%s%s/" $host $lnk}}
-      {{$l = cond (eq $l "//") $l}}
+      {{$l = cond (eq $l "//") "/" $l}}
       {{with (index $contentTable $lnk)}}
       <li>
         <a href="{{$l}}" data-ctx="{{$ctx}}" data-src="{{$lnk}}" class="internal-link">{{index (index . "title")}}</a>
