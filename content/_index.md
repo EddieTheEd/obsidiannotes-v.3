@@ -35,6 +35,8 @@ Please see [notes](notes.md) or [writings](Writings.md), this is where all the s
 
 ___
 
+can we do [guest articles](03-03-2023%20guestArticles.md)? --- ccc choe
+
 ## The Truth
 
 ![](000_Files/000a_images/fax.png)

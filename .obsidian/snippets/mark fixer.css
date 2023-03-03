@@ -1,0 +1,7 @@
+mark {
+    color: var(--text-normal);
+}
+
+s, del, .cm-strikethrough {
+    color: #5a5a5a !important;
+}

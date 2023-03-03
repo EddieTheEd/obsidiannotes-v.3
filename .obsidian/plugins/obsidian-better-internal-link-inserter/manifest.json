@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-better-internal-link-inserter",
+	"name": "Obsidian Better Internal Link Inserter",
+	"version": "1.0.0",
+	"minAppVersion": "0.12.0",
+	"description": "Allow to use the selected word as an alias in link suggestion.",
+	"author": "Salmund",
+	"authorUrl": "https://github.com/salmund/",
+	"isDesktopOnly": false
+}
