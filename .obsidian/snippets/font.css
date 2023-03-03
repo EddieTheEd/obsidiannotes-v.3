@@ -1,9 +1,0 @@
-/* Change font in preview */
-.markdown-preview-view {
-    font-family: "Noto Sans", sans-serif !important;
-    font-size: 17px;
-}
-
-.markdown-source-view {
-  font-size: 16px
-}
