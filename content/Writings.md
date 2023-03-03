@@ -27,3 +27,9 @@ I dunno when this was created
 - [[02-02-2023 Some thoughts on working better]]
 - [[18-02-2023 The Legend of 0 point 38mm]]
 - [[23-02-2023 The Chemical Blacklist]]
+
+## Personal Notes (some will be public, some will not)
+
+*dont ask to read some of them, if you really feel the innate desire to dig that deep into my life then check the github*
+- [Set List](Set%20List.md)
+- [[03-03-2023 A letter to myself]]
