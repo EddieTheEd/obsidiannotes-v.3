@@ -92,6 +92,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "20-12-2022 Website Philosophy",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-12-2022 Website Philosophy.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "Writings",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Writings.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -102,7 +108,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-12-2022 Website Philosophy.md",
+                "file": "Writings.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -132,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 3,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -253,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-03-2023 A letter to myself.md",
+                "file": "Writings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -274,7 +280,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-03-2023 A letter to myself.md",
+                "file": "Writings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -386,11 +392,11 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "616601005869bb2e",
+  "active": "c8ec8747433199f9",
   "lastOpenFiles": [
     "20-12-2022 Website Philosophy.md",
-    "Writings.md",
     "03-03-2023 A letter to myself.md",
+    "Writings.md",
     "Set List.md",
     "18-02-2023 The Legend of 0 point 38mm.md",
     "Development Status.md",
