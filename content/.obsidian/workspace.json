@@ -206,13 +206,58 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Comp Sci Task 1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Comp Sci Task 1.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "1534c1cf41fb88a0",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Comp Sci Task 1.md",
+                "file": "notes.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9369c325df6ea3f2",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Set List.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -220,6 +265,7 @@
             }
           }
         ],
+        "currentTab": 9,
         "stacked": true
       }
     ],
@@ -315,8 +361,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "9269a3f4297f043b",
@@ -341,7 +386,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_index.md",
+                "file": "Set List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -362,7 +407,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_index.md",
+                "file": "Set List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -474,17 +519,17 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "41d243c617138beb",
+  "active": "9369c325df6ea3f2",
   "lastOpenFiles": [
+    "notes.md",
+    "templates/Draft.md",
     "Comp Sci Task 1.md",
-    "templates/Callouts.md",
     "_index.md",
+    "templates/Callouts.md",
     "Pilling Calculation Questions.md",
     "AELIT Notes.md",
     "02-02-2023 Some thoughts on working better.md",
     "Gothic Genre in the Victorian Era.md",
-    "notes.md",
-    "R-AESPE-4.md",
-    "AESPE Notes.md"
+    "R-AESPE-4.md"
   ]
 }

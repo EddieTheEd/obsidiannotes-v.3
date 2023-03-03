@@ -53,3 +53,6 @@ I will not be adding a "return to x" button, that exists already.
 - [[Fred Test Chem 2]]
 - [[Fred Exam Chem 1]]
 - [[Fred Plan]]
+
+## Personal Notes:
+- [Set List](Set%20List)
