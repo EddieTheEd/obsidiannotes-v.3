@@ -22,6 +22,7 @@ I dunno when this was created
 - [24-02-2023 An angrily written response to spicatas claims about my css](24-02-2023%20An%20angrily%20written%20response%20to%20spicatas%20claims%20about%20my%20css.md)
 - [[25-02-2023 How to make a note-taking website WITHOUT PAYING]]
 - [[28-02-2023 A response to spicatas claims on tutors]]
+- [[04-03-2023 The town analogy]]
 
 ## Logs(Multi-use, will be updated periodically)
 - [[02-02-2023 Some thoughts on working better]]
@@ -33,3 +34,5 @@ I dunno when this was created
 *dont ask to read some of them, if you really feel the innate desire to dig that deep into my life then check the github*
 - [Set List](Set%20List.md)
 - [03-03-2023 A letter to myself](03-03-2023%20A%20letter%20to%20myself.md)
+
+

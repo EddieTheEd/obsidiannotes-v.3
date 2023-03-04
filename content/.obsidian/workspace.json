@@ -116,7 +116,7 @@
             }
           },
           {
-            "id": "616601005869bb2e",
+            "id": "2c709f746311ce69",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-03-2023 A letter to myself.md",
+                "file": "04-03-2023 The town analogy.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -138,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 2,
+        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -259,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Writings.md",
+                "file": "04-03-2023 The town analogy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -280,7 +280,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writings.md",
+                "file": "04-03-2023 The town analogy.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -373,7 +373,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -391,17 +392,17 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "cbed8ebf01a17d3f",
+  "active": "2c709f746311ce69",
   "lastOpenFiles": [
+    "Writings.md",
+    "_index.md",
     "20-12-2022 Website Philosophy.md",
     "03-03-2023 A letter to myself.md",
-    "Writings.md",
     "Set List.md",
     "18-02-2023 The Legend of 0 point 38mm.md",
     "Development Status.md",
     "ATCHE Notes.md",
     "AESPE Notes.md",
-    "R-AESPE-4.md",
-    "Gothic Genre in the Victorian Era.md"
+    "R-AESPE-4.md"
   ]
 }
