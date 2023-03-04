@@ -24,6 +24,7 @@ I dunno when this was created
 - [[28-02-2023 A response to spicatas claims on tutors]]
 - [04-03-2023 The town analogy](04-03-2023%20The%20town%20analogy.md)
 
+why doesn't the links work sometimes? i'll never know
 ## Logs(Multi-use, will be updated periodically)
 - [[02-02-2023 Some thoughts on working better]]
 - [[18-02-2023 The Legend of 0 point 38mm]]
