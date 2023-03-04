@@ -281,7 +281,7 @@
               "type": "backlink",
               "state": {
                 "file": "Writings.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
@@ -391,7 +391,7 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "c8ec8747433199f9",
+  "active": "cbed8ebf01a17d3f",
   "lastOpenFiles": [
     "20-12-2022 Website Philosophy.md",
     "03-03-2023 A letter to myself.md",
