@@ -100,7 +100,7 @@ baseURL = "https://<YOUR-GITHUB-USERNAME>.github.io/quartz/"
 ```
 OR if you are using github pages:
 ```
-cname: <YOUR-DOMAIN>
+cname: <YOUR-USERNAME>.github.io
 ```
 
 ## Making it yours
