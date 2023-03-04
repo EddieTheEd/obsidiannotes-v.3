@@ -22,7 +22,7 @@ I dunno when this was created
 - [24-02-2023 An angrily written response to spicatas claims about my css](24-02-2023%20An%20angrily%20written%20response%20to%20spicatas%20claims%20about%20my%20css.md)
 - [[25-02-2023 How to make a note-taking website WITHOUT PAYING]]
 - [[28-02-2023 A response to spicatas claims on tutors]]
-- [[04-03-2023 The town analogy]]
+- [04-03-2023 The town analogy](04-03-2023%20The%20town%20analogy.md)
 
 ## Logs(Multi-use, will be updated periodically)
 - [[02-02-2023 Some thoughts on working better]]
