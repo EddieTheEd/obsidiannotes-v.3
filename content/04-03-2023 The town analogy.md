@@ -62,4 +62,5 @@ There's plenty of space in the new side of town. Please, if you're sick of strug
 Maybe someday we'll be able to live like the nomads. To be one with the harsh desert environment.
 
 *With love(but not for dasindu),*
+
 *Ed, founder of The Town*
