@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-03-2023-The-town-analogy.md",
+                "file": "04-03-2023 The town analogy.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -138,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 3,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -259,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04-03-2023-The-town-analogy.md",
+                "file": "Writings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -280,7 +280,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04-03-2023-The-town-analogy.md",
+                "file": "Writings.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -392,10 +392,10 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "2c709f746311ce69",
+  "active": "c8ec8747433199f9",
   "lastOpenFiles": [
+    "04-03-2023 The town analogy.md",
     "Writings.md",
-    "04-03-2023-The-town-analogy.md",
     "_index.md",
     "20-12-2022 Website Philosophy.md",
     "03-03-2023 A letter to myself.md",
