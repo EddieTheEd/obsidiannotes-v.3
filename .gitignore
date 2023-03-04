@@ -5,5 +5,4 @@ resources
 assets/indices/linkIndex.json
 assets/indices/contentIndex.json
 content/.obsidian/workspace.json
-content/
 linkmap
