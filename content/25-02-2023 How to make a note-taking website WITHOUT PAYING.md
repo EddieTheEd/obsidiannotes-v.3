@@ -85,7 +85,7 @@ baseURL = "https://<YOUR-DOMAIN>/"
 ```
 OR if you are using github pages:
 ```
-baseURL = "https://<YOUR-GITHUB-USERNAME>.github.io/quartz/"
+baseURL = "https://<YOUR-GITHUB-USERNAME>.github.io/<REPO-NAME>/"
 ```
 
 - /.github/workflows/deploy.yaml: (if you are using custom domain)
@@ -154,7 +154,7 @@ enableRecentNotes: false
 # whether to display an 'edit' button next to the last edited field
 # that links to github
 enableGitHubEdit: true
-GitHubLink: https://github.com/jackyzha0/quartz/tree/hugo/content
+GitHubLink: <REPO-URL>/tree/hugo/content
 
 # whether to render mermaid diagrams
 enableMermaid: true
@@ -169,12 +169,11 @@ search:
 
 # page description used for SEO
 description:
-  Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
-  Wikilink support, backlinks, local graph, tags, and link previews.
+  <DESCRIPTION>
 
 # title of the home page (also for SEO)
 page_title:
-  "🪴 Quartz 3.3"
+  "<TITLE>"
 
 # links to show in the footer
 links:
