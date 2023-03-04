@@ -160,7 +160,7 @@
             }
           }
         ],
-        "currentTab": 4,
+        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -281,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04-03-2023 The town analogy.md",
+                "file": "25-02-2023 How to make a note-taking website WITHOUT PAYING.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -302,7 +302,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04-03-2023 The town analogy.md",
+                "file": "25-02-2023 How to make a note-taking website WITHOUT PAYING.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -414,11 +414,11 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "2c709f746311ce69",
+  "active": "860c5e181d305ebb",
   "lastOpenFiles": [
+    "04-03-2023 The town analogy.md",
     "25-02-2023 How to make a note-taking website WITHOUT PAYING.md",
     "Writings.md",
-    "04-03-2023 The town analogy.md",
     "_index.md",
     "20-12-2022 Website Philosophy.md",
     "03-03-2023 A letter to myself.md",

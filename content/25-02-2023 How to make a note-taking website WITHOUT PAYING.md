@@ -197,7 +197,7 @@ That should be it! If you find anything confusing or you want to add any tips, p
 1. Actions returning exit code 128
 ![](000_Files/000a_images/debug.png)
 
-This means your computer doesn't have the right access tokens. I suspect this only affects Linux computers.
+This means your computer doesn't have the right access tokens. ~~I suspect this only affects Linux computers.~~ I have been informed it affects windows as well. I'm guessing github must've changed something recently.
 
 SOLUTION:
 1. Open the settings tab
