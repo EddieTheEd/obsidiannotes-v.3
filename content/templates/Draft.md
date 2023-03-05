@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Draft"
+title: "{{title}}"
 draft: true
 ---
 
