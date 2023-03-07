@@ -33,11 +33,15 @@ Luckily for the town but unluckily for me, my "colleague" has also set up shop h
 
 I got an odd request from an old friend of mine. He also decided to take refuge in the town, but currently he's living in a shell of a house. His name is [jlee](https://supaqwerty.github.io/year-11-notes/). Hopefully he starts putting some walls up(website content) in time for the upcoming sandstorm.
 
+A visitor came to the town. She said that life inside her Gothic-themed house was alright, but wasn't ideal for the long run. They decided to set up here. You can see her house right [over here](https://shan-mei.github.io/shanmeis-notes/).
+
+I may have asked her to come and live in this town. Maybe.  I may have "nagged" her. Just a little. Very very slightly.
+
 I'm an entrepreneurial individual. I sell tea and spaghetti.
 
 You may have heard that my house is quite volatile. That it has burnt down twice. This is fake news. Absolute rubbish.
 
-You may have also heard that we are discriminatory. That we refuse people who want to set up Victorian-esque houses(wix websites) in our town. This is absolutely true. They are not allowed here. Maybe we will reconsider in the future. Probably not.
+You may have also heard that we are discriminatory. That we refuse people who want to set up Gothic-themed houses(wix websites) in our town. This is absolutely true. They are not allowed here. Maybe we will reconsider in the future. Probably not.
 
 Anyways, another friend of mine set up shop in this town of ours. But, he kinda owes a lot of debt to this random company in America. I think his house is co-owned by said company. He lives far off from the centre of the town. He's often forgotten. His name is [dasindu](https://pale-ladybug-133.notion.site/Nuclei-moment-2c89b8b95cc74fd6bab60300753d48e8).
 

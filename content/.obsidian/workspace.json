@@ -148,9 +148,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "68696ca97d714ad2",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04-03-2023 The town analogy.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3,
+        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -271,7 +293,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "07-03-2023 Website Structure.md",
+                "file": "04-03-2023 The town analogy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -292,7 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "07-03-2023 Website Structure.md",
+                "file": "04-03-2023 The town analogy.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -404,11 +426,11 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "a917206370904c27",
+  "active": "68696ca97d714ad2",
   "lastOpenFiles": [
+    "07-03-2023 Website Structure.md",
     "Vault Setup.canvas",
     "Writings.md",
-    "07-03-2023 Website Structure.md",
     "Set List.md",
     "Development Status.md",
     "pass.md",
