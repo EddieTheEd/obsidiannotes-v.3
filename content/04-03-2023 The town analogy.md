@@ -63,4 +63,4 @@ Maybe someday we'll be able to live like the nomads. To be one with the harsh de
 
 *With love(but not for dasindu),*
 
-*Ed, a founder of The Town*
+*Ed, a  founder of The Town*
