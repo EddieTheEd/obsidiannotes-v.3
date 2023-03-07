@@ -160,6 +160,7 @@
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -280,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_index.md",
+                "file": "Development Status.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -301,7 +302,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_index.md",
+                "file": "Development Status.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -413,8 +414,9 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "41d243c617138beb",
+  "active": "d3bae80dd0606953",
   "lastOpenFiles": [
+    "_index.md",
     "R-ATCHE-1(S).md",
     "ATCHE Notes.md",
     "R-ATCHE-6.md",
@@ -422,7 +424,6 @@
     "04-03-2023 The town analogy.md",
     "Gothic Genre in the Victorian Era.md",
     "R-AECHE-21.md",
-    "_index.md",
     "AELIT Notes.md",
     "R-AESPE-8.md"
   ]

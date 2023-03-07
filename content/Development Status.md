@@ -85,3 +85,6 @@ I think this is the final evolution
 
 - I have made dark mode the default. It is a great day.
 - Assassinated the monkey
+
+## 4/03/2023
+I will attempt to fix recent notes. Wish me luck!
