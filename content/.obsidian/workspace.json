@@ -237,6 +237,15 @@
           {
             "id": "9c2f51028c52e82b",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "file-tree-view",
               "state": {}
@@ -407,15 +416,15 @@
   },
   "active": "d3bae80dd0606953",
   "lastOpenFiles": [
-    "Anthony's B-Day GIft.md",
+    "pass.md",
     "Development Status.md",
+    "Anthony's B-Day GIft.md",
     "_index.md",
     "R-ATCHE-1(S).md",
     "ATCHE Notes.md",
     "R-ATCHE-6.md",
     "Writings.md",
     "04-03-2023 The town analogy.md",
-    "Gothic Genre in the Victorian Era.md",
-    "R-AECHE-21.md"
+    "Gothic Genre in the Victorian Era.md"
   ]
 }
