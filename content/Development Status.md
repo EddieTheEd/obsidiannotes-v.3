@@ -90,3 +90,7 @@ I think this is the final evolution
 I will attempt to fix recent notes. Wish me luck!
 
 anthony's bday gift has been executed
+
+well damn i actually fixed it
+
+just had to execute some files w/o frontmatter
