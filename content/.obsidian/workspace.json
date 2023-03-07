@@ -160,7 +160,6 @@
             }
           }
         ],
-        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -281,7 +280,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "R-ATCHE-1(S).md",
+                "file": "_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -302,7 +301,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "R-ATCHE-1(S).md",
+                "file": "_index.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -414,10 +413,10 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "4b8994457b5e77a9",
+  "active": "41d243c617138beb",
   "lastOpenFiles": [
-    "ATCHE Notes.md",
     "R-ATCHE-1(S).md",
+    "ATCHE Notes.md",
     "R-ATCHE-6.md",
     "Writings.md",
     "04-03-2023 The town analogy.md",

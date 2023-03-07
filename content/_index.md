@@ -39,6 +39,12 @@ ___
 
 ![](000_Files/000a_images/fax.png)
 
+---
+## Why I should be your tutor
+Here is a satisfied customer:
+![](000_Files/000a_images/christian%20review.png)
+
+
 ___
 
 ## Tips and Tricks
