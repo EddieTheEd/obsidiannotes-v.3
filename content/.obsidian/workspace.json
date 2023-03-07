@@ -158,13 +158,19 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "04-03-2023 The town analogy",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"04-03-2023 The town analogy.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":37,\"ch\":119},\"to\":{\"line\":37,\"ch\":119}},\"scroll\":37.5611963266434}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-03-2023 The town analogy.md",
+                "file": "03-03-2023 A letter to myself.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -293,7 +299,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04-03-2023 The town analogy.md",
+                "file": "03-03-2023 A letter to myself.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -314,7 +320,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04-03-2023 The town analogy.md",
+                "file": "03-03-2023 A letter to myself.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -428,6 +434,7 @@
   },
   "active": "68696ca97d714ad2",
   "lastOpenFiles": [
+    "04-03-2023 The town analogy.md",
     "07-03-2023 Website Structure.md",
     "Vault Setup.canvas",
     "Writings.md",
@@ -436,7 +443,6 @@
     "pass.md",
     "Anthony's B-Day GIft.md",
     "_index.md",
-    "R-ATCHE-1(S).md",
-    "ATCHE Notes.md"
+    "R-ATCHE-1(S).md"
   ]
 }

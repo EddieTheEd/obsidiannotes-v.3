@@ -5,6 +5,7 @@ title: "03-03-2023 A letter to myself"
 
 *100% stolen from jzhao*
 *Editor's Note: I may or may not be doing a yearly letter to myself, like Jzhao. I dunno. Probably not.*
+*Second Editor's Note: Quite clearly i lost the plot on this one. It's not really a letter to myself, its an open letter regarding how i see life in school. Probably will try again next time?*
 
 ## The Setting
 
