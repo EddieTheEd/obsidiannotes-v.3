@@ -23,6 +23,8 @@ I dunno when this was created
 - [[25-02-2023 How to make a note-taking website WITHOUT PAYING]]
 - [[28-02-2023 A response to spicatas claims on tutors]]
 - [04-03-2023 The town analogy](04-03-2023%20The%20town%20analogy.md)
+- [07-03-2023 Website Structure](07-03-2023%20Website%20Structure.md)
+
 
 why doesn't the links work sometimes? i'll never know
 ## Logs(Multi-use, will be updated periodically)
