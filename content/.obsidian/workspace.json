@@ -85,17 +85,17 @@
             "id": "c8ec8747433199f9",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Set List",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Set List.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":7.977689781034557}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Writings",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Writings.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
                   "title": "20-12-2022 Website Philosophy",
@@ -114,7 +114,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Writings.md",
+                "file": "AELIT Notes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -122,7 +122,7 @@
             }
           },
           {
-            "id": "a917206370904c27",
+            "id": "419f70f3b94484ce",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -130,47 +130,13 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "Vault Setup",
-                  "icon": "lucide-layout-dashboard",
-                  "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"Vault Setup.canvas\",\"viewState\":{\"x\":-602.6425561425189,\"y\":108.29790352343801,\"zoom\":-1.6947210339881869,\"snapToGrid\":false}}}",
-                  "eState": "{}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07-03-2023 Website Structure.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "68696ca97d714ad2",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "04-03-2023 The town analogy",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"04-03-2023 The town analogy.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":37,\"ch\":119},\"to\":{\"line\":37,\"ch\":119}},\"scroll\":37.5611963266434}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-03-2023 A letter to myself.md",
+                "file": "Gothic Lens.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -178,7 +144,6 @@
             }
           }
         ],
-        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -299,7 +264,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-03-2023 A letter to myself.md",
+                "file": "_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -320,7 +285,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-03-2023 A letter to myself.md",
+                "file": "_index.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -432,17 +397,17 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "68696ca97d714ad2",
+  "active": "41d243c617138beb",
   "lastOpenFiles": [
-    "04-03-2023 The town analogy.md",
-    "07-03-2023 Website Structure.md",
-    "Vault Setup.canvas",
-    "Writings.md",
-    "Set List.md",
-    "Development Status.md",
-    "pass.md",
-    "Anthony's B-Day GIft.md",
+    "Gothic Lens.md",
     "_index.md",
-    "R-ATCHE-1(S).md"
+    "AELIT Notes.md",
+    "Writings.md",
+    "07-03-2023 Website Structure.md",
+    "03-03-2023 A letter to myself.md",
+    "04-03-2023 The town analogy.md",
+    "Vault Setup.canvas",
+    "Set List.md",
+    "Development Status.md"
   ]
 }

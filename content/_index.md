@@ -7,7 +7,7 @@ title: "Ed's Obsidian Notes v.3"
 
 
 ```yaml {title="Funny quote from me (past website)(this is prehistoric)"}
-¯\\\_(ツ)\_/¯ maybe this works maybe it doesnt, but christian choe based\
+¯\_(ツ)_/¯ maybe this works maybe it doesnt, but christian choe based
 ```
 
 ## HEY
