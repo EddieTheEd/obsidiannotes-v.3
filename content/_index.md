@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Ed's Obsidian Notes v.3"
+enableToc: false
 ---
 
 
