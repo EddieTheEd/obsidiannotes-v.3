@@ -54,6 +54,34 @@
             }
           },
           {
+            "id": "68c23f354d82a121",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 1,
+              "stack": [
+                {
+                  "title": "23-02-2023 The v 3 saga",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"23-02-2023 The v 3 saga.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":6.661486292355706}"
+                },
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Writings.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d3bae80dd0606953",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -82,7 +110,6 @@
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -203,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Development Status.md",
+                "file": "_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Development Status.md",
+                "file": "_index.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -336,17 +363,17 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "d3bae80dd0606953",
+  "active": "41d243c617138beb",
   "lastOpenFiles": [
-    "_index.md",
     "Development Status.md",
+    "Writings.md",
+    "23-02-2023 The v 3 saga.md",
+    "_index.md",
     "The Revised Fred Plan.md",
     "Fred Plan.md",
     "23-02-2023 The Chemical Blacklist.md",
     "R-ATCHE-5.md",
     "AESPE Notes.md",
-    "R-AESPE-9.md",
-    "R-AEPHY-6.md",
-    "AEPHY Notes.md"
+    "R-AESPE-9.md"
   ]
 }
