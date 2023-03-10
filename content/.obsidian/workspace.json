@@ -80,83 +80,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "c8ec8747433199f9",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "AELIT Notes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"AELIT Notes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Writings",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Writings.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "20-12-2022 Website Philosophy",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-12-2022 Website Philosophy.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Writings",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Writings.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":33,\"ch\":27},\"to\":{\"line\":33,\"ch\":27}},\"scroll\":19.542650375892425}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AEPHY Notes.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9fbc040ff76bc425",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "R-AEPHY-5",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"R-AEPHY-5.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "R-AEPHY-6.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3,
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -277,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "R-AEPHY-6.md",
+                "file": "Development Status.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -298,7 +224,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "R-AEPHY-6.md",
+                "file": "Development Status.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -410,17 +336,17 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "9fbc040ff76bc425",
+  "active": "d3bae80dd0606953",
   "lastOpenFiles": [
-    "AEPHY Notes.md",
+    "The Revised Fred Plan.md",
+    "Development Status.md",
+    "Fred Plan.md",
+    "23-02-2023 The Chemical Blacklist.md",
+    "R-ATCHE-5.md",
+    "AESPE Notes.md",
+    "R-AESPE-9.md",
     "R-AEPHY-6.md",
-    "R-AEPHY-5.md",
-    "AELIT Notes.md",
-    "Gothic Lens.md",
-    "27-11-2022 Sleep is not as important.md",
-    "_index.md",
-    "Writings.md",
-    "07-03-2023 Website Structure.md",
-    "03-03-2023 A letter to myself.md"
+    "AEPHY Notes.md",
+    "R-AEPHY-5.md"
   ]
 }

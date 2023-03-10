@@ -8,7 +8,7 @@ title: "R-ATCHE-5"
 - When equilibrium is re-established, concentration will **tend to be different**.
 	- There are funny exceptions of course :(
 
-$2CrO_{4(aq)}^{2-}+2H^{+}_{(aq)}\rightleftharpoons Cr_{2}O_{7(aq)}^{2-}+H_{2}O_{(l)}$
+$2CrO_{4(aq)} ^{2-}+2H^{+}_{(aq)}\rightleftharpoons Cr_{2}O_{7(aq)}^{2-}+H_{2}O_{(l)}$
 
 - If we increase the concentration of anything in this system, equilibrium will be disrupted and thus the system + other concentrations will change to re-establish equilibrium.
 

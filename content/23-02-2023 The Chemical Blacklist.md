@@ -6,6 +6,7 @@ title: "23-02-2023 The Chemical Blacklist"
 ## 1. $Al(NO_{3})_{3}$
 - Reason: For being a Lewis acid
 - Why blacklist: Can showed as an acid using universal indicator but formed a precipitate in the chem practical for yr 11. Confused the hell out of me, and caused me to lose marks in what would otherwise be an almost perfect assessment.
+- [the sad truth](https://chemed.chem.purdue.edu/genchem/topicreview/bp/ch11/lewis.php#:~:text=A%20Lewis%20acid%20is%20therefore,a%20pair%20of%20nonbonding%20electrons.)
 
 ## 2. $ClO_{2}$
 - Reason: for existing
