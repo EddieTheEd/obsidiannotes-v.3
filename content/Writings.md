@@ -38,5 +38,6 @@ why doesn't the links work sometimes? i'll never know
 *dont ask to read some of them, if you really feel the innate desire to dig that deep into my life then check the github*
 - [Set List](Set%20List.md)
 - [03-03-2023 A letter to myself](03-03-2023%20A%20letter%20to%20myself.md)
+- [Piano Pieces](Piano%20Pieces.md)
 
 
