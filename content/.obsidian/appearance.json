@@ -4,10 +4,11 @@
   "cssTheme": "AnuPpuccin",
   "enabledCssSnippets": [
     "catpuccin",
-    "custom-admonitions.7bfb44"
+    "custom-admonitions.7bfb44",
+    "extended-colorschemes"
   ],
   "theme": "obsidian",
   "textFontFamily": "Liberation Sans",
-  "accentColor": "#686cde",
+  "accentColor": "#ffbb00",
   "nativeMenus": false
 }

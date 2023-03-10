@@ -414,9 +414,8 @@ settings:
   -
     id: callout-title-padding
     title: Callout Title Padding
-    type: variable-number
-    default: 8
-    format: px
+    type: variable-text
+    default: 8px
   -
     id: callout-title-opacity
     title: Callout Title Background Opacity
@@ -429,9 +428,8 @@ settings:
   -
     id: callout-content-padding
     title: Callout Content Padding
-    type: variable-number
-    default: 8
-    format: px
+    type: variable-text
+    default: 8px
   -
     id: anp-callout-fold-position
     title: Callout Fold Position
@@ -1163,6 +1161,10 @@ settings:
     title: Enable Custom Heading Margin
     type: class-toggle
   -
+    id: anp-header-divider-color-toggle
+    title: Inherit Divider Color from Heading Color
+    type: class-toggle
+  -
     id: anp-header-margin-value
     title: Heading margin value
     description: Size unit is px
@@ -1788,6 +1790,55 @@ settings:
       - 
         label: Lavender
         value: anp-italic-lavender
+  -
+    id: anp-highlight-custom
+    title: Highlight Color
+    type: class-select
+    allowEmpty: true
+    default: anp-highlight-yellow
+    options:
+      - 
+        label: Rosewater
+        value: anp-highlight-rosewater
+      - 
+        label: Flamingo
+        value: anp-highlight-flamingo
+      - 
+        label: Pink
+        value: anp-highlight-pink
+      - 
+        label: Mauve
+        value: anp-highlight-mauve
+      - 
+        label: Red
+        value: anp-highlight-red
+      - 
+        label: Maroon
+        value: anp-highlight-maroon
+      - 
+        label: Peach
+        value: anp-highlight-peach
+      - 
+        label: Yellow
+        value: anp-highlight-yellow
+      - 
+        label: Green
+        value: anp-highlight-green
+      - 
+        label: Teal
+        value: anp-highlight-teal
+      - 
+        label: Sky
+        value: anp-highlight-sky
+      - 
+        label: Sapphire
+        value: anp-highlight-sapphire
+      - 
+        label: Blue
+        value: anp-highlight-blue
+      - 
+        label: Lavender
+        value: anp-highlight-lavender
 
 # Workspace
 
@@ -2065,11 +2116,11 @@ settings:
     type: class-toggle
   -
     id: anp-simple-rainbow-indentation-toggle
-    title: Enable collpase indent recolor
+    title: Enable collapse indent recolor
     type: class-toggle
   -
     id: anp-simple-rainbow-collapse-toggle
-    title: Enable collpase indicator
+    title: Enable collapse indicator
     type: class-toggle
   -
     id: anp-simple-rainbow-icon-toggle
@@ -2260,21 +2311,24 @@ settings:
     title: Workspace Layout variant
     type: class-select
     allowEmpty: false
-    default: anp-default-layout
+    default: none
     options:
       -
         label: Default
         value: none
       -
+        label: Border
+        value: anp-border-layout
+      -
         label: Cards
         value: anp-card-layout
   -
-    id: anp-disable-borders
-    title: Disable borders
-    type: class-toggle
-  -
     id: anp-bg-fix
     title: Background fix for applying colors
+    type: class-toggle
+  -
+    id: anp-hide-borders
+    title: Hide borders
     type: class-toggle
 
 # Workspace :: Workspace Layout :: Card Layout
@@ -2316,6 +2370,25 @@ settings:
     id: anp-card-layout-filebrowser
     title: Enable card format for file browser
     type: class-toggle
+  -
+    id: anp-layout-border
+    title: Border Layout Settings
+    description: 
+    type: heading
+    level: 3
+    collapsed: true
+  -
+    id: anp-border-radius
+    title: Border Layout Radius
+    type: variable-number
+    default: 16
+    format: px
+  -
+    id: anp-border-padding
+    title: Border Layout Padding
+    type: variable-number
+    default: 20
+    format: px
 
 # Credits
 
@@ -2596,6 +2669,10 @@ settings:
   --anp-italic-color: var(--ctp-rosewater);
 }
 
+.anp-highlight-rosewater {
+  --anp-highlight-color: var(--ctp-rosewater);
+}
+
 .anuppuccin-accent-toggle.ctp-accent-flamingo {
   --ctp-accent: var(--ctp-flamingo);
 }
@@ -2610,6 +2687,10 @@ settings:
 
 .anp-italic-flamingo {
   --anp-italic-color: var(--ctp-flamingo);
+}
+
+.anp-highlight-flamingo {
+  --anp-highlight-color: var(--ctp-flamingo);
 }
 
 .anuppuccin-accent-toggle.ctp-accent-pink {
@@ -2628,6 +2709,10 @@ settings:
   --anp-italic-color: var(--ctp-pink);
 }
 
+.anp-highlight-pink {
+  --anp-highlight-color: var(--ctp-pink);
+}
+
 .anuppuccin-accent-toggle.ctp-accent-mauve {
   --ctp-accent: var(--ctp-mauve);
 }
@@ -2642,6 +2727,10 @@ settings:
 
 .anp-italic-mauve {
   --anp-italic-color: var(--ctp-mauve);
+}
+
+.anp-highlight-mauve {
+  --anp-highlight-color: var(--ctp-mauve);
 }
 
 .anuppuccin-accent-toggle.ctp-accent-red {
@@ -2660,6 +2749,10 @@ settings:
   --anp-italic-color: var(--ctp-red);
 }
 
+.anp-highlight-red {
+  --anp-highlight-color: var(--ctp-red);
+}
+
 .anuppuccin-accent-toggle.ctp-accent-maroon {
   --ctp-accent: var(--ctp-maroon);
 }
@@ -2674,6 +2767,10 @@ settings:
 
 .anp-italic-maroon {
   --anp-italic-color: var(--ctp-maroon);
+}
+
+.anp-highlight-maroon {
+  --anp-highlight-color: var(--ctp-maroon);
 }
 
 .anuppuccin-accent-toggle.ctp-accent-peach {
@@ -2692,6 +2789,10 @@ settings:
   --anp-italic-color: var(--ctp-peach);
 }
 
+.anp-highlight-peach {
+  --anp-highlight-color: var(--ctp-peach);
+}
+
 .anuppuccin-accent-toggle.ctp-accent-yellow {
   --ctp-accent: var(--ctp-yellow);
 }
@@ -2706,6 +2807,10 @@ settings:
 
 .anp-italic-yellow {
   --anp-italic-color: var(--ctp-yellow);
+}
+
+.anp-highlight-yellow {
+  --anp-highlight-color: var(--ctp-yellow);
 }
 
 .anuppuccin-accent-toggle.ctp-accent-green {
@@ -2724,6 +2829,10 @@ settings:
   --anp-italic-color: var(--ctp-green);
 }
 
+.anp-highlight-green {
+  --anp-highlight-color: var(--ctp-green);
+}
+
 .anuppuccin-accent-toggle.ctp-accent-teal {
   --ctp-accent: var(--ctp-teal);
 }
@@ -2738,6 +2847,10 @@ settings:
 
 .anp-italic-teal {
   --anp-italic-color: var(--ctp-teal);
+}
+
+.anp-highlight-teal {
+  --anp-highlight-color: var(--ctp-teal);
 }
 
 .anuppuccin-accent-toggle.ctp-accent-sky {
@@ -2756,6 +2869,10 @@ settings:
   --anp-italic-color: var(--ctp-sky);
 }
 
+.anp-highlight-sky {
+  --anp-highlight-color: var(--ctp-sky);
+}
+
 .anuppuccin-accent-toggle.ctp-accent-sapphire {
   --ctp-accent: var(--ctp-sapphire);
 }
@@ -2770,6 +2887,10 @@ settings:
 
 .anp-italic-sapphire {
   --anp-italic-color: var(--ctp-sapphire);
+}
+
+.anp-highlight-sapphire {
+  --anp-highlight-color: var(--ctp-sapphire);
 }
 
 .anuppuccin-accent-toggle.ctp-accent-blue {
@@ -2788,6 +2909,10 @@ settings:
   --anp-italic-color: var(--ctp-blue);
 }
 
+.anp-highlight-blue {
+  --anp-highlight-color: var(--ctp-blue);
+}
+
 .anuppuccin-accent-toggle.ctp-accent-lavender {
   --ctp-accent: var(--ctp-lavender);
 }
@@ -2802,6 +2927,10 @@ settings:
 
 .anp-italic-lavender {
   --anp-italic-color: var(--ctp-lavender);
+}
+
+.anp-highlight-lavender {
+  --anp-highlight-color: var(--ctp-lavender);
 }
 
 /*------------------Actual Configs--------------------*/
@@ -3182,6 +3311,9 @@ input.slider,
 .anp-card-layout .workspace-split:not(.mod-root) .graph-controls.is-close,
 .anp-card-layout .workspace-split:not(.mod-root) .graph-controls,
 .anp-card-layout .workspace-split:not(.mod-root) .graph-controls:not(.is-close),
+.anp-border-layout .workspace-split:not(.mod-root) .graph-controls.is-close,
+.anp-border-layout .workspace-split:not(.mod-root) .graph-controls,
+.anp-border-layout .workspace-split:not(.mod-root) .graph-controls:not(.is-close),
 .workspace-leaf .graph-controls.is-close,
 .workspace-leaf .graph-controls,
 .workspace-leaf .graph-controls:not(.is-close) {
@@ -3394,7 +3526,8 @@ input.slider,
 }
 
 .workspace, .horizontal-main-container,
-.anp-card-layout .mod-vertical .workspace-tabs {
+.anp-card-layout .mod-vertical .workspace-tabs,
+.anp-border-layout .mod-vertical .workspace-tabs {
   background-color: var(--tab-container-background);
 }
 
@@ -3426,192 +3559,9 @@ input.slider,
   background-color: rgba(var(--ctp-accent), 0.3);
 }
 
-body {
-  --card-background-color: rgb(var(--ctp-crust));
-  --card-foreground-color: var(--background-primary);
-}
-
-body.anp-card-layout,
-.anp-card-layout .sidebar-toggle-button,
-.anp-card-layout .workspace-tabs.mod-top {
-  --tab-container-background: var(--card-background-color);
-  --file-header-border: var(--border-width) dashed var(--background-modifier-border);
-}
-
-body.is-focused.anp-card-layout,
-body.is-focused.anp-card-layout .sidebar-toggle-button,
-body.is-focused.anp-card-layout .workspace-tabs.mod-top {
-  --tab-container-background: var(--card-background-color);
-}
-
-.anp-card-layout .mod-left-split .workspace-tab-header-container {
-  border-bottom: none;
-}
-
-.anp-card-layout .mod-left-split .workspace-tabs .workspace-leaf,
-.anp-card-layout .mod-right-split .workspace-tabs .workspace-leaf,
-.anp-card-layout .mod-left-split,
-.anp-card-layout .mod-vertical .workspace-tab-container,
-.anp-card-layout .mod-vertical,
-.anp-card-layout .workspace-split.mod-vertical,
-.anp-card-layout .workspace-fake-target-overlay:not(.is-in-sidebar) .workspace-tabs .workspace-leaf,
-.anp-card-layout .mod-root .workspace-tabs .workspace-leaf {
-  background-color: var(--tab-container-background);
-}
-
-.anp-card-layout .workspace-ribbon.mod-left {
-  padding: 0;
-  background-color: var(--tab-container-background);
-  border: none;
-}
-
-.anp-card-layout-actions.anp-card-layout .workspace-ribbon.mod-left {
-  margin-right: var(--anp-card-layout-padding, 10px);
-}
-
-.anp-card-layout .workspace-ribbon.mod-left:before {
-  border-bottom: none;
-  background-color: var(--tab-container-background);
-}
-
-.anp-card-layout .side-dock-actions {
-  padding: var(--ribbon-padding);
-}
-
-.anp-card-layout-actions.anp-card-layout .side-dock-actions {
-  border-radius: 0px var(--anp-card-radius, var(--radius-xl)) var(--anp-card-radius, var(--radius-xl)) 0px;
-  border: 1px solid var(--tab-outline-color);
-  background-color: var(--card-foreground-color);
-  margin-top: 2px;
-}
-
-.anp-card-layout-actions.anp-card-layout .side-dock-settings {
-  border-radius: 0px var(--anp-card-radius, var(--radius-xl)) 0px 0px;
-  border: 1px solid var(--tab-outline-color);
-  background-color: var(--card-foreground-color);
-}
-
-.anp-card-layout .side-dock-settings {
-  padding: var(--ribbon-padding);
-}
-
-.anp-card-layout .workspace-ribbon.mod-left {
-  margin-top: calc(var(--header-height) - 1px);
-}
-
-.anp-card-layout .workspace-tab-header-container {
-  border-bottom: none;
-}
-
-.anp-card-layout .mod-vertical .workspace-tab-header-container {
-  padding-left: var(--anp-card-header-left-padding, 20px);
-}
-
-.anp-card-layout .mod-vertical .workspace-tab-header-container-inner {
-  margin: 6px -5px calc(var(--tab-outline-width) * -1);
-  z-index: 1;
-}
-
-.anp-card-layout .mod-vertical .workspace-tabs {
-  padding-left: var(--anp-card-layout-padding, 10px);
-  padding-right: var(--anp-card-layout-padding, 10px);
-}
-
-.anp-card-layout .mod-left-split .workspace-tab-container,
-.anp-card-layout .mod-right-split .workspace-tab-container {
-  padding-left: var(--anp-card-layout-padding, 10px);
-  padding-right: var(--anp-card-layout-padding, 10px);
-  background-color: var(--tab-container-background);
-}
-
-.anp-card-layout .workspace-split.mod-left-split > .workspace-leaf-resize-handle,
-.anp-card-layout .workspace-split.mod-right-split > .workspace-leaf-resize-handle {
-  border-style: solid;
-  border-width: 2px;
-  border-color: transparent;
-}
-
-.anp-card-layout .workspace-split.mod-horizontal > * > .workspace-leaf-resize-handle {
-  border-style: solid;
-  border-color: transparent;
-  border-width: 2px;
-}
-
-.anp-card-layout .workspace-split .workspace-leaf-content {
-  border-radius: var(--anp-card-radius, var(--radius-xl));
-  background-color: var(--card-foreground-color);
-  border: 1px solid var(--tab-outline-color);
-  margin-bottom: var(--anp-card-layout-padding, 10px);
-}
-
-.anp-card-layout.anp-card-shadows .workspace-split .workspace-leaf-content, .anp-card-layout.anp-card-shadows.anp-card-layout-actions .side-dock-actions {
-  box-shadow: 0 3px 4px 0px rgba(0, 0, 0, 0.05);
-}
-.anp-card-layout.anp-card-shadows.anp-card-layout-filebrowser .workspace-split .workspace-leaf-content[data-type=file-explorer] {
-  box-shadow: 0 3px 4px 0px rgba(0, 0, 0, 0.05);
-}
-
-.anp-card-layout .workspace-split .workspace-leaf-content[data-type=file-explorer] {
-  background-color: var(--tab-container-background);
-  box-shadow: none;
-  border-width: 0px;
-}
-
-.anp-card-layout.anp-card-layout-filebrowser .workspace-split .workspace-leaf-content[data-type=file-explorer] {
-  background-color: var(--card-foreground-color);
-  border-width: 1px;
-}
-
-.anp-card-layout .workspace-split .mod-stacked .workspace-leaf-content {
-  border-radius: 0;
-  border: none;
-  margin-bottom: 0px;
-  border-left: none;
-}
-
-.anp-card-layout .workspace-split.mod-horizontal > * {
-  width: unset;
-}
-
-.anp-card-layout .workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-container .workspace-tab-header {
-  border-style: solid;
-  border-radius: var(--anp-card-radius, var(--radius-xl)) 0px 0px var(--anp-card-radius, var(--radius-xl));
-  border-width: var(--tab-outline-width);
-  border-color: var(--tab-outline-color);
-  border-right: var(--tab-outline-width) dashed var(--tab-outline-color);
-}
-
-.anp-card-layout .mod-stacked .workspace-leaf {
-  border-left-width: 0px;
-  border-top-width: var(--tab-outline-width);
-  border-bottom-width: var(--tab-outline-width);
-  border-style: solid;
-  border-color: var(--tab-outline-color);
-  border-radius: 0 var(--anp-card-radius, var(--radius-xl)) var(--anp-card-radius, var(--radius-xl)) 0;
-}
-
-.anp-card-layout .mod-stacked .workspace-tab-container {
-  padding-bottom: var(--anp-card-layout-padding, 10px);
-}
-
-.anp-card-layout .mod-top .workspace-leaf-resize-handle {
-  border-color: transparent;
-}
-
-body.anp-disable-borders {
-  --divider-color: transparent;
-}
-
-.anp-card-layout .workspace-drop-overlay:before {
-  width: calc(100% - 6px - var(--anp-card-layout-padding, 0) * 2);
-  height: calc(100% - 6px - var(--anp-card-layout-padding, 0) * 2);
-  margin: auto;
-}
-
-.anp-bg-fix .workspace,
-.anp-bg-fix .app-container,
-.anp-bg-fix .horizontal-main-container {
-  background-color: var(--tab-container-background);
+/*-Suggestion selected item bg fix-*/
+.suggestion-item.is-selected {
+  background-color: var(--background-secondary);
 }
 
 .mod-community-theme .modal-content .community-modal-details .community-modal-info summary h1:first-child, .mod-community-theme .modal-content .community-modal-details .community-modal-info summary h2:first-child, .mod-community-theme .modal-content .community-modal-details .community-modal-info summary h3:first-child, .mod-community-theme .modal-content .community-modal-details .community-modal-info summary h4:first-child, .mod-community-theme .modal-content .community-modal-details .community-modal-info summary h5:first-child, .mod-community-theme .modal-content .community-modal-details .community-modal-info summary h6:first-child {
@@ -3657,7 +3607,7 @@ body.is-translucent {
 .is-translucent:not(.is-fullscreen) .workspace-ribbon.mod-left,
 .is-translucent:not(.is-fullscreen) .workspace-tabs,
 .is-translucent:not(.is-fullscreen) .mod-left-split .workspace-tab-header-container,
-.is-translucent.anp-translucent-right:not(.is-fullscreen) .mod-right-split .workspace-tab-header-container,
+.is-translucent:not(.is-fullscreen) .mod-right-split .workspace-tab-header-container,
 .is-translucent:not(.is-fullscreen) .mod-top .workspace-tab-header-container,
 .is-translucent:not(.is-fullscreen) .workspace-tabs .workspace-leaf,
 .is-translucent:not(.is-fullscreen) .workspace-ribbon.mod-left:before,
@@ -3667,13 +3617,15 @@ body.is-translucent {
 .is-translucent:not(.is-fullscreen) .horizontal-main-container {
   background-color: transparent;
 }
+.is-translucent:not(.is-fullscreen) .view-header-title-container:not(.mod-at-end):after {
+  background-image: none;
+}
+.is-translucent:not(.is-fullscreen) .workspace-tabs.mod-stacked .workspace-tab-header, .is-translucent:not(.is-fullscreen) .workspace-tabs.mod-stacked .view-header {
+  background-color: var(--background-primary);
+}
 
 .is-translucent .workspace {
   background-color: transparent;
-}
-
-.is-translucent:not(.is-fullscreen) .view-header-title-container:not(.mod-at-end):after {
-  background-image: none;
 }
 
 .is-translucent .workspace-split.mod-left-split.is-sidedock-collapsed .workspace-tabs,
@@ -3681,12 +3633,8 @@ body.is-translucent {
   visibility: hidden;
 }
 
-.is-translucent.anp-card-layout {
+.is-translucent.anp-card-layout, .is-translucent.anp-border-layout {
   --card-background-color: transparent;
-}
-
-.is-translucent:not(.is-fullscreen) .workspace-tabs.mod-stacked .workspace-tab-header, .is-translucent:not(.is-fullscreen) .workspace-tabs.mod-stacked .view-header {
-  background-color: var(--background-primary);
 }
 
 .anp-autohide-titlebar:not(.is-mobile) {
@@ -3996,6 +3944,270 @@ body:not(.anp-alternate-tab-toggle):not(.anp-disable-newtab-align) .workspace-sp
   --anp-depth-tab-text: var(--ctp-crust);
 }
 
+body.anp-card-layout {
+  --card-background-color: rgb(var(--ctp-crust));
+  --card-foreground-color: var(--background-primary);
+  --divider-color: transparent;
+  --tab-outline-color: var(--background-modifier-border);
+  --divider-color-hover: var(--backgrouund-modifier-border);
+  --divider-width: 4px;
+  --divider-width-hover: 4px;
+  --tab-container-background: var(--card-background-color);
+  --file-header-border: var(--border-width) dashed var(--background-modifier-border);
+  --ribbon-padding: 0;
+}
+body.anp-card-layout.anp-hide-borders {
+  --tab-outline-color: transparent;
+}
+body.anp-card-layout .sidebar-toggle-button, body.anp-card-layout .workspace-tabs.mod-top {
+  --tab-container-background: var(--card-background-color);
+}
+body.anp-card-layout .workspace-tabs.mod-top:has(.obsidian-banner-wrapper) {
+  --file-header-border: none;
+}
+body.anp-card-layout.is-focused,
+body.anp-card-layout.is-focused .sidebar-toggle-button,
+body.anp-card-layout.is-focused .workspace-tabs.mod-top {
+  --tab-container-background: var(--card-background-color);
+}
+body.anp-card-layout .mod-left-split .workspace-tabs .workspace-leaf,
+body.anp-card-layout .mod-right-split .workspace-tabs .workspace-leaf,
+body.anp-card-layout .mod-left-split,
+body.anp-card-layout .mod-vertical .workspace-tab-container,
+body.anp-card-layout .mod-vertical,
+body.anp-card-layout .workspace-split.mod-vertical,
+body.anp-card-layout .workspace-fake-target-overlay:not(.is-in-sidebar) .workspace-tabs .workspace-leaf,
+body.anp-card-layout .mod-root .workspace-tabs .workspace-leaf,
+body.anp-card-layout .workspace-ribbon.mod-left,
+body.anp-card-layout .workspace-ribbon.mod-left:before {
+  background-color: var(--tab-container-background);
+}
+body.anp-card-layout.anp-card-layout-actions .workspace-ribbon.mod-left {
+  margin-right: var(--anp-card-layout-padding, 10px);
+}
+body.anp-card-layout.anp-card-layout-actions .side-dock-actions {
+  border-radius: 0px var(--anp-card-radius, var(--radius-xl)) var(--anp-card-radius, var(--radius-xl)) 0px;
+  margin-top: 2px;
+  border-width: 1px 1px 0px 1px;
+}
+body.anp-card-layout.anp-card-layout-actions .side-dock-actions, body.anp-card-layout.anp-card-layout-actions .side-dock-settings {
+  border-style: solid;
+  border-color: var(--tab-outline-color);
+  background-color: var(--card-foreground-color);
+}
+body.anp-card-layout.anp-card-layout-actions .side-dock-settings {
+  border-width: 1px 1px 0px 0px;
+  border-radius: 0px var(--anp-card-radius, var(--radius-xl)) 0px 0px;
+}
+body.anp-card-layout .side-dock-actions,
+body.anp-card-layout .side-dock-settings {
+  padding: var(--size-4-2) var(--size-4-1) var(--size-4-3);
+}
+body.anp-card-layout .workspace-ribbon.mod-left {
+  margin-top: calc(var(--header-height) - 1px);
+}
+body.anp-card-layout .workspace-tab-header-container, body.anp-card-layout .workspace-ribbon.mod-left:before {
+  border-bottom: none;
+}
+body.anp-card-layout .mod-vertical .workspace-tabs {
+  padding-left: var(--anp-card-layout-padding, 10px);
+  padding-right: var(--anp-card-layout-padding, 10px);
+}
+body.anp-card-layout .mod-vertical .workspace-tabs .workspace-tab-header-container {
+  padding-left: var(--anp-card-header-left-padding, 20px);
+}
+body.anp-card-layout .mod-vertical .workspace-tabs .workspace-tab-header-container .workspace-tab-header-container-inner {
+  margin: 6px -5px calc(var(--tab-outline-width) * -1);
+  z-index: 1;
+}
+body.anp-card-layout .mod-left-split .workspace-tab-container,
+body.anp-card-layout .mod-right-split .workspace-tab-container {
+  padding-left: var(--anp-card-layout-padding, 10px);
+  padding-right: var(--anp-card-layout-padding, 10px);
+  background-color: var(--tab-container-background);
+}
+body.anp-card-layout .workspace-split .workspace-leaf-content:not([data-type=file-explorer]), body.anp-card-layout.anp-card-layout-filebrowser .workspace-leaf-content[data-type=file-explorer] {
+  border-radius: var(--anp-card-radius, var(--radius-xl));
+  background-color: var(--card-foreground-color);
+  border: 1px solid var(--tab-outline-color);
+  margin-bottom: var(--anp-card-layout-padding, 10px);
+}
+body.anp-card-layout.anp-card-shadows .workspace-split .workspace-leaf-content, body.anp-card-layout.anp-card-shadows.anp-card-layout-actions .side-dock-actions, body.anp-card-layout.anp-card-shadows.anp-card-layout-filebrowser .workspace-split .workspace-leaf-content[data-type=file-explorer] {
+  box-shadow: 0 3px 4px 0px rgba(0, 0, 0, 0.05);
+}
+body.anp-card-layout .workspace-split .mod-stacked .workspace-leaf-content {
+  border-radius: 0;
+  border: none;
+  margin-bottom: 0px;
+  border-left: none;
+}
+body.anp-card-layout .workspace-split.mod-horizontal > * {
+  width: unset;
+}
+body.anp-card-layout .workspace .workspace-tabs.mod-stacked .workspace-tab-container .workspace-tab-header {
+  border-style: solid;
+  border-radius: var(--anp-card-radius, var(--radius-xl)) 0px 0px var(--anp-card-radius, var(--radius-xl));
+  border-width: var(--tab-outline-width);
+  border-color: var(--tab-outline-color);
+  border-right: var(--tab-outline-width) dashed var(--tab-outline-color);
+}
+body.anp-card-layout .workspace .workspace-tabs.mod-stacked .workspace-leaf {
+  border-left-width: 0px;
+  border-top-width: var(--tab-outline-width);
+  border-bottom-width: var(--tab-outline-width);
+  border-style: solid;
+  border-color: var(--tab-outline-color);
+  border-radius: 0 var(--anp-card-radius, var(--radius-xl)) var(--anp-card-radius, var(--radius-xl)) 0;
+}
+body.anp-card-layout .workspace .workspace-tabs.mod-stacked .workspace-tab-container {
+  padding-bottom: var(--anp-card-layout-padding, 10px);
+}
+body.anp-card-layout .workspace-drop-overlay:before {
+  width: calc(100% - 6px - var(--anp-card-layout-padding, 0) * 2);
+  height: calc(100% - 6px - var(--anp-card-layout-padding, 0) * 2);
+  margin: auto;
+}
+
+/*--------------------------
+Inspired by https://github.com/Akifyss/obsidian-border
+---------------------------*/
+body.anp-border-layout {
+  --card-background-color: rgb(var(--ctp-crust));
+  --card-foreground-color: var(--background-primary);
+  --border-border-style: 1px solid var(--tab-outline-color);
+}
+body.anp-border-layout .horizontal-main-container {
+  background-color: var(--card-background-color);
+  --titlebar-background: var(--card-background-color);
+  --ribbon-background: var(--card-background-color);
+  --ribbon-background-collapsed: var(--card-background-color);
+}
+body.anp-border-layout .workspace {
+  margin-right: var(--anp-border-padding, 20px);
+}
+body.anp-border-layout .workspace:not(.is-left-sidedock-open) .workspace-split.mod-vertical .workspace-tabs .workspace-tab-container {
+  border-left: var(--border-border-style);
+}
+body.anp-border-layout .workspace:not(.is-left-sidedock-open) .workspace-split.mod-vertical .workspace-tabs.mod-top .workspace-tab-container {
+  border-top-left-radius: var(--anp-border-radius, var(--radius-xl));
+}
+body.anp-border-layout .workspace:not(.is-left-sidedock-open) .workspace-split.mod-vertical .workspace-tabs:last-child .workspace-tab-container {
+  border-bottom-left-radius: var(--anp-border-radius, var(--radius-xl));
+}
+body.anp-border-layout .workspace:not(.is-left-sidedock-open) .workspace-split.mod-vertical .workspace-tabs:not(.mod-top) .workspace-tab-header-container {
+  border-left: var(--border-border-style);
+}
+body.anp-border-layout .workspace:not(.is-right-sidedock-open) .workspace-split.mod-vertical .workspace-tabs .workspace-tab-container {
+  border-right: var(--border-border-style);
+}
+body.anp-border-layout .workspace:not(.is-right-sidedock-open) .workspace-split.mod-vertical .workspace-tabs.mod-top-right-space .workspace-tab-container {
+  border-top-right-radius: var(--anp-border-radius, var(--radius-xl));
+}
+body.anp-border-layout .workspace:not(.is-right-sidedock-open) .workspace-split.mod-vertical .workspace-tabs:last-child .workspace-tab-container {
+  border-bottom-right-radius: var(--anp-border-radius, var(--radius-xl));
+}
+body.anp-border-layout .workspace:not(.is-right-sidedock-open) .workspace-split.mod-vertical .workspace-tabs:not(.mod-top) .workspace-tab-header-container {
+  border-right: var(--border-border-style);
+}
+body.anp-border-layout .workspace .workspace-split.mod-left-split {
+  background-color: var(--card-background-color);
+  padding-left: calc(var(--anp-border-padding, 20px) - 20px);
+  padding-bottom: var(--anp-border-padding, 20px);
+}
+body.anp-border-layout .workspace .workspace-split.mod-left-split .workspace-tabs {
+  background-color: var(--card-background-color);
+}
+body.anp-border-layout .workspace .workspace-split.mod-left-split .workspace-tabs .workspace-tab-container {
+  border-left: var(--border-border-style);
+}
+body.anp-border-layout .workspace .workspace-split.mod-left-split .workspace-tabs .workspace-tab-container .workspace-leaf {
+  background-color: var(--card-foreground-color);
+}
+body.anp-border-layout .workspace .workspace-split.mod-left-split .workspace-tabs:not(.mod-top) .workspace-tab-header-container {
+  border-left: var(--border-border-style);
+}
+body.anp-border-layout .workspace .workspace-split.mod-left-split .workspace-tabs:last-child .workspace-tab-container {
+  border-bottom-left-radius: var(--anp-border-radius, var(--radius-xl));
+  border-bottom: var(--border-border-style);
+}
+body.anp-border-layout .workspace .workspace-split.mod-left-split .workspace-tabs.mod-top-left-space .workspace-tab-container {
+  border-top-left-radius: var(--anp-border-radius, var(--radius-xl));
+  border-top: var(--border-border-style);
+  border-left: var(--border-border-style);
+}
+body.anp-border-layout .workspace .workspace-split.mod-right-split {
+  padding-bottom: var(--anp-border-padding, 20px);
+  background-color: var(--card-background-color);
+}
+body.anp-border-layout .workspace .workspace-split.mod-right-split .workspace-tabs {
+  background-color: var(--card-background-color);
+}
+body.anp-border-layout .workspace .workspace-split.mod-right-split .workspace-tabs .workspace-tab-container {
+  border-right: var(--border-border-style);
+}
+body.anp-border-layout .workspace .workspace-split.mod-right-split .workspace-tabs .workspace-tab-container .workspace-leaf {
+  background-color: var(--card-foreground-color);
+}
+body.anp-border-layout .workspace .workspace-split.mod-right-split .workspace-tabs:not(.mod-top) .workspace-tab-header-container {
+  border-right: var(--border-border-style);
+}
+body.anp-border-layout .workspace .workspace-split.mod-right-split .workspace-tabs:last-child .workspace-tab-container {
+  border-bottom-right-radius: var(--anp-border-radius, var(--radius-xl));
+  border-bottom: var(--border-border-style);
+}
+body.anp-border-layout .workspace .workspace-split.mod-right-split .workspace-tabs.mod-top-right-space .workspace-tab-container {
+  border-top-right-radius: var(--anp-border-radius, var(--radius-xl));
+  border-top: var(--border-border-style);
+  border-right: var(--border-border-style);
+}
+body.anp-border-layout .workspace .workspace-split:not(.mod-right-split):not(.mod-left-split) {
+  background-color: var(--card-background-color);
+  padding-bottom: var(--anp-border-padding, 20px);
+}
+body.anp-border-layout .workspace .workspace-split:not(.mod-right-split):not(.mod-left-split) > .workspace-split {
+  padding-bottom: 0;
+}
+body.anp-border-layout .workspace .workspace-split:not(.mod-right-split):not(.mod-left-split) .workspace-tabs {
+  background-color: var(--card-background-color);
+}
+body.anp-border-layout .workspace .workspace-split:not(.mod-right-split):not(.mod-left-split) .workspace-tabs:last-child .workspace-tab-container {
+  border-bottom: var(--border-border-style);
+}
+body.anp-border-layout .workspace .workspace-split:not(.mod-right-split):not(.mod-left-split) .workspace-tabs.mod-top .workspace-tab-container {
+  border-top: var(--border-border-style);
+}
+body.anp-border-layout .workspace .workspace-tabs:not(.mod-top) .workspace-tab-header-container {
+  background-color: var(--card-foreground-color);
+}
+body.anp-border-layout .workspace .workspace-tabs.mod-top .workspace-tab-header-container {
+  border-bottom: none;
+}
+body.anp-border-layout .workspace-split.mod-left-split > .workspace-leaf-resize-handle,
+body.anp-border-layout .workspace-split.mod-right-split > .workspace-leaf-resize-handle {
+  height: calc(100% + -1 * var(--header-height) + -1 * var(--anp-border-padding, 20px));
+  bottom: var(--anp-border-padding, 20px);
+}
+body.anp-border-layout .workspace-split {
+  --divider-vertical-height: calc(100% + -1*var(--header-height));
+}
+body.anp-border-layout .workspace-ribbon.mod-left:before {
+  border-bottom: 1px solid var(--card-background-color);
+}
+body.anp-border-layout .workspace-ribbon.mod-left, body.anp-border-layout .workspace-ribbon.mod-left.is-focused {
+  border-right-color: var(--card-background-color);
+}
+
+.anp-bg-fix .workspace,
+.anp-bg-fix .app-container,
+.anp-bg-fix .horizontal-main-container {
+  background-color: var(--tab-container-background);
+}
+
+.anp-hide-borders {
+  --tab-outline-color: transparent;
+  --divider-color: transparent;
+}
+
 /*----------------CALLOUTS-------------------*/
 .callout:not([data-callout-metadata*=revert]) {
   --callout-blend-mode: normal;
@@ -4227,6 +4439,7 @@ body:not(.anp-alternate-tab-toggle):not(.anp-disable-newtab-align) .workspace-sp
 .anp-decoration-toggle {
   --italic-color: rgb(var(--anp-italic-color, var(--ctp-green)));
   --bold-color: rgb(var(--anp-bold-color, var(--ctp-red)));
+  --text-highlight-bg: rgba(var(--anp-highlight-color, var(--ctp-yellow)), 0.2);
 }
 
 /*-Make it so that mark overwrites italic and bold colors-*/
@@ -4372,6 +4585,10 @@ sup[data-footnote-id] {
   border-bottom: var(--hr-thickness) solid var(--background-modifier-border);
   padding-bottom: 2px;
 }
+.anp-h1-divider.anp-header-divider-color-toggle .markdown-rendered h1,
+.anp-h1-divider.anp-header-divider-color-toggle .HyperMD-header-1 {
+  border-bottom-color: currentColor;
+}
 
 .cm-formatting-header-1 {
   color: var(--h1-color);
@@ -4437,6 +4654,10 @@ sup[data-footnote-id] {
 .anp-h2-divider .HyperMD-header-2 {
   border-bottom: var(--hr-thickness) solid var(--background-modifier-border);
   padding-bottom: 2px;
+}
+.anp-h2-divider.anp-header-divider-color-toggle .markdown-rendered h2,
+.anp-h2-divider.anp-header-divider-color-toggle .HyperMD-header-2 {
+  border-bottom-color: currentColor;
 }
 
 .cm-formatting-header-2 {
@@ -4504,6 +4725,10 @@ sup[data-footnote-id] {
   border-bottom: var(--hr-thickness) solid var(--background-modifier-border);
   padding-bottom: 2px;
 }
+.anp-h3-divider.anp-header-divider-color-toggle .markdown-rendered h3,
+.anp-h3-divider.anp-header-divider-color-toggle .HyperMD-header-3 {
+  border-bottom-color: currentColor;
+}
 
 .cm-formatting-header-3 {
   color: var(--h3-color);
@@ -4569,6 +4794,10 @@ sup[data-footnote-id] {
 .anp-h4-divider .HyperMD-header-4 {
   border-bottom: var(--hr-thickness) solid var(--background-modifier-border);
   padding-bottom: 2px;
+}
+.anp-h4-divider.anp-header-divider-color-toggle .markdown-rendered h4,
+.anp-h4-divider.anp-header-divider-color-toggle .HyperMD-header-4 {
+  border-bottom-color: currentColor;
 }
 
 .cm-formatting-header-4 {
@@ -4636,6 +4865,10 @@ sup[data-footnote-id] {
   border-bottom: var(--hr-thickness) solid var(--background-modifier-border);
   padding-bottom: 2px;
 }
+.anp-h5-divider.anp-header-divider-color-toggle .markdown-rendered h5,
+.anp-h5-divider.anp-header-divider-color-toggle .HyperMD-header-5 {
+  border-bottom-color: currentColor;
+}
 
 .cm-formatting-header-5 {
   color: var(--h5-color);
@@ -4701,6 +4934,10 @@ sup[data-footnote-id] {
 .anp-h6-divider .HyperMD-header-6 {
   border-bottom: var(--hr-thickness) solid var(--background-modifier-border);
   padding-bottom: 2px;
+}
+.anp-h6-divider.anp-header-divider-color-toggle .markdown-rendered h6,
+.anp-h6-divider.anp-header-divider-color-toggle .HyperMD-header-6 {
+  border-bottom-color: currentColor;
 }
 
 .cm-formatting-header-6 {
@@ -4770,18 +5007,18 @@ hr {
 .anp-table-toggle .is-live-preview.cards:not(.table-disable) table:not(.dataview) thead tr > th:last-child {
   border: var(--anp-table-thickness, 1px) solid var(--table-border-color);
 }
-.anp-table-toggle .markdown-preview-view:not(.cards):not(.table-disable) table th,
-.anp-table-toggle .markdown-preview-view:not(.cards):not(.table-disable) table thead tr > th:first-child,
-.anp-table-toggle .markdown-preview-view:not(.cards):not(.table-disable) table thead tr > th,
-.anp-table-toggle .markdown-preview-view:not(.cards):not(.table-disable) table thead tr > th:last-child,
-.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table th,
-.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table thead tr > th:first-child,
-.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table thead tr > th,
-.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table thead tr > th:last-child,
-.anp-table-toggle .is-live-preview.cards:not(.table-disable) table:not(.dataview) th,
-.anp-table-toggle .is-live-preview.cards:not(.table-disable) table:not(.dataview) thead tr > th:first-child,
-.anp-table-toggle .is-live-preview.cards:not(.table-disable) table:not(.dataview) thead tr > th,
-.anp-table-toggle .is-live-preview.cards:not(.table-disable) table:not(.dataview) thead tr > th:last-child {
+.anp-table-toggle .markdown-preview-view:not(.cards):not(.table-disable) table th:not([align]),
+.anp-table-toggle .markdown-preview-view:not(.cards):not(.table-disable) table thead tr > th:first-child:not([align]),
+.anp-table-toggle .markdown-preview-view:not(.cards):not(.table-disable) table thead tr > th:not([align]),
+.anp-table-toggle .markdown-preview-view:not(.cards):not(.table-disable) table thead tr > th:last-child:not([align]),
+.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table th:not([align]),
+.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table thead tr > th:first-child:not([align]),
+.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table thead tr > th:not([align]),
+.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table thead tr > th:last-child:not([align]),
+.anp-table-toggle .is-live-preview.cards:not(.table-disable) table:not(.dataview) th:not([align]),
+.anp-table-toggle .is-live-preview.cards:not(.table-disable) table:not(.dataview) thead tr > th:first-child:not([align]),
+.anp-table-toggle .is-live-preview.cards:not(.table-disable) table:not(.dataview) thead tr > th:not([align]),
+.anp-table-toggle .is-live-preview.cards:not(.table-disable) table:not(.dataview) thead tr > th:last-child:not([align]) {
   text-align: var(--anp-table-align-th, center);
 }
 .anp-table-toggle .markdown-preview-view:not(.cards):not(.table-disable) table td:not([align]),
@@ -5134,6 +5371,7 @@ None of the original code was used, and was written from scratch.
 body {
   --colorful-icon-color: var(--background-secondary);
   --colorful-icon-color-alt: var(--background-secondary-alt);
+  --colorful-frame-color: rgba(var(--anp-colorful-frame-color, var(--ctp-accent)), var(--anp-colorful-frame-opacity, 1));
 }
 
 body.anp-colorful-frame-icon-toggle-light.theme-light,
@@ -5142,10 +5380,15 @@ body.anp-colorful-frame-icon-toggle-dark.theme-dark {
   --colorful-icon-color-alt: var(--text-muted);
 }
 
-.anp-colorful-frame.anuppuccin-accent-toggle.anp-colorful-frame:not(.anp-card-layout) .mod-top .workspace-tab-header-container, .anp-colorful-frame.anuppuccin-accent-toggle.anp-colorful-frame:not(.anp-card-layout) .workspace-ribbon.mod-left:before, .anp-colorful-frame.anuppuccin-accent-toggle.anp-colorful-frame.anp-card-layout, .anp-colorful-frame.anuppuccin-accent-toggle.anp-colorful-frame.anp-card-layout .workspace-tabs.mod-top, .anp-colorful-frame.anuppuccin-accent-toggle.anp-colorful-frame.anp-card-layout .sidebar-toggle-button, .anp-colorful-frame.anuppuccin-accent-toggle.anp-colorful-frame.anp-card-layout .workspace-ribbon.mod-left:before {
+.anp-colorful-frame.anp-card-layout .workspace-split.mod-right-split .workspace-tabs .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner, .anp-colorful-frame.anp-card-layout .workspace-split.mod-left-split .workspace-tabs .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .workspace-split.mod-left-split .workspace-tabs.mod-top .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .workspace-split.mod-right-split .workspace-tabs.mod-top .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner {
+  background-color: rgba(var(--ctp-crust), 0.2);
+}
+.anp-colorful-frame.is-frameless.is-frameless:not(.is-hidden-frameless) .sidebar-toggle-button.mod-left {
+  border-radius: 0 var(--radius-m) var(--radius-m) 0;
+}
+.anp-colorful-frame.anuppuccin-accent-toggle.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .mod-top .workspace-tab-header-container, .anp-colorful-frame.anuppuccin-accent-toggle.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .workspace-ribbon.mod-left:before, .anp-colorful-frame.anuppuccin-accent-toggle.anp-colorful-frame.anp-card-layout, .anp-colorful-frame.anuppuccin-accent-toggle.anp-colorful-frame.anp-card-layout .workspace-tabs.mod-top, .anp-colorful-frame.anuppuccin-accent-toggle.anp-colorful-frame.anp-card-layout .sidebar-toggle-button, .anp-colorful-frame.anuppuccin-accent-toggle.anp-colorful-frame.anp-card-layout .workspace-ribbon.mod-left:before {
   --tab-container-background: rgba(var(--anp-colorful-frame-color, var(--ctp-accent)), var(--anp-colorful-frame-opacity, 1));
   --titlebar-background: rgba(var(--anp-colorful-frame-color, var(--ctp-accent)), var(--anp-colorful-frame-opacity, 1));
-  --background-modifier-hover: rgba(var(--ctp-crust), 0.075);
 }
 .anp-colorful-frame.anuppuccin-accent-toggle.anp-colorful-frame.anp-card-layout .prompt {
   --background-modifier-hover: rgba(var(--ctp-text), 0.075) ;
@@ -5162,92 +5405,92 @@ body.anp-colorful-frame-icon-toggle-dark.theme-dark {
 .anp-colorful-frame.is-focused .workspace-tabs.mod-stacked .workspace-tab-container .workspace-tab-header.is-active .workspace-tab-header-inner .workspace-tab-header-inner-title, .anp-colorful-frame.is-focused .workspace-tabs.mod-stacked .workspace-tab-container .workspace-tab-header.is-active .workspace-tab-header-inner .workspace-tab-header-inner-close-button {
   color: var(--color-accent);
 }
-.anp-colorful-frame:not(.anp-card-layout) .mod-top .workspace-tab-header-container, .anp-colorful-frame.anp-colorful-frame.anp-card-layout, .anp-colorful-frame.anp-colorful-frame.anp-card-layout .workspace-tabs.mod-top, .anp-colorful-frame.anp-colorful-frame.anp-card-layout .sidebar-toggle-button, .anp-colorful-frame.anp-colorful-frame.anp-card-layout .workspace-ribbon.mod-left:before, .anp-colorful-frame:not(.anp-card-layout) .workspace-ribbon.mod-left:before {
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .mod-top .workspace-tab-header-container, .anp-colorful-frame.anp-colorful-frame.anp-card-layout, .anp-colorful-frame.anp-colorful-frame.anp-card-layout .workspace-tabs.mod-top, .anp-colorful-frame.anp-colorful-frame.anp-card-layout .sidebar-toggle-button, .anp-colorful-frame.anp-colorful-frame.anp-card-layout .workspace-ribbon.mod-left:before, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .workspace-ribbon.mod-left:before {
   --tab-container-background: hsla(var(--anp-colorful-frame-color-hsl, var(--color-accent-hsl)), var(--anp-colorful-frame-opacity, 1));
   --titlebar-background: hsla(var(--anp-colorful-frame-color-hsl, var(--color-accent-hsl)), var(--anp-colorful-frame-opacity, 1));
 }
 .anp-colorful-frame.anp-card-layout {
   --divider-color-hover: var(--background-secondary-alt);
 }
-.anp-colorful-frame:not(.anp-card-layout) .mod-top:not(.mod-stacked) .workspace-tab-header,
-.anp-colorful-frame:not(.anp-card-layout) .mod-top:not(.mod-stacked) .workspace-tab-header.is-active,
-.anp-colorful-frame:not(.anp-card-layout) .mod-top:not(.mod-stacked) .is-focused.workspace-tab-header,
-.anp-colorful-frame:not(.anp-card-layout) .mod-top:not(.mod-stacked) .workspace-tab-header-container, .anp-colorful-frame:not(.anp-card-layout).is-focused .mod-top:not(.mod-stacked) .workspace-tab-header,
-.anp-colorful-frame:not(.anp-card-layout).is-focused .mod-top:not(.mod-stacked) .workspace-tab-header.is-active,
-.anp-colorful-frame:not(.anp-card-layout).is-focused .mod-top:not(.mod-stacked) .is-focused.workspace-tab-header,
-.anp-colorful-frame:not(.anp-card-layout).is-focused .mod-top:not(.mod-stacked) .workspace-tab-header-container {
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .mod-top:not(.mod-stacked) .workspace-tab-header,
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .mod-top:not(.mod-stacked) .workspace-tab-header.is-active,
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .mod-top:not(.mod-stacked) .is-focused.workspace-tab-header,
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .mod-top:not(.mod-stacked) .workspace-tab-header-container, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused .mod-top:not(.mod-stacked) .workspace-tab-header,
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused .mod-top:not(.mod-stacked) .workspace-tab-header.is-active,
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused .mod-top:not(.mod-stacked) .is-focused.workspace-tab-header,
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused .mod-top:not(.mod-stacked) .workspace-tab-header-container {
   --tab-text-color: var(--colorful-icon-color-alt);
   --icon-color: var(--colorful-icon-color-alt);
   --icon-color-hover: var(--colorful-icon-color);
   --tab-text-color-focused: var(--colorful-icon-color-alt);
 }
-.anp-colorful-frame:not(.anp-card-layout) .mod-top.mod-stacked .workspace-tab-header-new-tab .clickable-icon, .anp-colorful-frame:not(.anp-card-layout).is-focused .mod-top.mod-stacked .workspace-tab-header-new-tab .clickable-icon {
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .mod-top.mod-stacked .workspace-tab-header-new-tab .clickable-icon, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused .mod-top.mod-stacked .workspace-tab-header-new-tab .clickable-icon {
   --icon-color: var(--colorful-icon-color-alt);
   --icon-color-hover: var(--colorful-icon-color);
 }
-.anp-colorful-frame:not(.anp-card-layout) .mod-top .workspace-tab-header-tab-list .clickable-icon, .anp-colorful-frame:not(.anp-card-layout) .mod-top .workspace-tab-header-tab-list .clickable-icon:hover, .anp-colorful-frame:not(.anp-card-layout) .mod-top .workspace-tab-header-new-tab .clickable-icon, .anp-colorful-frame:not(.anp-card-layout) .mod-top .workspace-tab-header-new-tab .clickable-icon:hover, .anp-colorful-frame:not(.anp-card-layout).is-focused .mod-top .workspace-tab-header-tab-list .clickable-icon, .anp-colorful-frame:not(.anp-card-layout).is-focused .mod-top .workspace-tab-header-tab-list .clickable-icon:hover, .anp-colorful-frame:not(.anp-card-layout).is-focused .mod-top .workspace-tab-header-new-tab .clickable-icon, .anp-colorful-frame:not(.anp-card-layout).is-focused .mod-top .workspace-tab-header-new-tab .clickable-icon:hover {
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .mod-top .workspace-tab-header-tab-list .clickable-icon, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .mod-top .workspace-tab-header-tab-list .clickable-icon:hover, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .mod-top .workspace-tab-header-new-tab .clickable-icon, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .mod-top .workspace-tab-header-new-tab .clickable-icon:hover, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused .mod-top .workspace-tab-header-tab-list .clickable-icon, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused .mod-top .workspace-tab-header-tab-list .clickable-icon:hover, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused .mod-top .workspace-tab-header-new-tab .clickable-icon, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused .mod-top .workspace-tab-header-new-tab .clickable-icon:hover {
   color: var(--colorful-icon-color-alt);
 }
-.anp-colorful-frame:not(.anp-card-layout).anp-mini-tab-toggle .mod-top, .anp-colorful-frame:not(.anp-card-layout).is-focused.anp-mini-tab-toggle .mod-top, .anp-colorful-frame:not(.anp-card-layout).is-focused.anp-mini-tab-toggle .mod-top, .anp-colorful-frame:not(.anp-card-layout).is-focused.is-focused.anp-mini-tab-toggle .mod-top {
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).anp-mini-tab-toggle .mod-top, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused.anp-mini-tab-toggle .mod-top, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused.anp-mini-tab-toggle .mod-top, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused.is-focused.anp-mini-tab-toggle .mod-top {
   --tab-text-color-focused-active-current: var(--colorful-icon-color-alt);
 }
-.anp-colorful-frame:not(.anp-card-layout).anp-mini-tab-toggle .mod-top .workspace-tab-header, .anp-colorful-frame:not(.anp-card-layout).anp-mini-tab-toggle .mod-top .workspace-tab-header.is-active, .anp-colorful-frame:not(.anp-card-layout).is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header, .anp-colorful-frame:not(.anp-card-layout).is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header.is-active, .anp-colorful-frame:not(.anp-card-layout).is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header, .anp-colorful-frame:not(.anp-card-layout).is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header.is-active, .anp-colorful-frame:not(.anp-card-layout).is-focused.is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header, .anp-colorful-frame:not(.anp-card-layout).is-focused.is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header.is-active {
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).anp-mini-tab-toggle .mod-top .workspace-tab-header, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).anp-mini-tab-toggle .mod-top .workspace-tab-header.is-active, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header.is-active, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header.is-active, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused.is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused.is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header.is-active {
   --tab-text-color-focused-active: var(--colorful-icon-color-alt);
   --tab-text-color-active: var(--colorful-icon-color-alt);
   --tab-text-color-focused: var(--colorful-icon-color-alt);
   --tab-text-color-focused-active-current: var(--colorful-icon-color-alt);
 }
-.anp-colorful-frame:not(.anp-card-layout).anp-mini-tab-toggle .mod-top .workspace-tab-header .workspace-tab-header-inner-close-button, .anp-colorful-frame:not(.anp-card-layout).anp-mini-tab-toggle .mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-close-button, .anp-colorful-frame:not(.anp-card-layout).is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header .workspace-tab-header-inner-close-button, .anp-colorful-frame:not(.anp-card-layout).is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-close-button, .anp-colorful-frame:not(.anp-card-layout).is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header .workspace-tab-header-inner-close-button, .anp-colorful-frame:not(.anp-card-layout).is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-close-button, .anp-colorful-frame:not(.anp-card-layout).is-focused.is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header .workspace-tab-header-inner-close-button, .anp-colorful-frame:not(.anp-card-layout).is-focused.is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-close-button {
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).anp-mini-tab-toggle .mod-top .workspace-tab-header .workspace-tab-header-inner-close-button, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).anp-mini-tab-toggle .mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-close-button, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header .workspace-tab-header-inner-close-button, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-close-button, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header .workspace-tab-header-inner-close-button, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-close-button, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused.is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header .workspace-tab-header-inner-close-button, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused.is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-close-button {
   --tab-text-color-focused: var(--colorful-icon-color-alt);
   --tab-text-color-focused-active-current: var(--colorful-icon-color-alt);
 }
-.anp-colorful-frame:not(.anp-card-layout) .mod-right-split .mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
-.anp-colorful-frame:not(.anp-card-layout) .mod-left-split .mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
-.anp-colorful-frame:not(.anp-card-layout) .mod-top .workspace-tab-header-container .clickable-icon.has-active-menu,
-.anp-colorful-frame:not(.anp-card-layout) .mod-top .workspace-tab-header-container .clickable-icon:active {
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .mod-right-split .mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .mod-left-split .mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .mod-top .workspace-tab-header-container .clickable-icon.has-active-menu,
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .mod-top .workspace-tab-header-container .clickable-icon:active {
   --icon-color-focused: var(--colorful-icon-color-alt);
 }
-.anp-colorful-frame:not(.anp-card-layout) .workspace-tab-header,
-.anp-colorful-frame:not(.anp-card-layout) .workspace-tab-header .workspace-tab-header-inner-close-button {
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .workspace-tab-header,
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .workspace-tab-header .workspace-tab-header-inner-close-button {
   --tab-text-color-focused: var(--colorful-icon-color-alt);
   --tab-text-color-focused-active-current: var(--colorful-icon-color-alt);
 }
-.anp-colorful-frame:not(.anp-card-layout) .workspace-tab-header.is-active,
-.anp-colorful-frame:not(.anp-card-layout) .workspace-tab-header.is-active .workspace-tab-header-inner-close-button {
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .workspace-tab-header.is-active,
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .workspace-tab-header.is-active .workspace-tab-header-inner-close-button {
   --tab-text-color-focused: var(--text-faint);
   --tab-text-color-focused-active-current: var(--text-normal);
 }
-.anp-colorful-frame:not(.anp-card-layout) .mod-left-split .mod-top .workspace-tab-header.is-active,
-.anp-colorful-frame:not(.anp-card-layout) .mod-right-split .mod-top .workspace-tab-header.is-active {
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .mod-left-split .mod-top .workspace-tab-header.is-active,
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .mod-right-split .mod-top .workspace-tab-header.is-active {
   background-color: rgba(var(--ctp-crust), 0.2);
 }
-.anp-colorful-frame:not(.anp-card-layout) .mod-left-split .mod-top .workspace-tab-header.is-active:hover,
-.anp-colorful-frame:not(.anp-card-layout) .mod-right-split .mod-top .workspace-tab-header.is-active:hover {
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .mod-left-split .mod-top .workspace-tab-header.is-active:hover,
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .mod-right-split .mod-top .workspace-tab-header.is-active:hover {
   background-color: rgba(var(--ctp-crust), 0.3);
 }
-.anp-colorful-frame:not(.anp-card-layout).anp-colorful-frame-icon-toggle-light.theme-light .mod-left-split .mod-top .workspace-tab-header.is-active,
-.anp-colorful-frame:not(.anp-card-layout).anp-colorful-frame-icon-toggle-light.theme-light .mod-right-split .mod-top .workspace-tab-header.is-active, .anp-colorful-frame:not(.anp-card-layout).anp-colorful-frame-icon-toggle-dark.theme-dark .mod-left-split .mod-top .workspace-tab-header.is-active,
-.anp-colorful-frame:not(.anp-card-layout).anp-colorful-frame-icon-toggle-dark.theme-dark .mod-right-split .mod-top .workspace-tab-header.is-active {
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).anp-colorful-frame-icon-toggle-light.theme-light .mod-left-split .mod-top .workspace-tab-header.is-active,
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).anp-colorful-frame-icon-toggle-light.theme-light .mod-right-split .mod-top .workspace-tab-header.is-active, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).anp-colorful-frame-icon-toggle-dark.theme-dark .mod-left-split .mod-top .workspace-tab-header.is-active,
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).anp-colorful-frame-icon-toggle-dark.theme-dark .mod-right-split .mod-top .workspace-tab-header.is-active {
   background-color: rgba(var(--ctp-text), 0.3);
 }
-.anp-colorful-frame:not(.anp-card-layout).is-focused.anp-mini-tab-toggle .mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-icon, .anp-colorful-frame:not(.anp-card-layout).is-focused.anp-mini-tab-toggle .mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-title, .anp-colorful-frame:not(.anp-card-layout).is-focused .mod-active:not(.mod-stacked).mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-icon, .anp-colorful-frame:not(.anp-card-layout).is-focused.anp-mini-tab-toggle .mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-title,
-.anp-colorful-frame:not(.anp-card-layout) .mod-left-split .mod-top .workspace-tab-header:active .workspace-tab-header-inner-icon,
-.anp-colorful-frame:not(.anp-card-layout) .mod-right-split .mod-top .workspace-tab-header:active .workspace-tab-header-inner-icon {
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused.anp-mini-tab-toggle .mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-icon, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused.anp-mini-tab-toggle .mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-title, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused .mod-active:not(.mod-stacked).mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-icon, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused.anp-mini-tab-toggle .mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-title,
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .mod-left-split .mod-top .workspace-tab-header:active .workspace-tab-header-inner-icon,
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .mod-right-split .mod-top .workspace-tab-header:active .workspace-tab-header-inner-icon {
   color: var(--colorful-icon-color-alt);
 }
 .anp-colorful-frame.anp-card-layout .mod-vertical .workspace-tabs {
   background-color: var(--tab-container-background);
 }
 
-.anp-colorful-frame:not(.anp-card-layout).is-focused.anp-mini-tab-toggle .mod-top:not(.mod-stacked) .workspace-tab-header:not(.is-active),
-.anp-colorful-frame:not(.anp-card-layout).anp-mini-tab-toggle .mod-top:not(.mod-stacked) .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner-close-button {
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused.anp-mini-tab-toggle .mod-top:not(.mod-stacked) .workspace-tab-header:not(.is-active),
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).anp-mini-tab-toggle .mod-top:not(.mod-stacked) .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner-close-button {
   color: var(--colorful-icon-color-alt);
   --tab-text-color-focused-active-current: var(--colorful-icon-color-alt);
 }
 
-.anp-colorful-frame:not(.anp-card-layout) .workspace-split.mod-vertical > * > .workspace-leaf-resize-handle,
-.anp-colorful-frame:not(.anp-card-layout) .workspace-split.mod-left-split > .workspace-leaf-resize-handle,
-.anp-colorful-frame:not(.anp-card-layout) .workspace-split.mod-right-split > .workspace-leaf-resize-handle {
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .workspace-split.mod-vertical > * > .workspace-leaf-resize-handle,
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .workspace-split.mod-left-split > .workspace-leaf-resize-handle,
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .workspace-split.mod-right-split > .workspace-leaf-resize-handle {
   height: calc(100% - var(--header-height));
 }
 
@@ -5277,8 +5520,8 @@ body.anp-colorful-frame-icon-toggle-dark.theme-dark {
   --icon-color-focused: var(--text-normal) !important;
 }
 
-.anp-colorful-frame:not(.anp-card-layout).anp-mini-tab-toggle.is-focused .mod-active.mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
-.anp-colorful-frame:not(.anp-card-layout).anp-mini-tab-toggle.is-focused .mod-active.mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-title {
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).anp-mini-tab-toggle.is-focused .mod-active.mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).anp-mini-tab-toggle.is-focused .mod-active.mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-title {
   color: var(--background-primary);
 }
 
@@ -5395,7 +5638,7 @@ body.anp-colorful-frame.anp-card-layout .workspace,
   --tab-text-color-focused-active: var(--text-normal);
 }
 
-.anp-mini-tab-toggle.anp-colorful-frame .workspace-split:not(.mod-left-split):not(.mod-right-split) .workspace-tab-header-container-inner .workspace-tab-header.is-active {
+.anp-mini-tab-toggle.anp-colorful-frame .workspace-split:not(.mod-left-split):not(.mod-right-split) .workspace-tabs.mod-top .workspace-tab-header-container-inner .workspace-tab-header.is-active {
   border-bottom: 2px solid var(--background-secondary-alt);
 }
 
@@ -5420,309 +5663,346 @@ body.anp-colorful-frame.anp-card-layout .workspace,
   border-radius: var(--radius-m);
 }
 
+body.anp-colorful-frame.anp-border-layout .horizontal-main-container {
+  background-color: var(--colorful-frame-color);
+  --titlebar-background: var(--colorful-frame-color);
+  --ribbon-background: var(--colorful-frame-color);
+  --ribbon-background-collapsed: var(--colorful-frame-color);
+  --card-background-color: var(--colorful-frame-color);
+}
+body.anp-colorful-frame.anp-border-layout .workspace .workspace-split .workspace-tabs.mod-top .workspace-tab-container {
+  --border-border-style: none;
+}
+body.anp-colorful-frame.anp-border-layout .workspace .workspace-split .workspace-tabs:last-child .workspace-tab-container {
+  --border-border-style: none;
+}
+body.anp-colorful-frame.anp-border-layout .workspace-ribbon {
+  --icon-color: var(--colorful-icon-color);
+  --icon-color-hover: var(--colorful-icon-color-alt);
+  --icon-color-active: var(--colorful-icon-color-alt);
+  --icon-color-focused: var(--colorful-icon-color);
+}
+body.anp-colorful-frame.anp-border-layout .workspace-ribbon .clickable-icon:hover {
+  background-color: rgba(var(--ctp-crust), 0.2);
+}
+body.anp-colorful-frame.anp-border-layout .workspace-ribbon .clickable-icon:active {
+  background-color: rgba(var(--ctp-crust), 0.3);
+}
+body.anp-colorful-frame.anp-border-layout .workspace-split.mod-right-split .workspace-tabs.mod-top > .workspace-tab-header-container, body.anp-colorful-frame.anp-border-layout .workspace-split.mod-left-split .workspace-tabs.mod-top > .workspace-tab-header-container {
+  --icon-color: var(--colorful-icon-color);
+  --icon-color-hover: var(--colorful-icon-color-alt);
+  --icon-color-active: var(--colorful-icon-color-alt);
+  --icon-color-focused: var(--colorful-icon-color);
+}
+body.anp-colorful-frame.anp-border-layout .workspace-split.mod-right-split .workspace-tabs.mod-top > .workspace-tab-header-container .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner, body.anp-colorful-frame.anp-border-layout .workspace-split.mod-left-split .workspace-tabs.mod-top > .workspace-tab-header-container .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner {
+  background-color: rgba(var(--ctp-crust), 0.2);
+}
+body.anp-colorful-frame.anp-border-layout .workspace-split.mod-right-split .workspace-tabs.mod-top > .workspace-tab-header-container .workspace-tab-header.is-active .workspace-tab-header-inner, body.anp-colorful-frame.anp-border-layout .workspace-split.mod-left-split .workspace-tabs.mod-top > .workspace-tab-header-container .workspace-tab-header.is-active .workspace-tab-header-inner {
+  background-color: rgba(var(--ctp-crust), 0.3);
+}
+body.anp-colorful-frame.anp-border-layout .workspace-split.mod-right-split .workspace-tabs.mod-top > .workspace-tab-header-container .clickable-icon:hover, body.anp-colorful-frame.anp-border-layout .workspace-split.mod-left-split .workspace-tabs.mod-top > .workspace-tab-header-container .clickable-icon:hover {
+  background-color: rgba(var(--ctp-crust), 0.2);
+}
+body.anp-colorful-frame.anp-border-layout .workspace-split.mod-right-split .workspace-tabs.mod-top > .workspace-tab-header-container .clickable-icon:active, body.anp-colorful-frame.anp-border-layout .workspace-split.mod-left-split .workspace-tabs.mod-top > .workspace-tab-header-container .clickable-icon:active {
+  background-color: rgba(var(--ctp-crust), 0.3);
+}
+body.anp-colorful-frame.anp-border-layout .workspace-split.mod-right-split .workspace-tabs.mod-top > .workspace-tab-header-container .workspace-tab-header.is-active .workspace-tab-header-inner-icon, body.anp-colorful-frame.anp-border-layout .workspace-split.mod-right-split .workspace-tabs.mod-top > .workspace-tab-header-container .is-focused .mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-title, body.anp-colorful-frame.anp-border-layout .workspace-split.mod-left-split .workspace-tabs.mod-top > .workspace-tab-header-container .workspace-tab-header.is-active .workspace-tab-header-inner-icon, body.anp-colorful-frame.anp-border-layout .workspace-split.mod-left-split .workspace-tabs.mod-top > .workspace-tab-header-container .is-focused .mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-title {
+  color: var(--colorful-icon-color);
+}
+body.anp-colorful-frame.anp-border-layout.anp-mini-tab-toggle .workspace-tabs.mod-top .workspace-tab-header-inner-title,
+body.anp-colorful-frame.anp-border-layout.anp-mini-tab-toggle .workspace-tabs.mod-top .workspace-tab-header-status-container,
+body.anp-colorful-frame.anp-border-layout.anp-mini-tab-toggle .workspace-tabs.mod-top .workspace-tab-header-inner-close-button,
+body.anp-colorful-frame.anp-border-layout.anp-mini-tab-toggle .workspace-tabs.mod-top .workspace-tab-header-inner-icon {
+  color: var(--background-primary);
+}
+
 /*------------CUSTOM CHECKBOXES-----------*/
 /*----------------------------------
 This feature is inspired by Cecilia May's Primary theme: https://github.com/ceciliamay/obsidianmd-theme-primary
 None of the original code was used and only the checkbox ideas were utilised.
 Icons were taken from Font Awesome: https://fontawesome.com/
 ----------------------------------*/
-.anp-custom-checkboxes [data-task=x] input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=x][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task=x] > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=x][type=checkbox]:checked {
   --checkbox-color: rgb(var(--ctp-green));
   --checkbox-color-hover: rgb(var(--ctp-green)) ;
 }
-
-.anp-custom-checkboxes [data-task="!"] input[type=checkbox]:checked, .anp-custom-checkboxes [data-task="!"][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task="!"] > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task="!"][type=checkbox]:checked {
   --checkbox-color: rgb(var(--ctp-yellow));
   --checkbox-color-hover: rgb(var(--ctp-yellow));
 }
-.anp-custom-checkboxes [data-task="!"] input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task="!"][type=checkbox]:checked:after {
+.anp-custom-checkboxes [data-task="!"] > input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task="!"][type=checkbox]:checked:after {
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 512'%3E%3C!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3E%3Cpath d='M96 64c0-17.7-14.3-32-32-32S32 46.3 32 64V320c0 17.7 14.3 32 32 32s32-14.3 32-32V64zM64 480c22.1 0 40-17.9 40-40s-17.9-40-40-40s-40 17.9-40 40s17.9 40 40 40z'/%3E%3C/svg%3E");
   -webkit-mask-size: 20%;
 }
-.anp-custom-checkboxes [data-task="!"] input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task="!"][type=checkbox]:checked:before {
+.anp-custom-checkboxes [data-task="!"] > input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task="!"][type=checkbox]:checked:before {
   color: var(--checkbox-color);
   margin: 0 3px;
   position: absolute;
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-
-.anp-custom-checkboxes [data-task="?"] input[type=checkbox]:checked, .anp-custom-checkboxes [data-task="?"][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task="?"] > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task="?"][type=checkbox]:checked {
   --checkbox-color: transparent;
   --checkbox-color-hover: transparent;
   border-width: 0;
 }
-.anp-custom-checkboxes [data-task="?"] input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task="?"][type=checkbox]:checked:after {
+.anp-custom-checkboxes [data-task="?"] > input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task="?"][type=checkbox]:checked:after {
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3C!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3E%3Cpath d='M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zM169.8 165.3c7.9-22.3 29.1-37.3 52.8-37.3h58.3c34.9 0 63.1 28.3 63.1 63.1c0 22.6-12.1 43.5-31.7 54.8L280 264.4c-.2 13-10.9 23.6-24 23.6c-13.3 0-24-10.7-24-24V250.5c0-8.6 4.6-16.5 12.1-20.8l44.3-25.4c4.7-2.7 7.6-7.7 7.6-13.1c0-8.4-6.8-15.1-15.1-15.1H222.6c-3.4 0-6.4 2.1-7.5 5.3l-.4 1.2c-4.4 12.5-18.2 19-30.6 14.6s-19-18.2-14.6-30.6l.4-1.2zM288 352c0 17.7-14.3 32-32 32s-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32z'/%3E%3C/svg%3E");
   -webkit-mask-size: contain;
   background-color: rgb(var(--ctp-peach));
   left: 0px;
 }
-.anp-custom-checkboxes [data-task="?"] input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task="?"][type=checkbox]:checked:before {
+.anp-custom-checkboxes [data-task="?"] > input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task="?"][type=checkbox]:checked:before {
   color: rgb(var(--ctp-peach));
   margin: 0 3px;
   position: absolute;
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-
 .anp-custom-checkboxes [data-task="-"] {
   text-decoration: var(--checklist-done-decoration);
   color: var(--checklist-done-color);
 }
-.anp-custom-checkboxes [data-task="-"] input[type=checkbox]:checked, .anp-custom-checkboxes [data-task="-"][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task="-"] > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task="-"][type=checkbox]:checked {
   --checkbox-color: rgb(var(--ctp-red));
   --checkbox-color-hover: rgb(var(--ctp-red));
 }
-.anp-custom-checkboxes [data-task="-"] input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task="-"][type=checkbox]:checked:after {
+.anp-custom-checkboxes [data-task="-"] > input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task="-"][type=checkbox]:checked:after {
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3C!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3E%3Cpath d='M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z'/%3E%3C/svg%3E");
   -webkit-mask-size: 50%;
 }
-.anp-custom-checkboxes [data-task="-"] input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task="-"][type=checkbox]:checked:before {
+.anp-custom-checkboxes [data-task="-"] > input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task="-"][type=checkbox]:checked:before {
   color: var(--checkbox-color);
   margin: 0 3px;
   position: absolute;
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-
-.anp-custom-checkboxes [data-task=b] input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=b][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task=b] > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=b][type=checkbox]:checked {
   --checkbox-color: transparent;
   --checkbox-color-hover: transparent;
   border-width: 0;
 }
-.anp-custom-checkboxes [data-task=b] input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task=b][type=checkbox]:checked:after {
+.anp-custom-checkboxes [data-task=b] > input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task=b][type=checkbox]:checked:after {
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3E%3C!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3E%3Cpath d='M0 48V487.7C0 501.1 10.9 512 24.3 512c5 0 9.9-1.5 14-4.4L192 400 345.7 507.6c4.1 2.9 9 4.4 14 4.4c13.4 0 24.3-10.9 24.3-24.3V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48z'/%3E%3C/svg%3E");
   -webkit-mask-size: contain;
   background-color: rgb(var(--ctp-red));
   left: 0px;
 }
-.anp-custom-checkboxes [data-task=b] input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task=b][type=checkbox]:checked:before {
+.anp-custom-checkboxes [data-task=b] > input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task=b][type=checkbox]:checked:before {
   color: rgb(var(--ctp-red));
   margin: 0 3px;
   position: absolute;
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-
-.anp-custom-checkboxes [data-task=I] input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=I][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task=I] > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=I][type=checkbox]:checked {
   --checkbox-color: transparent;
   --checkbox-color-hover: transparent;
   border-width: 0;
 }
-.anp-custom-checkboxes [data-task=I] input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task=I][type=checkbox]:checked:after {
+.anp-custom-checkboxes [data-task=I] > input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task=I][type=checkbox]:checked:after {
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3E%3C!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3E%3Cpath d='M272 384c9.6-31.9 29.5-59.1 49.2-86.2l0 0c5.2-7.1 10.4-14.2 15.4-21.4c19.8-28.5 31.4-63 31.4-100.3C368 78.8 289.2 0 192 0S16 78.8 16 176c0 37.3 11.6 71.9 31.4 100.3c5 7.2 10.2 14.3 15.4 21.4l0 0c19.8 27.1 39.7 54.4 49.2 86.2H272zM192 512c44.2 0 80-35.8 80-80V416H112v16c0 44.2 35.8 80 80 80zM112 176c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-61.9 50.1-112 112-112c8.8 0 16 7.2 16 16s-7.2 16-16 16c-44.2 0-80 35.8-80 80z'/%3E%3C/svg%3E");
   -webkit-mask-size: contain;
   background-color: rgb(var(--ctp-yellow));
   left: 0px;
 }
-.anp-custom-checkboxes [data-task=I] input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task=I][type=checkbox]:checked:before {
+.anp-custom-checkboxes [data-task=I] > input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task=I][type=checkbox]:checked:before {
   color: rgb(var(--ctp-yellow));
   margin: 0 3px;
   position: absolute;
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-
-.anp-custom-checkboxes [data-task=p] input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=p][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task=p] > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=p][type=checkbox]:checked {
   --checkbox-color: transparent;
   --checkbox-color-hover: transparent;
   border-width: 0;
 }
-.anp-custom-checkboxes [data-task=p] input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task=p][type=checkbox]:checked:after {
+.anp-custom-checkboxes [data-task=p] > input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task=p][type=checkbox]:checked:after {
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3C!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3E%3Cpath d='M313.4 32.9c26 5.2 42.9 30.5 37.7 56.5l-2.3 11.4c-5.3 26.7-15.1 52.1-28.8 75.2H464c26.5 0 48 21.5 48 48c0 25.3-19.5 46-44.3 47.9c7.7 8.5 12.3 19.8 12.3 32.1c0 23.4-16.8 42.9-38.9 47.1c4.4 7.2 6.9 15.8 6.9 24.9c0 21.3-13.9 39.4-33.1 45.6c.7 3.3 1.1 6.8 1.1 10.4c0 26.5-21.5 48-48 48H294.5c-19 0-37.5-5.6-53.3-16.1l-38.5-25.7C176 420.4 160 390.4 160 358.3V320 272 247.1c0-29.2 13.3-56.7 36-75l7.4-5.9c26.5-21.2 44.6-51 51.2-84.2l2.3-11.4c5.2-26 30.5-42.9 56.5-37.7zM32 192H96c17.7 0 32 14.3 32 32V448c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32V224c0-17.7 14.3-32 32-32z'/%3E%3C/svg%3E");
   -webkit-mask-size: contain;
   background-color: rgb(var(--ctp-green));
   left: 0px;
 }
-.anp-custom-checkboxes [data-task=p] input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task=p][type=checkbox]:checked:before {
+.anp-custom-checkboxes [data-task=p] > input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task=p][type=checkbox]:checked:before {
   color: rgb(var(--ctp-green));
   margin: 0 3px;
   position: absolute;
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-
-.anp-custom-checkboxes [data-task=c] input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=c][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task=c] > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=c][type=checkbox]:checked {
   --checkbox-color: transparent;
   --checkbox-color-hover: transparent;
   border-width: 0;
 }
-.anp-custom-checkboxes [data-task=c] input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task=c][type=checkbox]:checked:after {
+.anp-custom-checkboxes [data-task=c] > input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task=c][type=checkbox]:checked:after {
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3C!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3E%3Cpath d='M313.4 479.1c26-5.2 42.9-30.5 37.7-56.5l-2.3-11.4c-5.3-26.7-15.1-52.1-28.8-75.2H464c26.5 0 48-21.5 48-48c0-25.3-19.5-46-44.3-47.9c7.7-8.5 12.3-19.8 12.3-32.1c0-23.4-16.8-42.9-38.9-47.1c4.4-7.3 6.9-15.8 6.9-24.9c0-21.3-13.9-39.4-33.1-45.6c.7-3.3 1.1-6.8 1.1-10.4c0-26.5-21.5-48-48-48H294.5c-19 0-37.5 5.6-53.3 16.1L202.7 73.8C176 91.6 160 121.6 160 153.7V192v48 24.9c0 29.2 13.3 56.7 36 75l7.4 5.9c26.5 21.2 44.6 51 51.2 84.2l2.3 11.4c5.2 26 30.5 42.9 56.5 37.7zM32 320H96c17.7 0 32-14.3 32-32V64c0-17.7-14.3-32-32-32H32C14.3 32 0 46.3 0 64V288c0 17.7 14.3 32 32 32z'/%3E%3C/svg%3E");
   -webkit-mask-size: 100%;
   background-color: rgb(var(--ctp-red));
   left: 0px;
 }
-.anp-custom-checkboxes [data-task=c] input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task=c][type=checkbox]:checked:before {
+.anp-custom-checkboxes [data-task=c] > input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task=c][type=checkbox]:checked:before {
   color: var(--checkbox-color);
   margin: 0 3px;
   position: absolute;
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-
-.anp-custom-checkboxes [data-task=i] input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=i][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task=i] > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=i][type=checkbox]:checked {
   --checkbox-color: transparent;
   --checkbox-color-hover: transparent;
   border-width: 0;
 }
-.anp-custom-checkboxes [data-task=i] input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task=i][type=checkbox]:checked:after {
+.anp-custom-checkboxes [data-task=i] > input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task=i][type=checkbox]:checked:after {
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3C!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3E%3Cpath d='M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-144c-17.7 0-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32s-14.3 32-32 32z'/%3E%3C/svg%3E");
   -webkit-mask-size: contain;
   background-color: rgb(var(--ctp-blue));
   left: 0px;
 }
-.anp-custom-checkboxes [data-task=i] input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task=i][type=checkbox]:checked:before {
+.anp-custom-checkboxes [data-task=i] > input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task=i][type=checkbox]:checked:before {
   color: rgb(var(--ctp-blue));
   margin: 0 3px;
   position: absolute;
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-
-.anp-custom-checkboxes [data-task=l] input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=l][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task=l] > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=l][type=checkbox]:checked {
   --checkbox-color: transparent;
   --checkbox-color-hover: transparent;
   border-width: 0;
 }
-.anp-custom-checkboxes [data-task=l] input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task=l][type=checkbox]:checked:after {
+.anp-custom-checkboxes [data-task=l] > input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task=l][type=checkbox]:checked:after {
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3E%3C!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3E%3Cpath d='M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 256c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64z'/%3E%3C/svg%3E");
   -webkit-mask-size: contain;
   background-color: rgb(var(--ctp-mauve));
   left: 0px;
 }
-.anp-custom-checkboxes [data-task=l] input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task=l][type=checkbox]:checked:before {
+.anp-custom-checkboxes [data-task=l] > input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task=l][type=checkbox]:checked:before {
   color: rgb(var(--ctp-mauve));
   margin: 0 3px;
   position: absolute;
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-
-.anp-custom-checkboxes [data-task="*"] input[type=checkbox]:checked, .anp-custom-checkboxes [data-task="*"][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task="*"] > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task="*"][type=checkbox]:checked {
   --checkbox-color: transparent;
   --checkbox-color-hover: transparent;
   border-width: 0;
 }
-.anp-custom-checkboxes [data-task="*"] input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task="*"][type=checkbox]:checked:after {
+.anp-custom-checkboxes [data-task="*"] > input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task="*"][type=checkbox]:checked:after {
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 576 512'%3E%3C!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3E%3Cpath d='M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z'/%3E%3C/svg%3E");
   -webkit-mask-size: contain;
   background-color: rgb(var(--ctp-yellow));
   left: 0px;
 }
-.anp-custom-checkboxes [data-task="*"] input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task="*"][type=checkbox]:checked:before {
+.anp-custom-checkboxes [data-task="*"] > input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task="*"][type=checkbox]:checked:before {
   color: rgb(var(--ctp-yellow));
   margin: 0 3px;
   position: absolute;
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-
-.anp-custom-checkboxes [data-task=n] input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=n][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task=n] > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=n][type=checkbox]:checked {
   --checkbox-color: transparent;
   --checkbox-color-hover: transparent;
   border-width: 0;
 }
-.anp-custom-checkboxes [data-task=n] input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task=n][type=checkbox]:checked:after {
+.anp-custom-checkboxes [data-task=n] > input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task=n][type=checkbox]:checked:after {
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3E%3C!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3E%3Cpath d='M32 32C32 14.3 46.3 0 64 0H320c17.7 0 32 14.3 32 32s-14.3 32-32 32H290.5l11.4 148.2c36.7 19.9 65.7 53.2 79.5 94.7l1 3c3.3 9.8 1.6 20.5-4.4 28.8s-15.7 13.3-26 13.3H32c-10.3 0-19.9-4.9-26-13.3s-7.7-19.1-4.4-28.8l1-3c13.8-41.5 42.8-74.8 79.5-94.7L93.5 64H64C46.3 64 32 49.7 32 32zM160 384h64v96c0 17.7-14.3 32-32 32s-32-14.3-32-32V384z'/%3E%3C/svg%3E");
   -webkit-mask-size: contain;
   background-color: rgb(var(--ctp-maroon));
   left: 0px;
 }
-.anp-custom-checkboxes [data-task=n] input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task=n][type=checkbox]:checked:before {
+.anp-custom-checkboxes [data-task=n] > input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task=n][type=checkbox]:checked:before {
   color: rgb(var(--ctp-maroon));
   margin: 0 3px;
   position: absolute;
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-
-.anp-custom-checkboxes [data-task=S] input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=S][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task=S] > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=S][type=checkbox]:checked {
   --checkbox-color: transparent;
   --checkbox-color-hover: transparent;
   border-width: 0;
 }
-.anp-custom-checkboxes [data-task=S] input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task=S][type=checkbox]:checked:after {
+.anp-custom-checkboxes [data-task=S] > input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task=S][type=checkbox]:checked:after {
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3C!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3E%3Cpath d='M320 96H192L144.6 24.9C137.5 14.2 145.1 0 157.9 0H354.1c12.8 0 20.4 14.2 13.3 24.9L320 96zM192 128H320c3.8 2.5 8.1 5.3 13 8.4C389.7 172.7 512 250.9 512 416c0 53-43 96-96 96H96c-53 0-96-43-96-96C0 250.9 122.3 172.7 179 136.4l0 0 0 0c4.8-3.1 9.2-5.9 13-8.4zm84.1 96c0-11.1-9-20.1-20.1-20.1s-20.1 9-20.1 20.1v6c-5.6 1.2-10.9 2.9-15.9 5.1c-15 6.8-27.9 19.4-31.1 37.7c-1.8 10.2-.8 20 3.4 29c4.2 8.8 10.7 15 17.3 19.5c11.6 7.9 26.9 12.5 38.6 16l2.2 .7c13.9 4.2 23.4 7.4 29.3 11.7c2.5 1.8 3.4 3.2 3.8 4.1c.3 .8 .9 2.6 .2 6.7c-.6 3.5-2.5 6.4-8 8.8c-6.1 2.6-16 3.9-28.8 1.9c-6-1-16.7-4.6-26.2-7.9l0 0 0 0 0 0 0 0c-2.2-.8-4.3-1.5-6.3-2.1c-10.5-3.5-21.8 2.2-25.3 12.7s2.2 21.8 12.7 25.3c1.2 .4 2.7 .9 4.4 1.5c7.9 2.7 20.3 6.9 29.8 9.1V416c0 11.1 9 20.1 20.1 20.1s20.1-9 20.1-20.1v-5.5c5.4-1 10.5-2.5 15.4-4.6c15.7-6.7 28.4-19.7 31.6-38.7c1.8-10.4 1-20.3-3-29.4c-3.9-9-10.2-15.6-16.9-20.5c-12.2-8.8-28.3-13.7-40.4-17.4l-.8-.2c-14.2-4.3-23.8-7.3-29.9-11.4c-2.6-1.8-3.4-3-3.6-3.5c-.2-.3-.7-1.6-.1-5c.3-1.9 1.9-5.2 8.2-8.1c6.4-2.9 16.4-4.5 28.6-2.6c4.3 .7 17.9 3.3 21.7 4.3c10.7 2.8 21.6-3.5 24.5-14.2s-3.5-21.6-14.2-24.5c-4.4-1.2-14.4-3.2-21-4.4V224z'/%3E%3C/svg%3E");
   -webkit-mask-size: contain;
   background-color: rgb(var(--ctp-green));
   left: 0px;
 }
-.anp-custom-checkboxes [data-task=S] input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task=S][type=checkbox]:checked:before {
+.anp-custom-checkboxes [data-task=S] > input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task=S][type=checkbox]:checked:before {
   color: rgb(var(--ctp-green));
   margin: 0 3px;
   position: absolute;
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-
-.anp-custom-checkboxes [data-task="/"] input[type=checkbox]:checked, .anp-custom-checkboxes [data-task="/"][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task="/"] > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task="/"][type=checkbox]:checked {
   --checkbox-color: rgba(var(--ctp-subtext0), 0.3);
   --checkbox-color-hover: rgba(var(--ctp-subtext0), 0.3);
   border-color: rgb(var(--ctp-subtext0)) !important;
 }
-.anp-custom-checkboxes [data-task="/"] input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task="/"][type=checkbox]:checked:after {
+.anp-custom-checkboxes [data-task="/"] > input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task="/"][type=checkbox]:checked:after {
   background-color: transparent;
 }
-.anp-custom-checkboxes [data-task="/"] input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task="/"][type=checkbox]:checked:before {
+.anp-custom-checkboxes [data-task="/"] > input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task="/"][type=checkbox]:checked:before {
   color: rgb(var(--ctp-subtext0));
   margin: 0 3px;
   position: absolute;
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-
-.anp-custom-checkboxes [data-task="<"] input[type=checkbox]:checked, .anp-custom-checkboxes [data-task="<"][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task="<"] > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task="<"][type=checkbox]:checked {
   --checkbox-color: transparent;
   --checkbox-color-hover: transparent;
   border-width: 0;
 }
-.anp-custom-checkboxes [data-task="<"] input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task="<"][type=checkbox]:checked:after {
+.anp-custom-checkboxes [data-task="<"] > input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task="<"][type=checkbox]:checked:after {
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3C!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3E%3Cpath d='M96 32V64H48C21.5 64 0 85.5 0 112v48H448V112c0-26.5-21.5-48-48-48H352V32c0-17.7-14.3-32-32-32s-32 14.3-32 32V64H160V32c0-17.7-14.3-32-32-32S96 14.3 96 32zM448 192H0V464c0 26.5 21.5 48 48 48H400c26.5 0 48-21.5 48-48V192z'/%3E%3C/svg%3E");
   -webkit-mask-size: contain;
   background-color: rgb(var(--ctp-teal));
   left: 0px;
 }
-.anp-custom-checkboxes [data-task="<"] input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task="<"][type=checkbox]:checked:before {
+.anp-custom-checkboxes [data-task="<"] > input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task="<"][type=checkbox]:checked:before {
   color: rgb(var(--ctp-teal));
   margin: 0 3px;
   position: absolute;
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-
-.anp-custom-checkboxes [data-task=">"] input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=">"][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task=">"] > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=">"][type=checkbox]:checked {
   --checkbox-color: transparent;
   --checkbox-color-hover: transparent;
   border-width: 0;
 }
-.anp-custom-checkboxes [data-task=">"] input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task=">"][type=checkbox]:checked:after {
+.anp-custom-checkboxes [data-task=">"] > input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task=">"][type=checkbox]:checked:after {
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3C!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3E%3Cpath d='M307 34.8c-11.5 5.1-19 16.6-19 29.2v64H176C78.8 128 0 206.8 0 304C0 417.3 81.5 467.9 100.2 478.1c2.5 1.4 5.3 1.9 8.1 1.9c10.9 0 19.7-8.9 19.7-19.7c0-7.5-4.3-14.4-9.8-19.5C108.8 431.9 96 414.4 96 384c0-53 43-96 96-96h96v64c0 12.6 7.4 24.1 19 29.2s25 3 34.4-5.4l160-144c6.7-6.1 10.6-14.7 10.6-23.8s-3.8-17.7-10.6-23.8l-160-144c-9.4-8.5-22.9-10.6-34.4-5.4z'/%3E%3C/svg%3E");
   -webkit-mask-size: contain;
   background-color: rgb(var(--ctp-sapphire));
   left: 0px;
 }
-.anp-custom-checkboxes [data-task=">"] input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task=">"][type=checkbox]:checked:before {
+.anp-custom-checkboxes [data-task=">"] > input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task=">"][type=checkbox]:checked:before {
   color: rgb(var(--ctp-sapphire));
   margin: 0 3px;
   position: absolute;
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-
-.anp-custom-checkboxes [data-task='"'] input[type=checkbox]:checked, .anp-custom-checkboxes [data-task='"'][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task='"'] > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task='"'][type=checkbox]:checked {
   --checkbox-color: transparent;
   --checkbox-color-hover: transparent;
   border-width: 0;
 }
-.anp-custom-checkboxes [data-task='"'] input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task='"'][type=checkbox]:checked:after {
+.anp-custom-checkboxes [data-task='"'] > input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task='"'][type=checkbox]:checked:after {
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3C!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3E%3Cpath d='M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z'/%3E%3C/svg%3E");
   -webkit-mask-size: contain;
   background-color: rgb(var(--ctp-subtext0));
   left: 0px;
 }
-.anp-custom-checkboxes [data-task='"'] input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task='"'][type=checkbox]:checked:before {
+.anp-custom-checkboxes [data-task='"'] > input[type=checkbox]:checked:before, .anp-custom-checkboxes [data-task='"'][type=checkbox]:checked:before {
   color: rgb(var(--ctp-subtext0));
   margin: 0 3px;
   position: absolute;
@@ -5895,6 +6175,18 @@ Icons were taken from Font Awesome: https://fontawesome.com/
   border-radius: 0;
   --text-normal: rgb(var(--ctp-text));
   background: rgba(var(--ctp-surface1), 0.4);
+}
+.anp-speech-bubble .is-live-preview [data-task="0"]:not(.cm-active),
+.anp-speech-bubble .is-live-preview [data-task="1"]:not(.cm-active),
+.anp-speech-bubble .is-live-preview [data-task="2"]:not(.cm-active),
+.anp-speech-bubble .is-live-preview [data-task="3"]:not(.cm-active),
+.anp-speech-bubble .is-live-preview [data-task="4"]:not(.cm-active),
+.anp-speech-bubble .is-live-preview [data-task="5"]:not(.cm-active),
+.anp-speech-bubble .is-live-preview [data-task="6"]:not(.cm-active),
+.anp-speech-bubble .is-live-preview [data-task="7"]:not(.cm-active),
+.anp-speech-bubble .is-live-preview [data-task="8"]:not(.cm-active),
+.anp-speech-bubble .is-live-preview [data-task="9"]:not(.cm-active) {
+  max-width: max-content;
 }
 
 /* Dirty Speech Bubble Fix */
@@ -6069,14 +6361,17 @@ None of the original code was used and the feature was implemented from scratch.
   --tab-inactive-color: rgba(var(--ctp-mantle), var(--anp-custom-bg-card-fg-opacity, 0.4));
   --code-background: var(--card-foreground-color);
 }
-.anp-background-image-toggle:not(.anp-colorful-frame) .horizontal-main-container, .anp-background-image-toggle:not(.anp-colorful-frame).anp-bg-fix .horizontal-main-container {
+.anp-background-image-toggle:not(.anp-colorful-frame) .app-container, .anp-background-image-toggle:not(.anp-colorful-frame).anp-bg-fix .app-container {
   background: var(--anp-background-image, url("https://i.redd.it/m23bwh4n0x151.png"));
   background-size: cover;
   background-color: transparent;
 }
-.anp-background-image-toggle:not(.anp-colorful-frame) .workspace, .anp-background-image-toggle:not(.anp-colorful-frame).anp-bg-fix .workspace {
+.anp-background-image-toggle:not(.anp-colorful-frame) .horizontal-main-container, .anp-background-image-toggle:not(.anp-colorful-frame).anp-bg-fix .horizontal-main-container {
   backdrop-filter: brightness(var(--anp-custom-bg-brightness, 0.5)) blur(var(--anp-custom-bg-blur, 5px));
   background-color: transparent;
+}
+.anp-background-image-toggle:not(.anp-colorful-frame) .workspace {
+  background: transparent;
 }
 .anp-background-image-toggle:not(.anp-colorful-frame).anp-card-layout .workspace-split.mod-root .view-content {
   background: transparent;
@@ -6096,7 +6391,7 @@ None of the original code was used and the feature was implemented from scratch.
 .anp-background-image-toggle:not(.anp-colorful-frame) .workspace-split.mod-root {
   background-color: transparent;
 }
-.anp-background-image-toggle:not(.anp-colorful-frame):not(.anp-card-layout) .workspace-tab-header-container, .anp-background-image-toggle:not(.anp-colorful-frame):not(.anp-card-layout) .workspace-tabs .workspace-leaf, .anp-background-image-toggle:not(.anp-colorful-frame):not(.anp-card-layout) .workspace-split.mod-root .view-content, .anp-background-image-toggle:not(.anp-colorful-frame):not(.anp-card-layout) .workspace-ribbon, .anp-background-image-toggle:not(.anp-colorful-frame):not(.anp-card-layout) .workspace-ribbon.mod-left:before, .anp-background-image-toggle:not(.anp-colorful-frame):not(.anp-card-layout) .view-header, .anp-background-image-toggle:not(.anp-colorful-frame).is-focused:not(.anp-card-layout) .workspace-leaf.mod-active .view-header,
+.anp-background-image-toggle:not(.anp-colorful-frame):not(.anp-card-layout, .anp-border-layout) .workspace-tab-header-container, .anp-background-image-toggle:not(.anp-colorful-frame):not(.anp-card-layout) .workspace-tabs .workspace-leaf, .anp-background-image-toggle:not(.anp-colorful-frame):not(.anp-card-layout) .workspace-split.mod-root .view-content, .anp-background-image-toggle:not(.anp-colorful-frame):not(.anp-card-layout, .anp-border-layout) .workspace-ribbon, .anp-background-image-toggle:not(.anp-colorful-frame):not(.anp-card-layout, .anp-border-layout) .workspace-ribbon.mod-left:before, .anp-background-image-toggle:not(.anp-colorful-frame):not(.anp-card-layout) .view-header, .anp-background-image-toggle:not(.anp-colorful-frame).is-focused:not(.anp-card-layout) .workspace-leaf.mod-active .view-header,
 .anp-background-image-toggle:not(.anp-colorful-frame) .kanban-plugin__lane,
 .anp-background-image-toggle:not(.anp-colorful-frame) .kanban-plugin__item-content-wrapper {
   background-color: var(--card-foreground-color);
@@ -6114,6 +6409,10 @@ None of the original code was used and the feature was implemented from scratch.
 }
 .anp-background-image-toggle:not(.anp-colorful-frame) .kanban-plugin .kanban-plugin__lane button:hover {
   background-color: var(--card-foreground-color);
+}
+.anp-background-image-toggle:not(.anp-colorful-frame).anp-border-layout .workspace-tab-header-container,
+.anp-background-image-toggle:not(.anp-colorful-frame).anp-border-layout .workspace-ribbon.mod-left:before {
+  background: transparent;
 }
 
 /* AGPLv3 License
@@ -6439,7 +6738,9 @@ Support me: https://buymeacoffee.com/AnubisNekhet
 [data-id=anp-safari-tab-radius],
 [data-id=anp-safari-tab-gap],
 [data-id=anp-safari-border-width],
-[data-id=anp-stacked-header-width]) .setting-item-control::after {
+[data-id=anp-stacked-header-width],
+[data-id=anp-border-radius],
+[data-id=anp-border-padding]) .setting-item-control::after {
   content: "px";
 }
 
@@ -6872,6 +7173,47 @@ Support me: https://buymeacoffee.com/AnubisNekhet
 
 .setting-item:is([data-id=anp-custom-rainbow-colors]) > .setting-item-info > .setting-item-name > .style-settings-collapse-indicator::after {
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14 19.9V16h3a2 2 0 0 0 2-2v-2H5v2c0 1.1.9 2 2 2h3v3.9a2 2 0 1 0 4 0Z'%3E%3C/path%3E%3Cpath d='M6 12V2h12v10'%3E%3C/path%3E%3Cpath d='M14 2v4'%3E%3C/path%3E%3Cpath d='M10 2v2'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.excalibrain-searchinput,
+.multiselect-wrapper {
+  --background-modifier-form-field: rgb(var(--ctp-crust));
+}
+
+.multiselect-wrapper {
+  -webkit-app-region: no-drag;
+  background: var(--background-modifier-form-field);
+  border: var(--input-border-width) solid var(--background-modifier-border);
+  color: var(--text-normal);
+  font-family: inherit;
+  padding: var(--size-4-1) var(--size-4-2);
+  font-size: var(--font-ui-small);
+  border-radius: var(--input-radius);
+  outline: none;
+}
+
+.multiselect-container .multiselect-wrapper .options-wrapper {
+  background: var(--background-modifier-form-field);
+  margin-top: -4px;
+  border-radius: 0 0 var(--input-radius) var(--input-radius);
+  border-top: none;
+  width: calc(100% + 2px);
+  margin-left: -1px;
+}
+
+.excalidraw-dirty {
+  color: rgb(var(--ctp-red));
+}
+
+.excalibrain-button.on {
+  background-color: rgb(var(--ctp-base));
+  border-color: var(--color-accent);
+  --input-shadow: inset 0 0 0 2px var(--color-accent);
+  --input-shadow-hover: inset 0 0 0 2px var(--color-accent);
+}
+
+.excalibrain-button.off {
+  background-color: rgb(var(--ctp-crust));
 }
 
 /*-Fix dataview table header size-*/
