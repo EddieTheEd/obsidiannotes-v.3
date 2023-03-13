@@ -51,10 +51,6 @@ h1, h2, h3, h4, h5, h6, thead {
   }
 }
 
-h1 {
-  color: #ee4e4c !important;
-}
-
 strong {
   color: var(--bold)
 }
@@ -282,9 +278,9 @@ a {
   font-weight: 700;
   text-decoration: none;
   transition: all 0.2s ease;
-  color: var(--secondary);
+  color: #ee4e4c !important;
   &:hover {
-    color: var(--tertiary) !important;
+    color: #ca6f74 !important;
   }
 }
 

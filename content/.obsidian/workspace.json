@@ -166,7 +166,6 @@
             }
           }
         ],
-        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -287,7 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "R-ATCHE-2.md",
+                "file": "_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -308,7 +307,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "R-ATCHE-2.md",
+                "file": "_index.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -420,11 +419,11 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "f68f6f0171a6b07a",
+  "active": "41d243c617138beb",
   "lastOpenFiles": [
+    "R-ATCHE-2.md",
     "13-03-2023 Addressing the Allegations.md",
     "_index.md",
-    "R-ATCHE-2.md",
     "R-ATCHE-7.md",
     "ATCHE Notes.md",
     "Development Status.md",

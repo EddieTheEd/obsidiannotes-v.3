@@ -67,7 +67,7 @@ This website is in the development stage. There will definitely be some unformat
 
 ___
 
-# Concluding message
+## Concluding message
 
 Thanks for reading! I hope this website is somewhat useful to you. :)
 
