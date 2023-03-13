@@ -59,6 +59,10 @@ em {
   color: var(--italics)
 }
 
+del {
+  color: var(--strikethrough)
+}
+
 .hanchor {
   font-family: var(--font-header);
   opacity: 0.8;
