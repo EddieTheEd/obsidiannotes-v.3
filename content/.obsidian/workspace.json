@@ -154,7 +154,7 @@
             }
           },
           {
-            "id": "4973b0b69591d4d4",
+            "id": "e5df5a1e7e2f3745",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -430,17 +430,17 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "4973b0b69591d4d4",
+  "active": "e5df5a1e7e2f3745",
   "lastOpenFiles": [
     "R-AESPE-10.md",
+    "000_Files/000a_images/Pasted image 20230313094404.png.md",
+    "25-02-2023 How to make a note-taking website WITHOUT PAYING.md",
     "AESPE Notes.md",
     "People to kill.md",
     "Development Status.md",
     "10-03-2023 Tuition Philosophy.md",
     "Piano Pieces.md",
     "Writings.md",
-    "07-03-2023 Website Structure.md",
-    "_index.md",
-    "23-02-2023 The v 3 saga.md"
+    "07-03-2023 Website Structure.md"
   ]
 }

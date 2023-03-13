@@ -201,7 +201,7 @@ That should be it! If you find anything confusing or you want to add any tips, p
 
 1. Headings in the tables of content are scuffed
 
-![](000_Files/000a_images/Pasted%20image%2020230313094404.png)
+![](000_Files/000a_images/thomas%20bug%20headers.png)
 
 This is an easy (if not cumbersome) fix. This means, in obsidian you are using the top level heading(i.e. one hashtag).
 
