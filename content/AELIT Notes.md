@@ -12,4 +12,6 @@ title: "AELIT Notes"
 - [Gothic Lens](Gothic%20Lens.md)
 - [Gothic in Jekyll and Hyde](000_Files/Gothic%20in%20Jekyll%20and%20Hyde%202023.pdf)
 
+work on escape to index then do the pdf
+
 - [R-AELIT-1](R-AELIT-1.md)

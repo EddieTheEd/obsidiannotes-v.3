@@ -25,6 +25,7 @@ I dunno when this was created
 - [04-03-2023 The town analogy](04-03-2023%20The%20town%20analogy.md)
 - [07-03-2023 Website Structure](07-03-2023%20Website%20Structure.md)
 - [[13-03-2023 Addressing the Allegations]]
+- [13-03-2023 Fred's Eyes](13-03-2023%20Fred's%20Eyes.md)
 
 
 
