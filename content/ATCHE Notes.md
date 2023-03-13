@@ -9,5 +9,6 @@ title: "ATCHE Notes"
 - [R-ATCHE-4](R-ATCHE-4.md)
 - [R-ATCHE-5](R-ATCHE-5.md)
 - [R-ATCHE-6](R-ATCHE-6.md)
+- [R-ATCHE-7](R-ATCHE-7.md)
 
 - [R-ATCHE-1(S)](R-ATCHE-1(S).md)
