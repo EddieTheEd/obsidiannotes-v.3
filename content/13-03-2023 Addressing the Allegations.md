@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "13-03-2023 Addressing the Allegation"
+title: "13-03-2023 Addressing the Allegations"
 ---
 
 *my good friends*
