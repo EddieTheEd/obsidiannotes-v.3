@@ -162,6 +162,12 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "25-02-2023 How to make a note-taking website WITHOUT PAYING",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"25-02-2023 How to make a note-taking website WITHOUT PAYING.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":207,\"ch\":44},\"to\":{\"line\":207,\"ch\":44}},\"scroll\":222.98506794183584}"
                 }
               ]
             },
@@ -432,9 +438,9 @@
   },
   "active": "e5df5a1e7e2f3745",
   "lastOpenFiles": [
-    "R-AESPE-10.md",
     "000_Files/000a_images/Pasted image 20230313094404.png.md",
     "25-02-2023 How to make a note-taking website WITHOUT PAYING.md",
+    "R-AESPE-10.md",
     "AESPE Notes.md",
     "People to kill.md",
     "Development Status.md",
