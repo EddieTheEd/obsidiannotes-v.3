@@ -64,4 +64,4 @@ Be like Ariz. (cool, jacked, based, etc.)
 
 *With love(and hatred towards dasindu),*
 
-Ed
+*Ed*

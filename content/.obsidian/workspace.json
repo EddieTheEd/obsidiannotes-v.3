@@ -148,6 +148,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "R-ATCHE-2",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"R-ATCHE-2.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":15},\"to\":{\"line\":1,\"ch\":15}},\"scroll\":5.870235481597276}"
+                },
+                {
                   "title": "R-ATCHE-7",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"R-ATCHE-7.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -158,7 +164,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "R-ATCHE-2.md",
+                "file": "20-12-2022 Website Philosophy.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -166,6 +172,7 @@
             }
           }
         ],
+        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -286,7 +293,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_index.md",
+                "file": "20-12-2022 Website Philosophy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -307,7 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_index.md",
+                "file": "20-12-2022 Website Philosophy.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -419,11 +426,11 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "41d243c617138beb",
+  "active": "f68f6f0171a6b07a",
   "lastOpenFiles": [
     "R-ATCHE-2.md",
-    "13-03-2023 Addressing the Allegations.md",
     "_index.md",
+    "13-03-2023 Addressing the Allegations.md",
     "R-ATCHE-7.md",
     "ATCHE Notes.md",
     "Development Status.md",
