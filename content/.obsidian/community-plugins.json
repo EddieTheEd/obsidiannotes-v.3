@@ -34,5 +34,7 @@
   "hotkey-helper",
   "obsidian-paste-image-rename",
   "obsidian-rapid-notes",
-  "wikilinks-to-mdlinks-obsidian"
+  "wikilinks-to-mdlinks-obsidian",
+  "nuke-orphans",
+  "find-unlinked-files"
 ]
