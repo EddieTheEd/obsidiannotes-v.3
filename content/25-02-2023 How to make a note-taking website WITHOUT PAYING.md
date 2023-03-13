@@ -20,6 +20,10 @@ All credits go to [Jacky Zhao](https://twitter.com/_jzhao?lang=en), he made lite
 >
 > If you encounter any bugs, **please email them to me** so I can look into them.
 
+> [!CAUTION] DONT BE LIKE TAJ!
+>
+> Don't store the file in a onedrive.
+
 ## Acquire an obsidian vault
 This *should* be self explanatory, I am going to assume you will use obsidian first and then use the website, hence I will outline how to import your data to fit with the website code.
 
