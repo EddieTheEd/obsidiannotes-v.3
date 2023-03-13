@@ -106,6 +106,28 @@
             }
           },
           {
+            "id": "b0aff227963ac566",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "13-03-2023 WOODSIDE.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5aab68e506b26d33",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -249,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "13-03-2023 Fred's Eyes.md",
+                "file": "13-03-2023 WOODSIDE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,7 +292,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "13-03-2023 Fred's Eyes.md",
+                "file": "13-03-2023 WOODSIDE.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -382,9 +404,10 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "5aab68e506b26d33",
+  "active": "b0aff227963ac566",
   "lastOpenFiles": [
     "Writings.md",
+    "13-03-2023 WOODSIDE.md",
     "13-03-2023 Fred's Eyes.md",
     "Development Status.md",
     "AECSL Notes.md",
@@ -392,7 +415,6 @@
     "AELIT Notes.md",
     "ATCHE Notes.md",
     "orphaned files output.md",
-    "20-12-2022 Website Philosophy.md",
-    "13-03-2023 Addressing the Allegations.md"
+    "20-12-2022 Website Philosophy.md"
   ]
 }

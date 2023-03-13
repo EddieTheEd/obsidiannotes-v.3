@@ -28,6 +28,9 @@ I dunno when this was created
 - [13-03-2023 Fred's Eyes](13-03-2023%20Fred's%20Eyes.md)
 
 
+## Angy(just a little bit political. not too much. just a bit. a marginal amount.)
+- [13-03-2023 WOODSIDE](13-03-2023%20WOODSIDE.md)
+
 
 why doesn't the links work sometimes? i'll never know
 ## Logs(Multi-use, will be updated periodically)
