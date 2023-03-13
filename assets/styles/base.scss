@@ -51,6 +51,14 @@ h1, h2, h3, h4, h5, h6, thead {
   }
 }
 
+strong {
+  color: var(--bold)
+}
+
+em {
+  color: var(--italics)
+}
+
 .hanchor {
   font-family: var(--font-header);
   opacity: 0.8;
