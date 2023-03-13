@@ -110,7 +110,7 @@
             }
           },
           {
-            "id": "827d7e1fb7207322",
+            "id": "f223421da3f1e7cc",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -124,7 +124,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-03-2023 Tuition Philosophy.md",
+                "file": "AESPE Notes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -132,7 +132,7 @@
             }
           },
           {
-            "id": "1f565d12998be091",
+            "id": "66dde7af40a4e86c",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -146,7 +146,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Piano Pieces.md",
+                "file": "R-AESPE-10.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4973b0b69591d4d4",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "25-02-2023 How to make a note-taking website WITHOUT PAYING.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -154,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 4,
+        "currentTab": 5,
         "stacked": true
       }
     ],
@@ -275,7 +297,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Piano Pieces.md",
+                "file": "25-02-2023 How to make a note-taking website WITHOUT PAYING.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -296,7 +318,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Piano Pieces.md",
+                "file": "25-02-2023 How to make a note-taking website WITHOUT PAYING.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -408,17 +430,17 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "1f565d12998be091",
+  "active": "4973b0b69591d4d4",
   "lastOpenFiles": [
-    "Writings.md",
-    "Piano Pieces.md",
+    "R-AESPE-10.md",
+    "AESPE Notes.md",
+    "People to kill.md",
+    "Development Status.md",
     "10-03-2023 Tuition Philosophy.md",
+    "Piano Pieces.md",
+    "Writings.md",
     "07-03-2023 Website Structure.md",
     "_index.md",
-    "Development Status.md",
-    "23-02-2023 The v 3 saga.md",
-    "The Revised Fred Plan.md",
-    "Fred Plan.md",
-    "23-02-2023 The Chemical Blacklist.md"
+    "23-02-2023 The v 3 saga.md"
   ]
 }

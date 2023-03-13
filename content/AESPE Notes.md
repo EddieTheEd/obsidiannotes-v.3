@@ -12,5 +12,6 @@ title: "AESPE Notes"
 - [R-AESPE-7](R-AESPE-7.md)
 - [R-AESPE-8](R-AESPE-8.md) - Vectors!!! :) (please my grades)
 - [R-AESPE-9](R-AESPE-9.md)
+- [R-AESPE-10](R-AESPE-10.md)
 
 - [[R-AESPE-1(S)]]

@@ -15,6 +15,11 @@ I should give an outline of what the final set-up will be:
 
 All credits go to [Jacky Zhao](https://twitter.com/_jzhao?lang=en), he made literally all the code. All I am is a middleman between you and him, here to offer my guidance. (I have suffered)
 
+
+> [!CAUTION] IMPORTANT!
+>
+> If you encounter any bugs, **please email them to me** so I can look into them.
+
 ## Acquire an obsidian vault
 This *should* be self explanatory, I am going to assume you will use obsidian first and then use the website, hence I will outline how to import your data to fit with the website code.
 
@@ -194,7 +199,17 @@ That should be it! If you find anything confusing or you want to add any tips, p
 
 ## Troubleshooting
 
-1. Actions returning exit code 128
+1. Headings in the tables of content are scuffed
+
+![](000_Files/000a_images/Pasted%20image%2020230313094404.png)
+
+This is an easy (if not cumbersome) fix. This means, in obsidian you are using the top level heading(i.e. one hashtag).
+
+This, for some reason, screws with quartz. Probably cause the heading is converted to h1, which is weird cause the website expects there to only be 1 h1. Who knows.
+
+You have to change the hierarchy, so that h2 is the highest heading you write in the .md file (two hashtags).
+
+2. Actions returning exit code 128
 ![](000_Files/000a_images/debug.png)
 
 This means your computer doesn't have the right access tokens. ~~I suspect this only affects Linux computers.~~ I have been informed it affects windows as well. I'm guessing github must've changed something recently.
