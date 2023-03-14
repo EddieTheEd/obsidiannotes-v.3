@@ -26,6 +26,8 @@ I dunno when this was created
 - [07-03-2023 Website Structure](07-03-2023%20Website%20Structure.md)
 - [[13-03-2023 Addressing the Allegations]]
 - [13-03-2023 Fred's Eyes](13-03-2023%20Fred's%20Eyes.md)
+- [[14-03-2023 A little challenge]]
+
 
 
 ## Angy(just a little bit political. not too much. just a bit. a marginal amount.)

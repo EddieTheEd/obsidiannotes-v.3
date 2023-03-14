@@ -100,9 +100,53 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "31308b048cd1e5a2",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Writings.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "af44434902acc124",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "14-03-2023 A little challenge.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3,
+        "currentTab": 5,
         "stacked": true
       }
     ],
@@ -223,6 +267,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "14-03-2023 A little challenge.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,6 +288,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "14-03-2023 A little challenge.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -287,6 +333,14 @@
             },
             "state": {
               "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "8388fefc6853e009",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
               "state": {}
             }
           }
@@ -336,8 +390,10 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "4f2ac8719188f0d3",
+  "active": "af44434902acc124",
   "lastOpenFiles": [
+    "Writings.md",
+    "14-03-2023 A little challenge.md",
     "R-ATCHE-2(S).md",
     "_index.md",
     "R-ATCHE-1(S).md",
@@ -361,7 +417,6 @@
     "Gothic in Jekyll and Hyde 2023.pdf",
     "000_Files/Gothic in Jekyll and Hyde 2023.md",
     "13-03-2023 Fred's Eyes.md",
-    "Writings.md",
     "13-03-2023 WOODSIDE.md",
     "Development Status.md"
   ]
