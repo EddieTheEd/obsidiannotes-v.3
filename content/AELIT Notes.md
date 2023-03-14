@@ -10,6 +10,6 @@ title: "AELIT Notes"
 - [Romanticism Homework](Romanticism%20Homework.md)
 - [Gothic Genre in the Victorian Era](Gothic%20Genre%20in%20the%20Victorian%20Era.md)
 - [Gothic Lens](Gothic%20Lens.md)
-- <a href="../Gothic in Jekyll and Hyde 2023.pdf">Gothic in Jekyll and Hyde 2023.pdf</a>
+- <a href="../Gothic in Jekyll and Hyde 2023.pdf">Gothic in Jekyll and Hyde 2023.pdf</a> (enjoy the funny html link)
 
 - [R-AELIT-1](R-AELIT-1.md)

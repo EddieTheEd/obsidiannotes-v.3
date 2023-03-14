@@ -80,6 +80,7 @@
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -200,7 +201,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_index.md",
+                "file": "AELIT Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,7 +222,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_index.md",
+                "file": "AELIT Notes.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -333,11 +334,11 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "75c24ca3d5ead3fc",
+  "active": "85450a6093e1231e",
   "lastOpenFiles": [
+    "_index.md",
     "AELIT Notes.md",
     "Gothic.md",
-    "_index.md",
     "Gothic in Jekyll and Hyde 2023.pdf",
     "AESPE Notes.md",
     "000_Files/Gothic in Jekyll and Hyde 2023.md",
