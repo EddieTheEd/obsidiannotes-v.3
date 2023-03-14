@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "4f9145a4c764f35f",
+            "id": "cd0835d3c69132ee",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -72,7 +72,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "R-ATCHE-8.md",
+                "file": "R-ATCHE-1(S).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ecd34621277bd813",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "R-ATCHE-2(S).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -80,7 +102,6 @@
             }
           }
         ],
-        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -201,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "R-ATCHE-8.md",
+                "file": "_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +243,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "R-ATCHE-8.md",
+                "file": "_index.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -286,12 +307,46 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "b59b745bfb3e4ce7",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "ava.write.sidebar",
+              "state": {}
+            }
+          },
+          {
+            "id": "b599b7e52d566295",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "ava.link.sidebar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       },
       {
-        "id": "c8842814b8535fa3",
+        "id": "dfb9261e278869c5",
         "type": "tabs",
         "children": [
           {
@@ -315,8 +370,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -331,12 +385,20 @@
       "templater-obsidian:Templater": false,
       "obsidian42-brat:BRAT": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
-      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
+      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
+      "ava:Ava": false,
+      "ava:Ava - Show Links": false,
+      "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "4f9145a4c764f35f",
+  "active": "75c24ca3d5ead3fc",
   "lastOpenFiles": [
+    "000_Files/000a_images/henry bui recommendation.png",
+    "R-ATCHE-2(S).md",
+    "R-ATCHE-1(S).md",
     "ATCHE Notes.md",
+    "Ava - Getting Started.md",
+    "Acids + Bases.md",
     "R-ATCHE-8.md",
     "AEPHY Notes.md",
     "AELIT Notes.md",
