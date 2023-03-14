@@ -56,9 +56,37 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "173d3aaa5949699a",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Gothic in Jekyll and Hyde 2023",
+                  "icon": "lucide-file-text",
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"000_Files/Gothic in Jekyll and Hyde 2023.pdf\"}}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AELIT Notes.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -149,7 +177,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -311,7 +340,7 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "85450a6093e1231e",
+  "active": "173d3aaa5949699a",
   "lastOpenFiles": [
     "000_Files/Gothic in Jekyll and Hyde 2023.pdf",
     "AELIT Notes.md",
