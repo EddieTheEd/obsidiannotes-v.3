@@ -38,7 +38,7 @@
                 {
                   "title": "Gothic in Jekyll and Hyde 2023",
                   "icon": "lucide-file-text",
-                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"000_Files/Gothic in Jekyll and Hyde 2023.pdf\"}}",
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"Gothic in Jekyll and Hyde 2023.pdf\"}}",
                   "eState": "{}"
                 },
                 {
@@ -70,7 +70,7 @@
                 {
                   "title": "Gothic in Jekyll and Hyde 2023",
                   "icon": "lucide-file-text",
-                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"000_Files/Gothic in Jekyll and Hyde 2023.pdf\"}}",
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"Gothic in Jekyll and Hyde 2023.pdf\"}}",
                   "eState": "{}"
                 }
               ]
@@ -340,11 +340,11 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "173d3aaa5949699a",
+  "active": "9c2f51028c52e82b",
   "lastOpenFiles": [
     "000_Files/Gothic in Jekyll and Hyde 2023.md",
     "AELIT Notes.md",
-    "000_Files/Gothic in Jekyll and Hyde 2023.pdf",
+    "Gothic in Jekyll and Hyde 2023.pdf",
     "_index.md",
     "13-03-2023 Fred's Eyes.md",
     "Writings.md",
