@@ -38,7 +38,13 @@ We know $K_{W}=1\times 10^{-14}$ at $25\degree C$.
 
 ### Question Type 8 - Neutralisation of Weak Acids/Bases
 *Weak acids like ethanoic acid are only partially ionised when dissolved in water. For this reason a 1.00 molL-1 ethanoic acid solution has a H+ concentration of around 0.89 molL-1. Given this fact, explain why then 1.00molL-1 of NaOH is required to neutralise a 1.00molL-1 ethanoic acid solution. Support your answer by writing a suitable reaction equation and by employing Le Chatelier's Principle.*
-- In solution the ethanoic acid exists 
+- In solution the ethanoic acid exists as the following equilibirum:
+	- $H_{2}O + CH_{3}COOH \rightleftharpoons CH_{3}COO^{-}+H_{3}O^{+}$
+- As CH3COOH is a weak acid, at equilibrium the CH3COOH only partially ionises and so the \[H3O+\] is lower than the \[CH3COOH\] whereas for NaOH, as NaOH is a strong base, it completely dissociates into \[OH-\] and \[Na+\].
+- As NaOH is added to the ethanoic acid solution, the OH- are in excess to the H3O+ and so the H3O+ is completely neutralised. By LCP, the system re-establishes equilibrium by partially counteracting the decrease in H3O+ ions by favouring the reaction that produces them; causing equilibirum to shift right and some more rthanoic acid to ionise.
+- If NaOH is continuously added, this continues to occur until there is no more ethanoic acid left at which point the moles of NaOH added exactly equal the maximum moles of H3O+ that could be produced and thus equimolar amounts of NaOH has to be added to ethanoic acid for complete neutralisation.
+
+*yes, that was all for 3 marks :(*
 
 
 ## Buffers
@@ -83,3 +89,15 @@ Strong base added:
 - Basic Equilibrium: When the NaOH is added,H3O+ concentration decreases, this causes product concentrations to decrease and so the reverse reaction rate decreases and so as the forward reaction is unaltered, thus the forward reaction rate is favoured. Here ethanoic acid will act as a Bronsted Lowry Acid and donate a proton to water.
 - State shift and Change in Concentration: Thus, as equilibrium shifts right the concentration of H3O+ increases partially.
 - Why pH change was minimal: Thus, as the decrease in H3O+ is partially counteracted, the overall decrease in the concentration of H3O+ is minimal and so a significant increase in pH is resisted.
+
+### Question Type 9 - Explain Buffer Action
+*Explain how an equal mixture of Sodium ethanoate and ethanoic acid can resist changes in its pH when a small quantity of hydrochloric acid is added.*
+(4 marks)
+
+- Equation (1)
+	- As ethanoic acid is a weak acid and ethanoate is the conjugate base of a weak acid, when roughly equal amounts of the two substances are mixed a buffer solution is formed that is capable of resisting changes in its pH when acid/base is added. This is shown below:
+	- $H_{2}O + CH_{3}COOH \rightleftharpoons CH_{3}COO^{-}+H_{3}O^{+}$
+- Net Effect: When HCl is added to the buffer solution where the amount does not exceed the buffer capacity - the buffer system partially counteracts the pH change.
+- Basic Equilibrium: When the HCl is added, H3O+ concentrations increases; this causes product concentration to increase and so the reverse reaction rate increases and so as the forward reaction is unaltered, the reverse reaction is favoured. Here ethanoate ion acts as a Bronsted Lowry Base and accepts a proton from water.
+- State shift and change in concentration: Thus, as equilibrium shifts left and the conc of H3O+ decreases partially
+- Why pH change was minimal: Thus as the increase in H3O+ is partially countered, the overall increase in the concentration of H3O+ is minimal and so a significant decrease in pH is resisted.
