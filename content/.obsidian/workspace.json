@@ -33,8 +33,14 @@
             "id": "85450a6093e1231e",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Gothic in Jekyll and Hyde 2023",
+                  "icon": "lucide-file-text",
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"000_Files/Gothic in Jekyll and Hyde 2023.pdf\"}}",
+                  "eState": "{}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -143,8 +149,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -308,6 +313,8 @@
   },
   "active": "85450a6093e1231e",
   "lastOpenFiles": [
+    "000_Files/Gothic in Jekyll and Hyde 2023.pdf",
+    "AELIT Notes.md",
     "_index.md",
     "13-03-2023 Fred's Eyes.md",
     "Writings.md",
@@ -315,8 +322,6 @@
     "Development Status.md",
     "AECSL Notes.md",
     "AECSL Speaking Assessment 1.md",
-    "AELIT Notes.md",
-    "ATCHE Notes.md",
-    "orphaned files output.md"
+    "ATCHE Notes.md"
   ]
 }
