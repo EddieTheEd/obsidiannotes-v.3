@@ -50,7 +50,7 @@ Just sub in the formulas:
 
 "Slightly... well a lot more interesting" Question:
 
-A bird realises that it is a flightless bird and plummets to the ground. What is its final velocity as it hits the ground? It has a mass of $15.4kg$ and falls from a height of $1.58m$. It was "flying" at a speed of $3.44 ms^{-}$
+A bird realises that it is a flightless bird and plummets to the ground. What is its final velocity as it hits the ground? It has a mass of $15.4kg$ and falls from a height of $1.58m$. It was "flying" at a speed of $3.44 ms^{-1}$
 
 - Construct vector diagram.
 - We know energy is conserved, hence:
