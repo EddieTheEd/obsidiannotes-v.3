@@ -102,6 +102,7 @@
             }
           }
         ],
+        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -222,7 +223,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +243,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_index.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -252,23 +251,6 @@
                 "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
               }
-            }
-          },
-          {
-            "id": "7257394eeb28ad62",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "calendar",
-              "state": {}
             }
           },
           {
@@ -292,7 +274,7 @@
             }
           },
           {
-            "id": "3fb9460a7a6fce2a",
+            "id": "4f2ac8719188f0d3",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -304,46 +286,12 @@
               ]
             },
             "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "b59b745bfb3e4ce7",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "ava.write.sidebar",
-              "state": {}
-            }
-          },
-          {
-            "id": "b599b7e52d566295",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "ava.link.sidebar",
+              "type": "graph",
               "state": {}
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       },
       {
         "id": "dfb9261e278869c5",
@@ -385,17 +333,15 @@
       "templater-obsidian:Templater": false,
       "obsidian42-brat:BRAT": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
-      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
-      "ava:Ava": false,
-      "ava:Ava - Show Links": false,
-      "ava:Ava - Open Rewrite Playground": false
+      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "75c24ca3d5ead3fc",
+  "active": "4f2ac8719188f0d3",
   "lastOpenFiles": [
-    "000_Files/000a_images/henry bui recommendation.png",
     "R-ATCHE-2(S).md",
+    "_index.md",
     "R-ATCHE-1(S).md",
+    "000_Files/000a_images/henry bui recommendation.png",
     "ATCHE Notes.md",
     "Ava - Getting Started.md",
     "Acids + Bases.md",
@@ -405,7 +351,6 @@
     "R-AEPHY-7.md",
     "11 Physics Revision Checklist 2023 Linear Motion for CAP1.pdf",
     "11 Physics Revision Checklist 2023 Linear Motion for CAP1.pdf.crdownload",
-    "_index.md",
     "AECSL Speaking Assessment 1.md",
     "Chinese Speaking Assessment.md",
     "Chinese Speaking Assessment 2.md",

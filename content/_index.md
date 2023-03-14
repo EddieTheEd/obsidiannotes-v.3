@@ -37,7 +37,7 @@ ___
 
 ---
 ## Why I should be your tutor
-Here is a satisfied customer:
+Here are some satisfied customers:
 
 ![](000_Files/000a_images/christian%20review.png)
 
