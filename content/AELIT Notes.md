@@ -10,10 +10,7 @@ title: "AELIT Notes"
 - [Romanticism Homework](Romanticism%20Homework.md)
 - [Gothic Genre in the Victorian Era](Gothic%20Genre%20in%20the%20Victorian%20Era.md)
 - [Gothic Lens](Gothic%20Lens.md)
-- <a href="../Gothic in Jekyll and Hyde 2023.pdf">Gothic in Jekyll and Hyde 2023.pdf</a>
-
-- [Gothic in Jekyll and Hyde 2023.pdf](Gothic in Jekyll and Hyde 2023.pdf)
-
-work on escape to index then do the pdf
+- <a href="../Gothic in Jekyll and Hyde 2023.pdf">Gothic in Jekyll and Hyde 2023.pdf</a> (only works for the website, not obby! please use obby ctrl o in the future! (until i find a better solution))
+	- [[Gothic in Jekyll and Hyde 2023.pdf]]
 
 - [R-AELIT-1](R-AELIT-1.md)
