@@ -61,8 +61,14 @@
             "id": "173d3aaa5949699a",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Gothic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Gothic.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -105,23 +111,6 @@
                 "backlinks": false,
                 "source": false
               }
-            }
-          },
-          {
-            "id": "852bf52165488033",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ],
@@ -382,6 +371,7 @@
   "active": "173d3aaa5949699a",
   "lastOpenFiles": [
     "AESPE Notes.md",
+    "Gothic.md",
     "AELIT Notes.md",
     "000_Files/Gothic in Jekyll and Hyde 2023.md",
     "Gothic in Jekyll and Hyde 2023.pdf",
@@ -389,7 +379,6 @@
     "13-03-2023 Fred's Eyes.md",
     "Writings.md",
     "13-03-2023 WOODSIDE.md",
-    "Development Status.md",
-    "AECSL Notes.md"
+    "Development Status.md"
   ]
 }
