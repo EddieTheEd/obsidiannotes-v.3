@@ -71,3 +71,4 @@ ___
 
 Thanks for reading! I hope this website is somewhat useful to you. :)
 
+![](pranaf%20+%20hevesy%20+%20widjaja.png)
