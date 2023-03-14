@@ -13,5 +13,6 @@ title: "AESPE Notes"
 - [R-AESPE-8](R-AESPE-8.md) - Vectors!!! :) (please my grades)
 - [R-AESPE-9](R-AESPE-9.md)
 - [R-AESPE-10](R-AESPE-10.md)
+- I goofed off on obby today. look at thomas's T1W7L2 lesson :)
 
 - [[R-AESPE-1(S)]]

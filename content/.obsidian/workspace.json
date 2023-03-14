@@ -84,6 +84,28 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b887c40d48036f79",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AESPE Notes.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 2,
@@ -340,17 +362,17 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "9c2f51028c52e82b",
+  "active": "173d3aaa5949699a",
   "lastOpenFiles": [
-    "000_Files/Gothic in Jekyll and Hyde 2023.md",
+    "AESPE Notes.md",
     "AELIT Notes.md",
+    "000_Files/Gothic in Jekyll and Hyde 2023.md",
     "Gothic in Jekyll and Hyde 2023.pdf",
     "_index.md",
     "13-03-2023 Fred's Eyes.md",
     "Writings.md",
     "13-03-2023 WOODSIDE.md",
     "Development Status.md",
-    "AECSL Notes.md",
-    "AECSL Speaking Assessment 1.md"
+    "AECSL Notes.md"
   ]
 }
