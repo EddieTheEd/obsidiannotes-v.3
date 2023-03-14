@@ -4,42 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "63224b80af92a1dc",
+        "id": "3fe63e2b35e354fa",
         "type": "tabs",
         "children": [
           {
-            "id": "41d243c617138beb",
+            "id": "75c24ca3d5ead3fc",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "AECSL Notes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"AECSL Notes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "Writings",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Writings.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":8.138289937358623}"
-                },
-                {
-                  "title": "_index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_index.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":35.53488154623619}"
-                },
-                {
-                  "title": "History of the Atomic Model Notes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"History of the Atomic Model Notes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":196,\"ch\":0},\"to\":{\"line\":196,\"ch\":0}},\"scroll\":196.11837121212122}"
                 }
               ]
             },
@@ -54,59 +30,7 @@
             }
           },
           {
-            "id": "68c23f354d82a121",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 1,
-              "stack": [
-                {
-                  "title": "13-03-2023 Fred's Eyes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"13-03-2023 Fred's Eyes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "13-03-2023 Fred's Eyes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"13-03-2023 Fred's Eyes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":22},\"to\":{\"line\":5,\"ch\":22}},\"scroll\":5.114885696084428}"
-                },
-                {
-                  "title": "Writings",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Writings.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":26},\"to\":{\"line\":27,\"ch\":4}},\"scroll\":27.153612959626805}"
-                },
-                {
-                  "title": "Science Inquiry Skills Definitions",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Science Inquiry Skills Definitions.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Writings",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Writings.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":0},\"to\":{\"line\":27,\"ch\":0}},\"scroll\":26.157706685198843}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Writings.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b0aff227963ac566",
+            "id": "85450a6093e1231e",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -120,29 +44,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "13-03-2023 WOODSIDE.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5aab68e506b26d33",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "13-03-2023 Fred's Eyes.md",
+                "file": "AELIT Notes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -150,7 +52,7 @@
             }
           }
         ],
-        "currentTab": 2,
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -271,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "13-03-2023 WOODSIDE.md",
+                "file": "AELIT Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -292,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "13-03-2023 WOODSIDE.md",
+                "file": "AELIT Notes.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -404,17 +306,17 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "b0aff227963ac566",
+  "active": "85450a6093e1231e",
   "lastOpenFiles": [
+    "_index.md",
+    "13-03-2023 Fred's Eyes.md",
     "Writings.md",
     "13-03-2023 WOODSIDE.md",
-    "13-03-2023 Fred's Eyes.md",
     "Development Status.md",
     "AECSL Notes.md",
     "AECSL Speaking Assessment 1.md",
     "AELIT Notes.md",
     "ATCHE Notes.md",
-    "orphaned files output.md",
-    "20-12-2022 Website Philosophy.md"
+    "orphaned files output.md"
   ]
 }
